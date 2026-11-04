@@ -1,5 +1,7 @@
 # Bioinformatics for Every Biologist — companion files
 
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.23955557.svg)](https://doi.org/10.5281/zenodo.23955557)
+
 This is the companion page of the book **Bioinformatics for Every Biologist: Start modern research from home with free tools and AI** by **Prof. K.K. Sahu** (former Professor of Botany, L.N. Mithila University, Darbhanga, Bihar, India).
 
 Here you will find the practice data and scripts used in the book's "Try it" tasks, the file that installs the book's tools, and a list of corrections and updates.
@@ -43,4 +45,6 @@ Websites change their menus, and books contain mistakes. See **[ERRATA.md](ERRAT
 
 ## How to cite
 
-Sahu, K.K. (2026). *Bioinformatics for Every Biologist — companion files*. Zenodo. DOI to be added.
+Sahu, K.K. (2026). *Bioinformatics for Every Biologist — companion files*. Zenodo. https://doi.org/10.5281/zenodo.23955557
+
+This DOI always points to the latest version. Version 1.0 has its own DOI: 10.5281/zenodo.23955558.
