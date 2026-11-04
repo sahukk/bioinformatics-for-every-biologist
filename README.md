@@ -19,14 +19,14 @@ A permanent, citable copy of each version is kept at Zenodo (see "How to cite").
 | Folder | Used in | What it holds |
 | --- | --- | --- |
 | `environment.yml` | Chapter 10; Appendix A | The list of tools for the book's conda environment `bioinfo_book` |
-| `data/ch01`, `code/ch01` | Chapter 1 — Bioinformatics Is Biology | Records for the example gene, Arabidopsis *FT* |
+| `data/ch01`, `code/ch01` | Chapter 1 — Bioinformatics Is Biology | Protein sequences of the example gene, Arabidopsis *FT* (NCBI and UniProt) |
 | `data/ch03`, `code/ch03` | Chapter 3 — AI as Your Tutor and Assistant | The tulsi *rbcL* sequence and the GC-content scripts |
-| `data/ch08` | Chapter 8 — Finding Public Data | The basil (*Ocimum*) *rbcL* records |
+| `data/ch08` | Chapter 8 — Finding Public Data | The basil (*Ocimum*) *rbcL* and *matK* records |
 | `data/ch09` | Chapter 9 — First Analyses in the Browser | BLAST, alignment and tree results |
 | `code/ch10` | Chapter 10 — Moving to the Laptop | The first command-line run and scripts |
 | `data/ch11`, `code/ch11` | Chapter 11 — Tables, Figures and Simple Statistics | GC-content tables of 25 basil plants and the plotting scripts |
 | `data/ch13`, `code/ch13` | Chapter 13 — A Complete First Project | COI barcodes of the Indian major carps and the full project script |
-| `data/ch14`, `code/ch14` | Chapter 14 — Checking Your Results | Files for the checks of the carp and basil projects |
+| `data/ch14`, `code/ch14` | Chapter 14 — Checking Your Results | The larger set of 291 vouchered carp barcodes and the files for checking the results |
 | `data/appG` | Appendix G — Making a Phylogenetic Tree | Input and output files for the tree routes |
 | `data/appH`, `code/appH` | Appendix H — Making Graphs and Charts | The data and scripts for the six charts |
 
