@@ -1,0 +1,2319 @@
+{
+"BlastOutput2": [
+{
+    "report": {
+      "program": "blastn",
+      "version": "BLASTN 2.17.0+",
+      "reference": "Zheng Zhang, Scott Schwartz, Lukas Wagner, and Webb Miller (2000), \"A greedy algorithm for aligning DNA sequences\", J Comput Biol 2000; 7(1-2):203-14.",
+      "search_target": {
+        "db": "core_nt"
+      },
+      "params": {
+        "expect": 10,
+        "sc_match": 1,
+        "sc_mismatch": -2,
+        "gap_open": 0,
+        "gap_extend": 0,
+        "filter": "L;m;"
+      },
+      "results": {
+        "search": {
+          "query_id": "Query_2202357",
+          "query_title": "JX983352.1 Labeo rohita voucher NF677 cytochrome oxidase subunit 1 (COI) gene, partial cds; mitochondrial",
+          "query_len": 646,
+          "hits": [
+            {
+              "num": 1,
+              "description": [
+                {
+                  "id": "gi|443909317|gb|JX983352.1|",
+                  "accession": "JX983352",
+                  "title": "Labeo rohita voucher NF677 cytochrome oxidase subunit 1 (COI) gene, partial cds; mitochondrial",
+                  "taxid": 84645,
+                  "sciname": "Labeo rohita"
+                }
+              ],
+              "len": 646,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 1194.06,
+                  "score": 646,
+                  "evalue": 0,
+                  "identity": 646,
+                  "query_from": 1,
+                  "query_to": 646,
+                  "query_strand": "Plus",
+                  "hit_from": 1,
+                  "hit_to": 646,
+                  "hit_strand": "Plus",
+                  "align_len": 646,
+                  "gaps": 0,
+                  "qseq": "TTTATTAATTGGCTCCTGAGCCGGATTAGTAGGAACCGCCTTAAGCCTTCTCATTCGGGTTGGACTAAGCCAACCCGGATCACTTCTAGGTGATGACCAAATTTATAATGTTATCGTAACTGCTCACGCCTTCGTAATTATTTTCTTTATAGTAATGCCTATCCTCATCGGAGGATTTGGAAACTGACTCGTGCCACTAATAATCGGAGCCCCAGACATGGCATTCCCTCGTATAAATAACATAAGCTTCTGACTCCTACCCCCATCATTCCTATTACTACTAGCCTCTTCTGGTGTAGAAGCTGGGGCTGGGACAGGATGAACAGTATATCCACCTCTTGCAGGCAACTTAGCTCACGCAGGAGCGTCAGTAGACCTAACAATTTTCTCACTCCATCTAGCAGGGGTTTCATCAATTCTAGGGGCTATTAATTTCATTACTACAACTATTAATATGAAACCTCCAGCCATCTCACAATACCAAACACCTTTATTCGTCTGATCCGTACTTGTAACCGCCGTACTACTTCTCCTATCACTACCAGTACTGGCCGCTGGCATCACAATGCTTTTAACAGATCGAAATCTAAATACTACATTCTTCGACCCGGCAGGGGGAGGAGACCCAATCCTTTACCAACACCTA",
+                  "hseq": "TTTATTAATTGGCTCCTGAGCCGGATTAGTAGGAACCGCCTTAAGCCTTCTCATTCGGGTTGGACTAAGCCAACCCGGATCACTTCTAGGTGATGACCAAATTTATAATGTTATCGTAACTGCTCACGCCTTCGTAATTATTTTCTTTATAGTAATGCCTATCCTCATCGGAGGATTTGGAAACTGACTCGTGCCACTAATAATCGGAGCCCCAGACATGGCATTCCCTCGTATAAATAACATAAGCTTCTGACTCCTACCCCCATCATTCCTATTACTACTAGCCTCTTCTGGTGTAGAAGCTGGGGCTGGGACAGGATGAACAGTATATCCACCTCTTGCAGGCAACTTAGCTCACGCAGGAGCGTCAGTAGACCTAACAATTTTCTCACTCCATCTAGCAGGGGTTTCATCAATTCTAGGGGCTATTAATTTCATTACTACAACTATTAATATGAAACCTCCAGCCATCTCACAATACCAAACACCTTTATTCGTCTGATCCGTACTTGTAACCGCCGTACTACTTCTCCTATCACTACCAGTACTGGCCGCTGGCATCACAATGCTTTTAACAGATCGAAATCTAAATACTACATTCTTCGACCCGGCAGGGGGAGGAGACCCAATCCTTTACCAACACCTA",
+                  "midline": "||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||"
+                }
+              ]
+            },
+            {
+              "num": 2,
+              "description": [
+                {
+                  "id": "gi|2497006524|gb|OQ874342.1|",
+                  "accession": "OQ874342",
+                  "title": "Labeo rohita isolate Tuensang43 cytochrome c oxidase subunit I (COX1) gene, partial cds; mitochondrial",
+                  "taxid": 84645,
+                  "sciname": "Labeo rohita"
+                }
+              ],
+              "len": 621,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 1147.89,
+                  "score": 621,
+                  "evalue": 0,
+                  "identity": 621,
+                  "query_from": 12,
+                  "query_to": 632,
+                  "query_strand": "Plus",
+                  "hit_from": 1,
+                  "hit_to": 621,
+                  "hit_strand": "Plus",
+                  "align_len": 621,
+                  "gaps": 0,
+                  "qseq": "GCTCCTGAGCCGGATTAGTAGGAACCGCCTTAAGCCTTCTCATTCGGGTTGGACTAAGCCAACCCGGATCACTTCTAGGTGATGACCAAATTTATAATGTTATCGTAACTGCTCACGCCTTCGTAATTATTTTCTTTATAGTAATGCCTATCCTCATCGGAGGATTTGGAAACTGACTCGTGCCACTAATAATCGGAGCCCCAGACATGGCATTCCCTCGTATAAATAACATAAGCTTCTGACTCCTACCCCCATCATTCCTATTACTACTAGCCTCTTCTGGTGTAGAAGCTGGGGCTGGGACAGGATGAACAGTATATCCACCTCTTGCAGGCAACTTAGCTCACGCAGGAGCGTCAGTAGACCTAACAATTTTCTCACTCCATCTAGCAGGGGTTTCATCAATTCTAGGGGCTATTAATTTCATTACTACAACTATTAATATGAAACCTCCAGCCATCTCACAATACCAAACACCTTTATTCGTCTGATCCGTACTTGTAACCGCCGTACTACTTCTCCTATCACTACCAGTACTGGCCGCTGGCATCACAATGCTTTTAACAGATCGAAATCTAAATACTACATTCTTCGACCCGGCAGGGGGAGGAGACCCAATCC",
+                  "hseq": "GCTCCTGAGCCGGATTAGTAGGAACCGCCTTAAGCCTTCTCATTCGGGTTGGACTAAGCCAACCCGGATCACTTCTAGGTGATGACCAAATTTATAATGTTATCGTAACTGCTCACGCCTTCGTAATTATTTTCTTTATAGTAATGCCTATCCTCATCGGAGGATTTGGAAACTGACTCGTGCCACTAATAATCGGAGCCCCAGACATGGCATTCCCTCGTATAAATAACATAAGCTTCTGACTCCTACCCCCATCATTCCTATTACTACTAGCCTCTTCTGGTGTAGAAGCTGGGGCTGGGACAGGATGAACAGTATATCCACCTCTTGCAGGCAACTTAGCTCACGCAGGAGCGTCAGTAGACCTAACAATTTTCTCACTCCATCTAGCAGGGGTTTCATCAATTCTAGGGGCTATTAATTTCATTACTACAACTATTAATATGAAACCTCCAGCCATCTCACAATACCAAACACCTTTATTCGTCTGATCCGTACTTGTAACCGCCGTACTACTTCTCCTATCACTACCAGTACTGGCCGCTGGCATCACAATGCTTTTAACAGATCGAAATCTAAATACTACATTCTTCGACCCGGCAGGGGGAGGAGACCCAATCC",
+                  "midline": "|||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||"
+                }
+              ]
+            },
+            {
+              "num": 3,
+              "description": [
+                {
+                  "id": "gi|3140713863|gb|PQ524304.1|",
+                  "accession": "PQ524304",
+                  "title": "Labeo fimbriatus mitochondrion, complete genome",
+                  "taxid": 182801,
+                  "sciname": "Labeo fimbriatus"
+                }
+              ],
+              "len": 16451,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 1146.04,
+                  "score": 620,
+                  "evalue": 0,
+                  "identity": 634,
+                  "query_from": 6,
+                  "query_to": 646,
+                  "query_strand": "Plus",
+                  "hit_from": 5546,
+                  "hit_to": 6186,
+                  "hit_strand": "Plus",
+                  "align_len": 641,
+                  "gaps": 0,
+                  "qseq": "TAATTGGCTCCTGAGCCGGATTAGTAGGAACCGCCTTAAGCCTTCTCATTCGGGTTGGACTAAGCCAACCCGGATCACTTCTAGGTGATGACCAAATTTATAATGTTATCGTAACTGCTCACGCCTTCGTAATTATTTTCTTTATAGTAATGCCTATCCTCATCGGAGGATTTGGAAACTGACTCGTGCCACTAATAATCGGAGCCCCAGACATGGCATTCCCTCGTATAAATAACATAAGCTTCTGACTCCTACCCCCATCATTCCTATTACTACTAGCCTCTTCTGGTGTAGAAGCTGGGGCTGGGACAGGATGAACAGTATATCCACCTCTTGCAGGCAACTTAGCTCACGCAGGAGCGTCAGTAGACCTAACAATTTTCTCACTCCATCTAGCAGGGGTTTCATCAATTCTAGGGGCTATTAATTTCATTACTACAACTATTAATATGAAACCTCCAGCCATCTCACAATACCAAACACCTTTATTCGTCTGATCCGTACTTGTAACCGCCGTACTACTTCTCCTATCACTACCAGTACTGGCCGCTGGCATCACAATGCTTTTAACAGATCGAAATCTAAATACTACATTCTTCGACCCGGCAGGGGGAGGAGACCCAATCCTTTACCAACACCTA",
+                  "hseq": "TATTTGGTGCCTGAGCCGGAATAGTAGGAACCGCCTTAAGCCTTCTCATTCGGGCTGAACTAAGCCAACCCGGATCACTTCTAGGTGATGACCAAATTTATAATGTTATCGTAACTGCTCACGCCTTCGTAATAATTTTCTTTATAGTAATGCCTATCCTCATCGGAGGATTTGGAAACTGACTCGTGCCACTAATAATCGGAGCCCCAGACATGGCATTCCCTCGTATAAATAACATAAGCTTCTGACTCCTACCCCCATCATTCCTATTACTACTAGCCTCTTCTGGTGTAGAAGCTGGGGCTGGGACAGGATGAACAGTATATCCACCTCTTGCAGGCAACTTAGCTCACGCAGGAGCGTCAGTAGACCTAACAATTTTCTCACTCCATCTAGCAGGGGTTTCATCAATTCTAGGGGCTATTAATTTCATTACTACAACTATTAATATGAAACCTCCAGCCATCTCACAATACCAAACACCTTTATTCGTCTGATCCGTACTTGTAACCGCCGTACTACTTCTCCTATCACTACCAGTACTGGCCGCTGGCATCACAATGCTTTTAACAGATCGAAATCTAAATACTACATTCTTCGACCCGGCAGGGGGAGGAGACCCAATCCTTTACCAACACCTA",
+                  "midline": "|| ||||  ||||||||||| ||||||||||||||||||||||||||||||||| || ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||"
+                }
+              ]
+            },
+            {
+              "num": 4,
+              "description": [
+                {
+                  "id": "gi|1186235610|gb|KX946690.1|",
+                  "accession": "KX946690",
+                  "title": "Labeo fimbriatus voucher KF34 cytochrome oxidase subunit 1 (COI) gene, partial cds; mitochondrial",
+                  "taxid": 182801,
+                  "sciname": "Labeo fimbriatus"
+                }
+              ],
+              "len": 652,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 1146.04,
+                  "score": 620,
+                  "evalue": 0,
+                  "identity": 634,
+                  "query_from": 6,
+                  "query_to": 646,
+                  "query_strand": "Plus",
+                  "hit_from": 12,
+                  "hit_to": 652,
+                  "hit_strand": "Plus",
+                  "align_len": 641,
+                  "gaps": 0,
+                  "qseq": "TAATTGGCTCCTGAGCCGGATTAGTAGGAACCGCCTTAAGCCTTCTCATTCGGGTTGGACTAAGCCAACCCGGATCACTTCTAGGTGATGACCAAATTTATAATGTTATCGTAACTGCTCACGCCTTCGTAATTATTTTCTTTATAGTAATGCCTATCCTCATCGGAGGATTTGGAAACTGACTCGTGCCACTAATAATCGGAGCCCCAGACATGGCATTCCCTCGTATAAATAACATAAGCTTCTGACTCCTACCCCCATCATTCCTATTACTACTAGCCTCTTCTGGTGTAGAAGCTGGGGCTGGGACAGGATGAACAGTATATCCACCTCTTGCAGGCAACTTAGCTCACGCAGGAGCGTCAGTAGACCTAACAATTTTCTCACTCCATCTAGCAGGGGTTTCATCAATTCTAGGGGCTATTAATTTCATTACTACAACTATTAATATGAAACCTCCAGCCATCTCACAATACCAAACACCTTTATTCGTCTGATCCGTACTTGTAACCGCCGTACTACTTCTCCTATCACTACCAGTACTGGCCGCTGGCATCACAATGCTTTTAACAGATCGAAATCTAAATACTACATTCTTCGACCCGGCAGGGGGAGGAGACCCAATCCTTTACCAACACCTA",
+                  "hseq": "TATTTGGTGCCTGAGCCGGAATAGTAGGAACCGCCTTAAGCCTTCTCATTCGGGCTGAACTAAGCCAACCCGGATCACTTCTAGGTGATGACCAAATTTATAATGTTATCGTAACTGCTCACGCCTTCGTAATAATTTTCTTTATAGTAATGCCTATCCTCATCGGAGGATTTGGAAACTGACTCGTGCCACTAATAATCGGAGCCCCAGACATGGCATTCCCTCGTATAAATAACATAAGCTTCTGACTCCTACCCCCATCATTCCTATTACTACTAGCCTCTTCTGGTGTAGAAGCTGGGGCTGGGACAGGATGAACAGTATATCCACCTCTTGCAGGCAACTTAGCTCACGCAGGAGCGTCAGTAGACCTAACAATTTTCTCACTCCATCTAGCAGGGGTTTCATCAATTCTAGGGGCTATTAATTTCATTACTACAACTATTAATATGAAACCTCCAGCCATCTCACAATACCAAACACCTTTATTCGTCTGATCCGTACTTGTAACCGCCGTACTACTTCTCCTATCACTACCAGTACTGGCCGCTGGCATCACAATGCTTTTAACAGATCGAAATCTAAATACTACATTCTTCGACCCGGCAGGGGGAGGAGACCCAATCCTTTACCAACACCTA",
+                  "midline": "|| ||||  ||||||||||| ||||||||||||||||||||||||||||||||| || ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||"
+                }
+              ]
+            },
+            {
+              "num": 5,
+              "description": [
+                {
+                  "id": "gi|534406067|gb|KF430005.1|",
+                  "accession": "KF430005",
+                  "title": "Labeo fimbriatus isolate LF-1019 cytochrome oxidase subunit I (COI) gene, partial cds; mitochondrial",
+                  "taxid": 182801,
+                  "sciname": "Labeo fimbriatus"
+                },
+                {
+                  "id": "gi|559104125|gb|KF550060.1|",
+                  "accession": "KF550060",
+                  "title": "Labeo fimbriatus voucher LF-1024 cytochrome oxidase subunit I (COI) gene, partial cds; mitochondrial",
+                  "taxid": 182801,
+                  "sciname": "Labeo fimbriatus"
+                },
+                {
+                  "id": "gi|614095750|gb|KF438025.1|",
+                  "accession": "KF438025",
+                  "title": "Labeo fimbriatus isolate LF-1079 cytochrome oxidase subunit I (COI) gene, partial cds; mitochondrial",
+                  "taxid": 182801,
+                  "sciname": "Labeo fimbriatus"
+                },
+                {
+                  "id": "gi|614095766|gb|KF438026.1|",
+                  "accession": "KF438026",
+                  "title": "Labeo fimbriatus isolate LF-1111 cytochrome oxidase subunit I (COI) gene, partial cds; mitochondrial",
+                  "taxid": 182801,
+                  "sciname": "Labeo fimbriatus"
+                },
+                {
+                  "id": "gi|1722506324|gb|MN170942.1|",
+                  "accession": "MN170942",
+                  "title": "Labeo fimbriatus cytochrome oxidase subunit I (COI) gene, partial cds; mitochondrial",
+                  "taxid": 182801,
+                  "sciname": "Labeo fimbriatus"
+                }
+              ],
+              "len": 655,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 1146.04,
+                  "score": 620,
+                  "evalue": 0,
+                  "identity": 634,
+                  "query_from": 6,
+                  "query_to": 646,
+                  "query_strand": "Plus",
+                  "hit_from": 12,
+                  "hit_to": 652,
+                  "hit_strand": "Plus",
+                  "align_len": 641,
+                  "gaps": 0,
+                  "qseq": "TAATTGGCTCCTGAGCCGGATTAGTAGGAACCGCCTTAAGCCTTCTCATTCGGGTTGGACTAAGCCAACCCGGATCACTTCTAGGTGATGACCAAATTTATAATGTTATCGTAACTGCTCACGCCTTCGTAATTATTTTCTTTATAGTAATGCCTATCCTCATCGGAGGATTTGGAAACTGACTCGTGCCACTAATAATCGGAGCCCCAGACATGGCATTCCCTCGTATAAATAACATAAGCTTCTGACTCCTACCCCCATCATTCCTATTACTACTAGCCTCTTCTGGTGTAGAAGCTGGGGCTGGGACAGGATGAACAGTATATCCACCTCTTGCAGGCAACTTAGCTCACGCAGGAGCGTCAGTAGACCTAACAATTTTCTCACTCCATCTAGCAGGGGTTTCATCAATTCTAGGGGCTATTAATTTCATTACTACAACTATTAATATGAAACCTCCAGCCATCTCACAATACCAAACACCTTTATTCGTCTGATCCGTACTTGTAACCGCCGTACTACTTCTCCTATCACTACCAGTACTGGCCGCTGGCATCACAATGCTTTTAACAGATCGAAATCTAAATACTACATTCTTCGACCCGGCAGGGGGAGGAGACCCAATCCTTTACCAACACCTA",
+                  "hseq": "TATTTGGTGCCTGAGCCGGAATAGTAGGAACCGCCTTAAGCCTTCTCATTCGGGCTGAACTAAGCCAACCCGGATCACTTCTAGGTGATGACCAAATTTATAATGTTATCGTAACTGCTCACGCCTTCGTAATAATTTTCTTTATAGTAATGCCTATCCTCATCGGAGGATTTGGAAACTGACTCGTGCCACTAATAATCGGAGCCCCAGACATGGCATTCCCTCGTATAAATAACATAAGCTTCTGACTCCTACCCCCATCATTCCTATTACTACTAGCCTCTTCTGGTGTAGAAGCTGGGGCTGGGACAGGATGAACAGTATATCCACCTCTTGCAGGCAACTTAGCTCACGCAGGAGCGTCAGTAGACCTAACAATTTTCTCACTCCATCTAGCAGGGGTTTCATCAATTCTAGGGGCTATTAATTTCATTACTACAACTATTAATATGAAACCTCCAGCCATCTCACAATACCAAACACCTTTATTCGTCTGATCCGTACTTGTAACCGCCGTACTACTTCTCCTATCACTACCAGTACTGGCCGCTGGCATCACAATGCTTTTAACAGATCGAAATCTAAATACTACATTCTTCGACCCGGCAGGGGGAGGAGACCCAATCCTTTACCAACACCTA",
+                  "midline": "|| ||||  ||||||||||| ||||||||||||||||||||||||||||||||| || ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||"
+                }
+              ]
+            },
+            {
+              "num": 6,
+              "description": [
+                {
+                  "id": "gi|270271462|gb|GU195106.1|",
+                  "accession": "GU195106",
+                  "title": "Labeo fimbriatus isolate LF10-CIFA cytochrome c oxidase subunit I (COI) gene, partial cds; mitochondrial",
+                  "taxid": 182801,
+                  "sciname": "Labeo fimbriatus"
+                }
+              ],
+              "len": 654,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 1146.04,
+                  "score": 620,
+                  "evalue": 0,
+                  "identity": 634,
+                  "query_from": 6,
+                  "query_to": 646,
+                  "query_strand": "Plus",
+                  "hit_from": 7,
+                  "hit_to": 647,
+                  "hit_strand": "Plus",
+                  "align_len": 641,
+                  "gaps": 0,
+                  "qseq": "TAATTGGCTCCTGAGCCGGATTAGTAGGAACCGCCTTAAGCCTTCTCATTCGGGTTGGACTAAGCCAACCCGGATCACTTCTAGGTGATGACCAAATTTATAATGTTATCGTAACTGCTCACGCCTTCGTAATTATTTTCTTTATAGTAATGCCTATCCTCATCGGAGGATTTGGAAACTGACTCGTGCCACTAATAATCGGAGCCCCAGACATGGCATTCCCTCGTATAAATAACATAAGCTTCTGACTCCTACCCCCATCATTCCTATTACTACTAGCCTCTTCTGGTGTAGAAGCTGGGGCTGGGACAGGATGAACAGTATATCCACCTCTTGCAGGCAACTTAGCTCACGCAGGAGCGTCAGTAGACCTAACAATTTTCTCACTCCATCTAGCAGGGGTTTCATCAATTCTAGGGGCTATTAATTTCATTACTACAACTATTAATATGAAACCTCCAGCCATCTCACAATACCAAACACCTTTATTCGTCTGATCCGTACTTGTAACCGCCGTACTACTTCTCCTATCACTACCAGTACTGGCCGCTGGCATCACAATGCTTTTAACAGATCGAAATCTAAATACTACATTCTTCGACCCGGCAGGGGGAGGAGACCCAATCCTTTACCAACACCTA",
+                  "hseq": "TATTTGGTGCCTGAGCCGGAATAGTAGGAACCGCCTTAAGCCTTCTCATTCGGGCTGAACTAAGCCAACCCGGATCACTTCTAGGTGATGACCAAATTTATAATGTTATCGTAACTGCTCACGCCTTCGTAATAATTTTCTTTATAGTAATGCCTATCCTCATCGGAGGATTTGGAAACTGACTCGTGCCACTAATAATCGGAGCCCCAGACATGGCATTCCCTCGTATAAATAACATAAGCTTCTGACTCCTACCCCCATCATTCCTATTACTACTAGCCTCTTCTGGTGTAGAAGCTGGGGCTGGGACAGGATGAACAGTATATCCACCTCTTGCAGGCAACTTAGCTCACGCAGGAGCGTCAGTAGACCTAACAATTTTCTCACTCCATCTAGCAGGGGTTTCATCAATTCTAGGGGCTATTAATTTCATTACTACAACTATTAATATGAAACCTCCAGCCATCTCACAATACCAAACACCTTTATTCGTCTGATCCGTACTTGTAACCGCCGTACTACTTCTCCTATCACTACCAGTACTGGCCGCTGGCATCACAATGCTTTTAACAGATCGAAATCTAAATACTACATTCTTCGACCCGGCAGGGGGAGGAGACCCAATCCTTTACCAACACCTA",
+                  "midline": "|| ||||  ||||||||||| ||||||||||||||||||||||||||||||||| || ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||"
+                }
+              ]
+            },
+            {
+              "num": 7,
+              "description": [
+                {
+                  "id": "gi|270271446|gb|GU195098.1|",
+                  "accession": "GU195098",
+                  "title": "Labeo fimbriatus isolate LF2-CIFA cytochrome c oxidase subunit I (COI) gene, partial cds; mitochondrial",
+                  "taxid": 182801,
+                  "sciname": "Labeo fimbriatus"
+                }
+              ],
+              "len": 651,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 1146.04,
+                  "score": 620,
+                  "evalue": 0,
+                  "identity": 634,
+                  "query_from": 6,
+                  "query_to": 646,
+                  "query_strand": "Plus",
+                  "hit_from": 6,
+                  "hit_to": 646,
+                  "hit_strand": "Plus",
+                  "align_len": 641,
+                  "gaps": 0,
+                  "qseq": "TAATTGGCTCCTGAGCCGGATTAGTAGGAACCGCCTTAAGCCTTCTCATTCGGGTTGGACTAAGCCAACCCGGATCACTTCTAGGTGATGACCAAATTTATAATGTTATCGTAACTGCTCACGCCTTCGTAATTATTTTCTTTATAGTAATGCCTATCCTCATCGGAGGATTTGGAAACTGACTCGTGCCACTAATAATCGGAGCCCCAGACATGGCATTCCCTCGTATAAATAACATAAGCTTCTGACTCCTACCCCCATCATTCCTATTACTACTAGCCTCTTCTGGTGTAGAAGCTGGGGCTGGGACAGGATGAACAGTATATCCACCTCTTGCAGGCAACTTAGCTCACGCAGGAGCGTCAGTAGACCTAACAATTTTCTCACTCCATCTAGCAGGGGTTTCATCAATTCTAGGGGCTATTAATTTCATTACTACAACTATTAATATGAAACCTCCAGCCATCTCACAATACCAAACACCTTTATTCGTCTGATCCGTACTTGTAACCGCCGTACTACTTCTCCTATCACTACCAGTACTGGCCGCTGGCATCACAATGCTTTTAACAGATCGAAATCTAAATACTACATTCTTCGACCCGGCAGGGGGAGGAGACCCAATCCTTTACCAACACCTA",
+                  "hseq": "TATTTGGTGCCTGAGCCGGAATAGTAGGAACCGCCTTAAGCCTTCTCATTCGGGCTGAACTAAGCCAACCCGGATCACTTCTAGGTGATGACCAAATTTATAATGTTATCGTAACTGCTCACGCCTTCGTAATAATTTTCTTTATAGTAATGCCTATCCTCATCGGAGGATTTGGAAACTGACTCGTGCCACTAATAATCGGAGCCCCAGACATGGCATTCCCTCGTATAAATAACATAAGCTTCTGACTCCTACCCCCATCATTCCTATTACTACTAGCCTCTTCTGGTGTAGAAGCTGGGGCTGGGACAGGATGAACAGTATATCCACCTCTTGCAGGCAACTTAGCTCACGCAGGAGCGTCAGTAGACCTAACAATTTTCTCACTCCATCTAGCAGGGGTTTCATCAATTCTAGGGGCTATTAATTTCATTACTACAACTATTAATATGAAACCTCCAGCCATCTCACAATACCAAACACCTTTATTCGTCTGATCCGTACTTGTAACCGCCGTACTACTTCTCCTATCACTACCAGTACTGGCCGCTGGCATCACAATGCTTTTAACAGATCGAAATCTAAATACTACATTCTTCGACCCGGCAGGGGGAGGAGACCCAATCCTTTACCAACACCTA",
+                  "midline": "|| ||||  ||||||||||| ||||||||||||||||||||||||||||||||| || ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||"
+                }
+              ]
+            },
+            {
+              "num": 8,
+              "description": [
+                {
+                  "id": "gi|270271444|gb|GU195097.1|",
+                  "accession": "GU195097",
+                  "title": "Labeo fimbriatus isolate LF1-CIFA cytochrome c oxidase subunit I (COI) gene, partial cds; mitochondrial",
+                  "taxid": 182801,
+                  "sciname": "Labeo fimbriatus"
+                },
+                {
+                  "id": "gi|270271448|gb|GU195099.1|",
+                  "accession": "GU195099",
+                  "title": "Labeo fimbriatus isolate LF3-CIFA cytochrome c oxidase subunit I (COI) gene, partial cds; mitochondrial",
+                  "taxid": 182801,
+                  "sciname": "Labeo fimbriatus"
+                },
+                {
+                  "id": "gi|270271450|gb|GU195100.1|",
+                  "accession": "GU195100",
+                  "title": "Labeo fimbriatus isolate LF4-CIFA cytochrome c oxidase subunit I (COI) gene, partial cds; mitochondrial",
+                  "taxid": 182801,
+                  "sciname": "Labeo fimbriatus"
+                },
+                {
+                  "id": "gi|270271452|gb|GU195101.1|",
+                  "accession": "GU195101",
+                  "title": "Labeo fimbriatus isolate LF5-CIFA cytochrome c oxidase subunit I (COI) gene, partial cds; mitochondrial",
+                  "taxid": 182801,
+                  "sciname": "Labeo fimbriatus"
+                },
+                {
+                  "id": "gi|270271454|gb|GU195102.1|",
+                  "accession": "GU195102",
+                  "title": "Labeo fimbriatus isolate LF6-CIFA cytochrome c oxidase subunit I (COI) gene, partial cds; mitochondrial",
+                  "taxid": 182801,
+                  "sciname": "Labeo fimbriatus"
+                }
+              ],
+              "len": 652,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 1146.04,
+                  "score": 620,
+                  "evalue": 0,
+                  "identity": 634,
+                  "query_from": 6,
+                  "query_to": 646,
+                  "query_strand": "Plus",
+                  "hit_from": 6,
+                  "hit_to": 646,
+                  "hit_strand": "Plus",
+                  "align_len": 641,
+                  "gaps": 0,
+                  "qseq": "TAATTGGCTCCTGAGCCGGATTAGTAGGAACCGCCTTAAGCCTTCTCATTCGGGTTGGACTAAGCCAACCCGGATCACTTCTAGGTGATGACCAAATTTATAATGTTATCGTAACTGCTCACGCCTTCGTAATTATTTTCTTTATAGTAATGCCTATCCTCATCGGAGGATTTGGAAACTGACTCGTGCCACTAATAATCGGAGCCCCAGACATGGCATTCCCTCGTATAAATAACATAAGCTTCTGACTCCTACCCCCATCATTCCTATTACTACTAGCCTCTTCTGGTGTAGAAGCTGGGGCTGGGACAGGATGAACAGTATATCCACCTCTTGCAGGCAACTTAGCTCACGCAGGAGCGTCAGTAGACCTAACAATTTTCTCACTCCATCTAGCAGGGGTTTCATCAATTCTAGGGGCTATTAATTTCATTACTACAACTATTAATATGAAACCTCCAGCCATCTCACAATACCAAACACCTTTATTCGTCTGATCCGTACTTGTAACCGCCGTACTACTTCTCCTATCACTACCAGTACTGGCCGCTGGCATCACAATGCTTTTAACAGATCGAAATCTAAATACTACATTCTTCGACCCGGCAGGGGGAGGAGACCCAATCCTTTACCAACACCTA",
+                  "hseq": "TATTTGGTGCCTGAGCCGGAATAGTAGGAACCGCCTTAAGCCTTCTCATTCGGGCTGAACTAAGCCAACCCGGATCACTTCTAGGTGATGACCAAATTTATAATGTTATCGTAACTGCTCACGCCTTCGTAATAATTTTCTTTATAGTAATGCCTATCCTCATCGGAGGATTTGGAAACTGACTCGTGCCACTAATAATCGGAGCCCCAGACATGGCATTCCCTCGTATAAATAACATAAGCTTCTGACTCCTACCCCCATCATTCCTATTACTACTAGCCTCTTCTGGTGTAGAAGCTGGGGCTGGGACAGGATGAACAGTATATCCACCTCTTGCAGGCAACTTAGCTCACGCAGGAGCGTCAGTAGACCTAACAATTTTCTCACTCCATCTAGCAGGGGTTTCATCAATTCTAGGGGCTATTAATTTCATTACTACAACTATTAATATGAAACCTCCAGCCATCTCACAATACCAAACACCTTTATTCGTCTGATCCGTACTTGTAACCGCCGTACTACTTCTCCTATCACTACCAGTACTGGCCGCTGGCATCACAATGCTTTTAACAGATCGAAATCTAAATACTACATTCTTCGACCCGGCAGGGGGAGGAGACCCAATCCTTTACCAACACCTA",
+                  "midline": "|| ||||  ||||||||||| ||||||||||||||||||||||||||||||||| || ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||"
+                }
+              ]
+            },
+            {
+              "num": 9,
+              "description": [
+                {
+                  "id": "gi|534406071|gb|KF430006.1|",
+                  "accession": "KF430006",
+                  "title": "Labeo fimbriatus isolate LF-001 cytochrome oxidase subunit I (COI) gene, partial cds; mitochondrial",
+                  "taxid": 182801,
+                  "sciname": "Labeo fimbriatus"
+                }
+              ],
+              "len": 655,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 1140.5,
+                  "score": 617,
+                  "evalue": 0,
+                  "identity": 633,
+                  "query_from": 6,
+                  "query_to": 646,
+                  "query_strand": "Plus",
+                  "hit_from": 12,
+                  "hit_to": 652,
+                  "hit_strand": "Plus",
+                  "align_len": 641,
+                  "gaps": 0,
+                  "qseq": "TAATTGGCTCCTGAGCCGGATTAGTAGGAACCGCCTTAAGCCTTCTCATTCGGGTTGGACTAAGCCAACCCGGATCACTTCTAGGTGATGACCAAATTTATAATGTTATCGTAACTGCTCACGCCTTCGTAATTATTTTCTTTATAGTAATGCCTATCCTCATCGGAGGATTTGGAAACTGACTCGTGCCACTAATAATCGGAGCCCCAGACATGGCATTCCCTCGTATAAATAACATAAGCTTCTGACTCCTACCCCCATCATTCCTATTACTACTAGCCTCTTCTGGTGTAGAAGCTGGGGCTGGGACAGGATGAACAGTATATCCACCTCTTGCAGGCAACTTAGCTCACGCAGGAGCGTCAGTAGACCTAACAATTTTCTCACTCCATCTAGCAGGGGTTTCATCAATTCTAGGGGCTATTAATTTCATTACTACAACTATTAATATGAAACCTCCAGCCATCTCACAATACCAAACACCTTTATTCGTCTGATCCGTACTTGTAACCGCCGTACTACTTCTCCTATCACTACCAGTACTGGCCGCTGGCATCACAATGCTTTTAACAGATCGAAATCTAAATACTACATTCTTCGACCCGGCAGGGGGAGGAGACCCAATCCTTTACCAACACCTA",
+                  "hseq": "TATTTGGTGCCTGAGCCGGAATAGTAGGAACCGCCTTAAGCCTTCTCATTCGGGCTGAACTAAGCCAACCCGGATCACTTCTAGGTGATGACCAAATTTATAATGTTATCGTAACTGCTCACGCCTTCGTAATAATTTTCTTTATAGTAATGCCTATCCTCATCGGAGGATTTGGAAACTGACTCGTGCCACTAATGATCGGAGCCCCAGACATGGCATTCCCTCGTATAAATAACATAAGCTTCTGACTCCTACCCCCATCATTCCTATTACTACTAGCCTCTTCTGGTGTAGAAGCTGGGGCTGGGACAGGATGAACAGTATATCCACCTCTTGCAGGCAACTTAGCTCACGCAGGAGCGTCAGTAGACCTAACAATTTTCTCACTCCATCTAGCAGGGGTTTCATCAATTCTAGGGGCTATTAATTTCATTACTACAACTATTAATATGAAACCTCCAGCCATCTCACAATACCAAACACCTTTATTCGTCTGATCCGTACTTGTAACCGCCGTACTACTTCTCCTATCACTACCAGTACTGGCCGCTGGCATCACAATGCTTTTAACAGATCGAAATCTAAATACTACATTCTTCGACCCGGCAGGGGGAGGAGACCCAATCCTTTACCAACACCTA",
+                  "midline": "|| ||||  ||||||||||| ||||||||||||||||||||||||||||||||| || ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||"
+                }
+              ]
+            },
+            {
+              "num": 10,
+              "description": [
+                {
+                  "id": "gi|2519755897|gb|OR137973.1|",
+                  "accession": "OR137973",
+                  "title": "Labeo fimbriatus voucher MSEB 266 cytochrome c oxidase subunit I (COX1) gene, partial cds; mitochondrial",
+                  "taxid": 182801,
+                  "sciname": "Labeo fimbriatus"
+                }
+              ],
+              "len": 672,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 1134.96,
+                  "score": 614,
+                  "evalue": 0,
+                  "identity": 632,
+                  "query_from": 6,
+                  "query_to": 646,
+                  "query_strand": "Plus",
+                  "hit_from": 26,
+                  "hit_to": 666,
+                  "hit_strand": "Plus",
+                  "align_len": 641,
+                  "gaps": 0,
+                  "qseq": "TAATTGGCTCCTGAGCCGGATTAGTAGGAACCGCCTTAAGCCTTCTCATTCGGGTTGGACTAAGCCAACCCGGATCACTTCTAGGTGATGACCAAATTTATAATGTTATCGTAACTGCTCACGCCTTCGTAATTATTTTCTTTATAGTAATGCCTATCCTCATCGGAGGATTTGGAAACTGACTCGTGCCACTAATAATCGGAGCCCCAGACATGGCATTCCCTCGTATAAATAACATAAGCTTCTGACTCCTACCCCCATCATTCCTATTACTACTAGCCTCTTCTGGTGTAGAAGCTGGGGCTGGGACAGGATGAACAGTATATCCACCTCTTGCAGGCAACTTAGCTCACGCAGGAGCGTCAGTAGACCTAACAATTTTCTCACTCCATCTAGCAGGGGTTTCATCAATTCTAGGGGCTATTAATTTCATTACTACAACTATTAATATGAAACCTCCAGCCATCTCACAATACCAAACACCTTTATTCGTCTGATCCGTACTTGTAACCGCCGTACTACTTCTCCTATCACTACCAGTACTGGCCGCTGGCATCACAATGCTTTTAACAGATCGAAATCTAAATACTACATTCTTCGACCCGGCAGGGGGAGGAGACCCAATCCTTTACCAACACCTA",
+                  "hseq": "TATTTGGTGCCTGAGCCGGAATAGTAGGAACCGCCTTAAGCCTTCTCATTCGGGCTGAACTAAGCCAACCCGGATCACTTCTAGGTGATGACCAAATTTATAATGTTATCGTAACTGCTCACGCCTTCGTAATAATTTTCTTTATAGTAATGCCTATCCTCATCGGAGGATTTGGAAACTGACTCGTGCCACTAATGATCGGAGCCCCAGACATGGCATTCCCTCGTATAAATAACATAAGCTTCTGACTCCTGCCCCCATCATTCCTATTACTACTAGCCTCTTCTGGTGTAGAAGCTGGGGCTGGGACAGGATGAACAGTATATCCACCTCTTGCAGGCAACTTAGCTCACGCAGGAGCGTCAGTAGACCTAACAATTTTCTCACTCCATCTAGCAGGGGTTTCATCAATTCTAGGGGCTATTAATTTCATTACTACAACTATTAATATGAAACCTCCAGCCATCTCACAATACCAAACACCTTTATTCGTCTGATCCGTACTTGTAACCGCCGTACTACTTCTCCTATCACTACCAGTACTGGCCGCTGGCATCACAATGCTTTTAACAGATCGAAATCTAAATACTACATTCTTCGACCCGGCAGGGGGAGGAGACCCAATCCTTTACCAACACCTA",
+                  "midline": "|| ||||  ||||||||||| ||||||||||||||||||||||||||||||||| || ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| |||||||||||||||||||||||||||||||||||||||||||||||||||||||| |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||"
+                }
+              ]
+            },
+            {
+              "num": 11,
+              "description": [
+                {
+                  "id": "gi|927372560|ref|NC_027856.1|",
+                  "accession": "NC_027856",
+                  "title": "Labeo gonius mitochondrion, complete genome",
+                  "taxid": 295400,
+                  "sciname": "Labeo gonius"
+                },
+                {
+                  "id": "gi|915477631|gb|KT001152.1|",
+                  "accession": "KT001152",
+                  "title": "Labeo gonius mitochondrion, complete genome",
+                  "taxid": 295400,
+                  "sciname": "Labeo gonius"
+                }
+              ],
+              "len": 16614,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 1134.96,
+                  "score": 614,
+                  "evalue": 0,
+                  "identity": 632,
+                  "query_from": 6,
+                  "query_to": 646,
+                  "query_strand": "Plus",
+                  "hit_from": 5552,
+                  "hit_to": 6192,
+                  "hit_strand": "Plus",
+                  "align_len": 641,
+                  "gaps": 0,
+                  "qseq": "TAATTGGCTCCTGAGCCGGATTAGTAGGAACCGCCTTAAGCCTTCTCATTCGGGTTGGACTAAGCCAACCCGGATCACTTCTAGGTGATGACCAAATTTATAATGTTATCGTAACTGCTCACGCCTTCGTAATTATTTTCTTTATAGTAATGCCTATCCTCATCGGAGGATTTGGAAACTGACTCGTGCCACTAATAATCGGAGCCCCAGACATGGCATTCCCTCGTATAAATAACATAAGCTTCTGACTCCTACCCCCATCATTCCTATTACTACTAGCCTCTTCTGGTGTAGAAGCTGGGGCTGGGACAGGATGAACAGTATATCCACCTCTTGCAGGCAACTTAGCTCACGCAGGAGCGTCAGTAGACCTAACAATTTTCTCACTCCATCTAGCAGGGGTTTCATCAATTCTAGGGGCTATTAATTTCATTACTACAACTATTAATATGAAACCTCCAGCCATCTCACAATACCAAACACCTTTATTCGTCTGATCCGTACTTGTAACCGCCGTACTACTTCTCCTATCACTACCAGTACTGGCCGCTGGCATCACAATGCTTTTAACAGATCGAAATCTAAATACTACATTCTTCGACCCGGCAGGGGGAGGAGACCCAATCCTTTACCAACACCTA",
+                  "hseq": "TATTTGGTGCCTGAGCCGGAATAGTAGGAACCGCCTTAAGCCTTCTCATTCGGGCTGAACTAAGCCAACCCGGATCACTTCTAGGTGATGACCAAATTTATAATGTTATCGTAACTGCTCACGCCTTCGTAATAATTTTCTTTATAGTAATGCCTATCCTCATCGGAGGATTTGGAAACTGACTCGTGCCACTAATGATCGGAGCCCCAGACATGGCATTCCCTCGTATAAATAACATAAGCTTCTGACTCCTACCCCCATCATTCCTATTACTACTAGCCTCTTCTGGTGTAGAAGCTGGGGCTGGGACAGGATGAACAGTATATCCACCTCTTGCAGGCAACTTAGCTCACGCAGGAGCGTCAGTAGACCTAACAATTTTCTCACTCCATCTAGCAGGGGTTTCATCAATTCTAGGGGCTATTAATTTCATTACTACAACTATTAATATGAAACCTCCAGCCATCTCACAATACCAAACACCTTTATTCGTCTGATCCGTACTTGTAACCGCCGTACTACTTCTCCTATCACTACCAGTACTGGCCGCTGGCATCACAATGCTTGTAACAGATCGAAATCTAAATACTACATTCTTCGACCCGGCAGGGGGAGGAGACCCAATCCTTTACCAACACCTA",
+                  "midline": "|| ||||  ||||||||||| ||||||||||||||||||||||||||||||||| || ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||"
+                }
+              ]
+            },
+            {
+              "num": 12,
+              "description": [
+                {
+                  "id": "gi|749112151|ref|NC_026217.1|",
+                  "accession": "NC_026217",
+                  "title": "Labeo fimbriatus mitochondrion, complete genome",
+                  "taxid": 182801,
+                  "sciname": "Labeo fimbriatus"
+                },
+                {
+                  "id": "gi|745749248|gb|KP025676.1|",
+                  "accession": "KP025676",
+                  "title": "Labeo fimbriatus mitochondrion, complete genome",
+                  "taxid": 182801,
+                  "sciname": "Labeo fimbriatus"
+                }
+              ],
+              "len": 16614,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 1134.96,
+                  "score": 614,
+                  "evalue": 0,
+                  "identity": 632,
+                  "query_from": 6,
+                  "query_to": 646,
+                  "query_strand": "Plus",
+                  "hit_from": 5552,
+                  "hit_to": 6192,
+                  "hit_strand": "Plus",
+                  "align_len": 641,
+                  "gaps": 0,
+                  "qseq": "TAATTGGCTCCTGAGCCGGATTAGTAGGAACCGCCTTAAGCCTTCTCATTCGGGTTGGACTAAGCCAACCCGGATCACTTCTAGGTGATGACCAAATTTATAATGTTATCGTAACTGCTCACGCCTTCGTAATTATTTTCTTTATAGTAATGCCTATCCTCATCGGAGGATTTGGAAACTGACTCGTGCCACTAATAATCGGAGCCCCAGACATGGCATTCCCTCGTATAAATAACATAAGCTTCTGACTCCTACCCCCATCATTCCTATTACTACTAGCCTCTTCTGGTGTAGAAGCTGGGGCTGGGACAGGATGAACAGTATATCCACCTCTTGCAGGCAACTTAGCTCACGCAGGAGCGTCAGTAGACCTAACAATTTTCTCACTCCATCTAGCAGGGGTTTCATCAATTCTAGGGGCTATTAATTTCATTACTACAACTATTAATATGAAACCTCCAGCCATCTCACAATACCAAACACCTTTATTCGTCTGATCCGTACTTGTAACCGCCGTACTACTTCTCCTATCACTACCAGTACTGGCCGCTGGCATCACAATGCTTTTAACAGATCGAAATCTAAATACTACATTCTTCGACCCGGCAGGGGGAGGAGACCCAATCCTTTACCAACACCTA",
+                  "hseq": "TATTTGGTGCCTGAGCCGGAATAGTAGGAACCGCCTTAAGCCTTCTCATTCGGGCTGAACTAAGCCAACCCGGATCACTTCTAGGTGATGACCAAATTTATAATGTTATCGTAACTGCTCACGCCTTCGTAATAATTTTCTTTATAGTAATGCCTATCCTCATCGGAGGATTTGGAAACTGACTCGTGCCACTAATGATCGGAGCCCCAGACATGGCATTCCCTCGTATAAATAACATAAGCTTCTGACTCCTACCCCCATCATTCCTATTACTACTAGCCTCTTCTGGTGTAGAAGCTGGGGCTGGGACAGGATGAACAGTATATCCACCTCTTGCAGGCAACTTAGCTCACGCAGGAGCGTCAGTAGACCTAACAATTTTCTCACTCCATCTAGCAGGGGTTTCATCAATTCTAGGGGCTATTAATTTCATTACTACAACTATTAATATGAAACCTCCAGCCATCTCACAATACCAAACACCTTTATTCGTCTGATCCGTACTTGTAACCGCCGTACTACTTCTCCTATCACTACCAGTACTGGCCGCTGGCATCACAATGCTTGTAACAGATCGAAATCTAAATACTACATTCTTCGACCCGGCAGGGGGAGGAGACCCAATCCTTTACCAACACCTA",
+                  "midline": "|| ||||  ||||||||||| ||||||||||||||||||||||||||||||||| || ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||"
+                }
+              ]
+            },
+            {
+              "num": 13,
+              "description": [
+                {
+                  "id": "gi|534406075|gb|KF430007.1|",
+                  "accession": "KF430007",
+                  "title": "Labeo fimbriatus isolate LF-1020 cytochrome oxidase subunit I (COI) gene, partial cds; mitochondrial",
+                  "taxid": 182801,
+                  "sciname": "Labeo fimbriatus"
+                },
+                {
+                  "id": "gi|534406079|gb|KF430008.1|",
+                  "accession": "KF430008",
+                  "title": "Labeo fimbriatus isolate LF-1021 cytochrome oxidase subunit I (COI) gene, partial cds; mitochondrial",
+                  "taxid": 182801,
+                  "sciname": "Labeo fimbriatus"
+                },
+                {
+                  "id": "gi|559104127|gb|KF550061.1|",
+                  "accession": "KF550061",
+                  "title": "Labeo fimbriatus voucher LF-1025 cytochrome oxidase subunit I (COI) gene, partial cds; mitochondrial",
+                  "taxid": 182801,
+                  "sciname": "Labeo fimbriatus"
+                },
+                {
+                  "id": "gi|559104129|gb|KF550062.1|",
+                  "accession": "KF550062",
+                  "title": "Labeo fimbriatus voucher LF-1051 cytochrome oxidase subunit I (COI) gene, partial cds; mitochondrial",
+                  "taxid": 182801,
+                  "sciname": "Labeo fimbriatus"
+                },
+                {
+                  "id": "gi|559104131|gb|KF550063.1|",
+                  "accession": "KF550063",
+                  "title": "Labeo fimbriatus voucher LF-1053 cytochrome oxidase subunit I (COI) gene, partial cds; mitochondrial",
+                  "taxid": 182801,
+                  "sciname": "Labeo fimbriatus"
+                },
+                {
+                  "id": "gi|559104133|gb|KF550064.1|",
+                  "accession": "KF550064",
+                  "title": "Labeo fimbriatus voucher LF-1054 cytochrome oxidase subunit I (COI) gene, partial cds; mitochondrial",
+                  "taxid": 182801,
+                  "sciname": "Labeo fimbriatus"
+                }
+              ],
+              "len": 655,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 1134.96,
+                  "score": 614,
+                  "evalue": 0,
+                  "identity": 632,
+                  "query_from": 6,
+                  "query_to": 646,
+                  "query_strand": "Plus",
+                  "hit_from": 12,
+                  "hit_to": 652,
+                  "hit_strand": "Plus",
+                  "align_len": 641,
+                  "gaps": 0,
+                  "qseq": "TAATTGGCTCCTGAGCCGGATTAGTAGGAACCGCCTTAAGCCTTCTCATTCGGGTTGGACTAAGCCAACCCGGATCACTTCTAGGTGATGACCAAATTTATAATGTTATCGTAACTGCTCACGCCTTCGTAATTATTTTCTTTATAGTAATGCCTATCCTCATCGGAGGATTTGGAAACTGACTCGTGCCACTAATAATCGGAGCCCCAGACATGGCATTCCCTCGTATAAATAACATAAGCTTCTGACTCCTACCCCCATCATTCCTATTACTACTAGCCTCTTCTGGTGTAGAAGCTGGGGCTGGGACAGGATGAACAGTATATCCACCTCTTGCAGGCAACTTAGCTCACGCAGGAGCGTCAGTAGACCTAACAATTTTCTCACTCCATCTAGCAGGGGTTTCATCAATTCTAGGGGCTATTAATTTCATTACTACAACTATTAATATGAAACCTCCAGCCATCTCACAATACCAAACACCTTTATTCGTCTGATCCGTACTTGTAACCGCCGTACTACTTCTCCTATCACTACCAGTACTGGCCGCTGGCATCACAATGCTTTTAACAGATCGAAATCTAAATACTACATTCTTCGACCCGGCAGGGGGAGGAGACCCAATCCTTTACCAACACCTA",
+                  "hseq": "TATTTGGTGCCTGAGCCGGAATAGTAGGAACCGCCTTAAGCCTTCTCATTCGGGCTGAACTAAGCCAACCCGGATCACTTCTAGGTGATGACCAAATTTATAATGTTATCGTAACTGCTCACGCCTTCGTAATAATTTTCTTTATAGTAATGCCTATCCTCATCGGAGGATTTGGAAACTGACTCGTGCCACTAATGATCGGAGCCCCAGACATGGCATTCCCTCGTATAAATAACATAAGCTTCTGACTCCTGCCCCCATCATTCCTATTACTACTAGCCTCTTCTGGTGTAGAAGCTGGGGCTGGGACAGGATGAACAGTATATCCACCTCTTGCAGGCAACTTAGCTCACGCAGGAGCGTCAGTAGACCTAACAATTTTCTCACTCCATCTAGCAGGGGTTTCATCAATTCTAGGGGCTATTAATTTCATTACTACAACTATTAATATGAAACCTCCAGCCATCTCACAATACCAAACACCTTTATTCGTCTGATCCGTACTTGTAACCGCCGTACTACTTCTCCTATCACTACCAGTACTGGCCGCTGGCATCACAATGCTTTTAACAGATCGAAATCTAAATACTACATTCTTCGACCCGGCAGGGGGAGGAGACCCAATCCTTTACCAACACCTA",
+                  "midline": "|| ||||  ||||||||||| ||||||||||||||||||||||||||||||||| || ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| |||||||||||||||||||||||||||||||||||||||||||||||||||||||| |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||"
+                }
+              ]
+            },
+            {
+              "num": 14,
+              "description": [
+                {
+                  "id": "gi|614095727|gb|KF438024.1|",
+                  "accession": "KF438024",
+                  "title": "Labeo fimbriatus isolate LF-1078 cytochrome oxidase subunit I (COI) gene, partial cds; mitochondrial",
+                  "taxid": 182801,
+                  "sciname": "Labeo fimbriatus"
+                }
+              ],
+              "len": 655,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 1129.42,
+                  "score": 611,
+                  "evalue": 0,
+                  "identity": 631,
+                  "query_from": 6,
+                  "query_to": 646,
+                  "query_strand": "Plus",
+                  "hit_from": 12,
+                  "hit_to": 652,
+                  "hit_strand": "Plus",
+                  "align_len": 641,
+                  "gaps": 0,
+                  "qseq": "TAATTGGCTCCTGAGCCGGATTAGTAGGAACCGCCTTAAGCCTTCTCATTCGGGTTGGACTAAGCCAACCCGGATCACTTCTAGGTGATGACCAAATTTATAATGTTATCGTAACTGCTCACGCCTTCGTAATTATTTTCTTTATAGTAATGCCTATCCTCATCGGAGGATTTGGAAACTGACTCGTGCCACTAATAATCGGAGCCCCAGACATGGCATTCCCTCGTATAAATAACATAAGCTTCTGACTCCTACCCCCATCATTCCTATTACTACTAGCCTCTTCTGGTGTAGAAGCTGGGGCTGGGACAGGATGAACAGTATATCCACCTCTTGCAGGCAACTTAGCTCACGCAGGAGCGTCAGTAGACCTAACAATTTTCTCACTCCATCTAGCAGGGGTTTCATCAATTCTAGGGGCTATTAATTTCATTACTACAACTATTAATATGAAACCTCCAGCCATCTCACAATACCAAACACCTTTATTCGTCTGATCCGTACTTGTAACCGCCGTACTACTTCTCCTATCACTACCAGTACTGGCCGCTGGCATCACAATGCTTTTAACAGATCGAAATCTAAATACTACATTCTTCGACCCGGCAGGGGGAGGAGACCCAATCCTTTACCAACACCTA",
+                  "hseq": "TATTTGGTGCCTGAGCCGGAATAGTAGGAACCGCCTTAAGCCTTCTCATTCGGGCTGAACTAAGCCAACCCGGATCACTTCTAGGTGATGACCAAATTTATAATGTTATCGTAACTGCTCACGCCTTCGTAATAATTTTCTTTATAGTAATGCCTATCCTCATCGGAGGATTTGGAAACTGACTCGTGCCACTAATGATCGGAGCCCCAGACATGGCATTCCCTCGTATAAACAACATAAGCTTCTGACTCCTGCCCCCATCATTCCTATTACTACTAGCCTCTTCTGGTGTAGAAGCTGGGGCTGGGACAGGATGAACAGTATATCCACCTCTTGCAGGCAACTTAGCTCACGCAGGAGCGTCAGTAGACCTAACAATTTTCTCACTCCATCTAGCAGGGGTTTCATCAATTCTAGGGGCTATTAATTTCATTACTACAACTATTAATATGAAACCTCCAGCCATCTCACAATACCAAACACCTTTATTCGTCTGATCCGTACTTGTAACCGCCGTACTACTTCTCCTATCACTACCAGTACTGGCCGCTGGCATCACAATGCTTTTAACAGATCGAAATCTAAATACTACATTCTTCGACCCGGCAGGGGGAGGAGACCCAATCCTTTACCAACACCTA",
+                  "midline": "|| ||||  ||||||||||| ||||||||||||||||||||||||||||||||| || ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| ||||||||||||||||||||||||||||||||||| |||||||||||||||||||| |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||"
+                }
+              ]
+            },
+            {
+              "num": 15,
+              "description": [
+                {
+                  "id": "gi|270271460|gb|GU195105.1|",
+                  "accession": "GU195105",
+                  "title": "Labeo fimbriatus isolate LF9-CIFA cytochrome c oxidase subunit I (COI) gene, partial cds; mitochondrial",
+                  "taxid": 182801,
+                  "sciname": "Labeo fimbriatus"
+                }
+              ],
+              "len": 630,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 1129.42,
+                  "score": 611,
+                  "evalue": 0,
+                  "identity": 617,
+                  "query_from": 27,
+                  "query_to": 646,
+                  "query_strand": "Plus",
+                  "hit_from": 3,
+                  "hit_to": 622,
+                  "hit_strand": "Plus",
+                  "align_len": 620,
+                  "gaps": 0,
+                  "qseq": "TAGTAGGAACCGCCTTAAGCCTTCTCATTCGGGTTGGACTAAGCCAACCCGGATCACTTCTAGGTGATGACCAAATTTATAATGTTATCGTAACTGCTCACGCCTTCGTAATTATTTTCTTTATAGTAATGCCTATCCTCATCGGAGGATTTGGAAACTGACTCGTGCCACTAATAATCGGAGCCCCAGACATGGCATTCCCTCGTATAAATAACATAAGCTTCTGACTCCTACCCCCATCATTCCTATTACTACTAGCCTCTTCTGGTGTAGAAGCTGGGGCTGGGACAGGATGAACAGTATATCCACCTCTTGCAGGCAACTTAGCTCACGCAGGAGCGTCAGTAGACCTAACAATTTTCTCACTCCATCTAGCAGGGGTTTCATCAATTCTAGGGGCTATTAATTTCATTACTACAACTATTAATATGAAACCTCCAGCCATCTCACAATACCAAACACCTTTATTCGTCTGATCCGTACTTGTAACCGCCGTACTACTTCTCCTATCACTACCAGTACTGGCCGCTGGCATCACAATGCTTTTAACAGATCGAAATCTAAATACTACATTCTTCGACCCGGCAGGGGGAGGAGACCCAATCCTTTACCAACACCTA",
+                  "hseq": "TAGTAGGAACCGCCTTAAGCCTTCTCATTCGGGCTGAACTAAGCCAACCCGGATCACTTCTAGGTGATGACCAAATTTATAATGTTATCGTAACTGCTCACGCCTTCGTAATAATTTTCTTTATAGTAATGCCTATCCTCATCGGAGGATTTGGAAACTGACTCGTGCCACTAATAATCGGAGCCCCAGACATGGCATTCCCTCGTATAAATAACATAAGCTTCTGACTCCTACCCCCATCATTCCTATTACTACTAGCCTCTTCTGGTGTAGAAGCTGGGGCTGGGACAGGATGAACAGTATATCCACCTCTTGCAGGCAACTTAGCTCACGCAGGAGCGTCAGTAGACCTAACAATTTTCTCACTCCATCTAGCAGGGGTTTCATCAATTCTAGGGGCTATTAATTTCATTACTACAACTATTAATATGAAACCTCCAGCCATCTCACAATACCAAACACCTTTATTCGTCTGATCCGTACTTGTAACCGCCGTACTACTTCTCCTATCACTACCAGTACTGGCCGCTGGCATCACAATGCTTTTAACAGATCGAAATCTAAATACTACATTCTTCGACCCGGCAGGGGGAGGAGACCCAATCCTTTACCAACACCTA",
+                  "midline": "||||||||||||||||||||||||||||||||| || ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||"
+                }
+              ]
+            },
+            {
+              "num": 16,
+              "description": [
+                {
+                  "id": "gi|270271456|gb|GU195103.1|",
+                  "accession": "GU195103",
+                  "title": "Labeo fimbriatus isolate LF7-CIFA cytochrome c oxidase subunit I (COI) gene, partial cds; mitochondrial",
+                  "taxid": 182801,
+                  "sciname": "Labeo fimbriatus"
+                },
+                {
+                  "id": "gi|270271458|gb|GU195104.1|",
+                  "accession": "GU195104",
+                  "title": "Labeo fimbriatus isolate LF8-CIFA cytochrome c oxidase subunit I (COI) gene, partial cds; mitochondrial",
+                  "taxid": 182801,
+                  "sciname": "Labeo fimbriatus"
+                }
+              ],
+              "len": 628,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 1129.42,
+                  "score": 611,
+                  "evalue": 0,
+                  "identity": 617,
+                  "query_from": 27,
+                  "query_to": 646,
+                  "query_strand": "Plus",
+                  "hit_from": 3,
+                  "hit_to": 622,
+                  "hit_strand": "Plus",
+                  "align_len": 620,
+                  "gaps": 0,
+                  "qseq": "TAGTAGGAACCGCCTTAAGCCTTCTCATTCGGGTTGGACTAAGCCAACCCGGATCACTTCTAGGTGATGACCAAATTTATAATGTTATCGTAACTGCTCACGCCTTCGTAATTATTTTCTTTATAGTAATGCCTATCCTCATCGGAGGATTTGGAAACTGACTCGTGCCACTAATAATCGGAGCCCCAGACATGGCATTCCCTCGTATAAATAACATAAGCTTCTGACTCCTACCCCCATCATTCCTATTACTACTAGCCTCTTCTGGTGTAGAAGCTGGGGCTGGGACAGGATGAACAGTATATCCACCTCTTGCAGGCAACTTAGCTCACGCAGGAGCGTCAGTAGACCTAACAATTTTCTCACTCCATCTAGCAGGGGTTTCATCAATTCTAGGGGCTATTAATTTCATTACTACAACTATTAATATGAAACCTCCAGCCATCTCACAATACCAAACACCTTTATTCGTCTGATCCGTACTTGTAACCGCCGTACTACTTCTCCTATCACTACCAGTACTGGCCGCTGGCATCACAATGCTTTTAACAGATCGAAATCTAAATACTACATTCTTCGACCCGGCAGGGGGAGGAGACCCAATCCTTTACCAACACCTA",
+                  "hseq": "TAGTAGGAACCGCCTTAAGCCTTCTCATTCGGGCTGAACTAAGCCAACCCGGATCACTTCTAGGTGATGACCAAATTTATAATGTTATCGTAACTGCTCACGCCTTCGTAATAATTTTCTTTATAGTAATGCCTATCCTCATCGGAGGATTTGGAAACTGACTCGTGCCACTAATAATCGGAGCCCCAGACATGGCATTCCCTCGTATAAATAACATAAGCTTCTGACTCCTACCCCCATCATTCCTATTACTACTAGCCTCTTCTGGTGTAGAAGCTGGGGCTGGGACAGGATGAACAGTATATCCACCTCTTGCAGGCAACTTAGCTCACGCAGGAGCGTCAGTAGACCTAACAATTTTCTCACTCCATCTAGCAGGGGTTTCATCAATTCTAGGGGCTATTAATTTCATTACTACAACTATTAATATGAAACCTCCAGCCATCTCACAATACCAAACACCTTTATTCGTCTGATCCGTACTTGTAACCGCCGTACTACTTCTCCTATCACTACCAGTACTGGCCGCTGGCATCACAATGCTTTTAACAGATCGAAATCTAAATACTACATTCTTCGACCCGGCAGGGGGAGGAGACCCAATCCTTTACCAACACCTA",
+                  "midline": "||||||||||||||||||||||||||||||||| || ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||"
+                }
+              ]
+            },
+            {
+              "num": 17,
+              "description": [
+                {
+                  "id": "gi|499105090|gb|KC757270.1|",
+                  "accession": "KC757270",
+                  "title": "Labeo fimbriatus isolate LF1 cytochrome c oxidase subunit I (COI) gene, partial cds; mitochondrial",
+                  "taxid": 182801,
+                  "sciname": "Labeo fimbriatus"
+                },
+                {
+                  "id": "gi|499105093|gb|KC757271.1|",
+                  "accession": "KC757271",
+                  "title": "Labeo fimbriatus isolate LF2 cytochrome c oxidase subunit I (COI) gene, partial cds; mitochondrial",
+                  "taxid": 182801,
+                  "sciname": "Labeo fimbriatus"
+                },
+                {
+                  "id": "gi|499105096|gb|KC757272.1|",
+                  "accession": "KC757272",
+                  "title": "Labeo fimbriatus isolate LF3 cytochrome c oxidase subunit I (COI) gene, partial cds; mitochondrial",
+                  "taxid": 182801,
+                  "sciname": "Labeo fimbriatus"
+                },
+                {
+                  "id": "gi|499105098|gb|KC757273.1|",
+                  "accession": "KC757273",
+                  "title": "Labeo fimbriatus isolate LF4 cytochrome c oxidase subunit I (COI) gene, partial cds; mitochondrial",
+                  "taxid": 182801,
+                  "sciname": "Labeo fimbriatus"
+                },
+                {
+                  "id": "gi|499105101|gb|KC757274.1|",
+                  "accession": "KC757274",
+                  "title": "Labeo fimbriatus isolate LF5 cytochrome c oxidase subunit I (COI) gene, partial cds; mitochondrial",
+                  "taxid": 182801,
+                  "sciname": "Labeo fimbriatus"
+                },
+                {
+                  "id": "gi|499105103|gb|KC757275.1|",
+                  "accession": "KC757275",
+                  "title": "Labeo fimbriatus isolate LF6 cytochrome c oxidase subunit I (COI) gene, partial cds; mitochondrial",
+                  "taxid": 182801,
+                  "sciname": "Labeo fimbriatus"
+                },
+                {
+                  "id": "gi|499105106|gb|KC757276.1|",
+                  "accession": "KC757276",
+                  "title": "Labeo fimbriatus isolate LF7 cytochrome c oxidase subunit I (COI) gene, partial cds; mitochondrial",
+                  "taxid": 182801,
+                  "sciname": "Labeo fimbriatus"
+                },
+                {
+                  "id": "gi|499105108|gb|KC757277.1|",
+                  "accession": "KC757277",
+                  "title": "Labeo fimbriatus isolate LF15 cytochrome c oxidase subunit I (COI) gene, partial cds; mitochondrial",
+                  "taxid": 182801,
+                  "sciname": "Labeo fimbriatus"
+                },
+                {
+                  "id": "gi|499105110|gb|KC757278.1|",
+                  "accession": "KC757278",
+                  "title": "Labeo fimbriatus isolate LF16 cytochrome c oxidase subunit I (COI) gene, partial cds; mitochondrial",
+                  "taxid": 182801,
+                  "sciname": "Labeo fimbriatus"
+                },
+                {
+                  "id": "gi|499105113|gb|KC757279.1|",
+                  "accession": "KC757279",
+                  "title": "Labeo fimbriatus isolate LF17 cytochrome c oxidase subunit I (COI) gene, partial cds; mitochondrial",
+                  "taxid": 182801,
+                  "sciname": "Labeo fimbriatus"
+                },
+                {
+                  "id": "gi|499105116|gb|KC757280.1|",
+                  "accession": "KC757280",
+                  "title": "Labeo fimbriatus isolate LF18 cytochrome c oxidase subunit I (COI) gene, partial cds; mitochondrial",
+                  "taxid": 182801,
+                  "sciname": "Labeo fimbriatus"
+                },
+                {
+                  "id": "gi|499105118|gb|KC757281.1|",
+                  "accession": "KC757281",
+                  "title": "Labeo fimbriatus isolate LF19 cytochrome c oxidase subunit I (COI) gene, partial cds; mitochondrial",
+                  "taxid": 182801,
+                  "sciname": "Labeo fimbriatus"
+                },
+                {
+                  "id": "gi|499105120|gb|KC757282.1|",
+                  "accession": "KC757282",
+                  "title": "Labeo fimbriatus isolate LF20 cytochrome c oxidase subunit I (COI) gene, partial cds; mitochondrial",
+                  "taxid": 182801,
+                  "sciname": "Labeo fimbriatus"
+                }
+              ],
+              "len": 632,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 1127.58,
+                  "score": 610,
+                  "evalue": 0,
+                  "identity": 616,
+                  "query_from": 28,
+                  "query_to": 646,
+                  "query_strand": "Plus",
+                  "hit_from": 1,
+                  "hit_to": 619,
+                  "hit_strand": "Plus",
+                  "align_len": 619,
+                  "gaps": 0,
+                  "qseq": "AGTAGGAACCGCCTTAAGCCTTCTCATTCGGGTTGGACTAAGCCAACCCGGATCACTTCTAGGTGATGACCAAATTTATAATGTTATCGTAACTGCTCACGCCTTCGTAATTATTTTCTTTATAGTAATGCCTATCCTCATCGGAGGATTTGGAAACTGACTCGTGCCACTAATAATCGGAGCCCCAGACATGGCATTCCCTCGTATAAATAACATAAGCTTCTGACTCCTACCCCCATCATTCCTATTACTACTAGCCTCTTCTGGTGTAGAAGCTGGGGCTGGGACAGGATGAACAGTATATCCACCTCTTGCAGGCAACTTAGCTCACGCAGGAGCGTCAGTAGACCTAACAATTTTCTCACTCCATCTAGCAGGGGTTTCATCAATTCTAGGGGCTATTAATTTCATTACTACAACTATTAATATGAAACCTCCAGCCATCTCACAATACCAAACACCTTTATTCGTCTGATCCGTACTTGTAACCGCCGTACTACTTCTCCTATCACTACCAGTACTGGCCGCTGGCATCACAATGCTTTTAACAGATCGAAATCTAAATACTACATTCTTCGACCCGGCAGGGGGAGGAGACCCAATCCTTTACCAACACCTA",
+                  "hseq": "AGTAGGAACCGCCTTAAGCCTTCTCATTCGGGCTGAACTAAGCCAACCCGGATCACTTCTAGGTGATGACCAAATTTATAATGTTATCGTAACTGCTCACGCCTTCGTAATAATTTTCTTTATAGTAATGCCTATCCTCATCGGAGGATTTGGAAACTGACTCGTGCCACTAATAATCGGAGCCCCAGACATGGCATTCCCTCGTATAAATAACATAAGCTTCTGACTCCTACCCCCATCATTCCTATTACTACTAGCCTCTTCTGGTGTAGAAGCTGGGGCTGGGACAGGATGAACAGTATATCCACCTCTTGCAGGCAACTTAGCTCACGCAGGAGCGTCAGTAGACCTAACAATTTTCTCACTCCATCTAGCAGGGGTTTCATCAATTCTAGGGGCTATTAATTTCATTACTACAACTATTAATATGAAACCTCCAGCCATCTCACAATACCAAACACCTTTATTCGTCTGATCCGTACTTGTAACCGCCGTACTACTTCTCCTATCACTACCAGTACTGGCCGCTGGCATCACAATGCTTTTAACAGATCGAAATCTAAATACTACATTCTTCGACCCGGCAGGGGGAGGAGACCCAATCCTTTACCAACACCTA",
+                  "midline": "|||||||||||||||||||||||||||||||| || ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||"
+                }
+              ]
+            },
+            {
+              "num": 18,
+              "description": [
+                {
+                  "id": "gi|499105123|gb|KC757283.1|",
+                  "accession": "KC757283",
+                  "title": "Labeo fimbriatus isolate LF9 cytochrome c oxidase subunit I (COI) gene, partial cds; mitochondrial",
+                  "taxid": 182801,
+                  "sciname": "Labeo fimbriatus"
+                },
+                {
+                  "id": "gi|499105126|gb|KC757284.1|",
+                  "accession": "KC757284",
+                  "title": "Labeo fimbriatus isolate LF10 cytochrome c oxidase subunit I (COI) gene, partial cds; mitochondrial",
+                  "taxid": 182801,
+                  "sciname": "Labeo fimbriatus"
+                },
+                {
+                  "id": "gi|499105129|gb|KC757285.1|",
+                  "accession": "KC757285",
+                  "title": "Labeo fimbriatus isolate LF11 cytochrome c oxidase subunit I (COI) gene, partial cds; mitochondrial",
+                  "taxid": 182801,
+                  "sciname": "Labeo fimbriatus"
+                },
+                {
+                  "id": "gi|499105132|gb|KC757286.1|",
+                  "accession": "KC757286",
+                  "title": "Labeo fimbriatus isolate LF12 cytochrome c oxidase subunit I (COI) gene, partial cds; mitochondrial",
+                  "taxid": 182801,
+                  "sciname": "Labeo fimbriatus"
+                }
+              ],
+              "len": 632,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 1116.5,
+                  "score": 604,
+                  "evalue": 0,
+                  "identity": 614,
+                  "query_from": 28,
+                  "query_to": 646,
+                  "query_strand": "Plus",
+                  "hit_from": 1,
+                  "hit_to": 619,
+                  "hit_strand": "Plus",
+                  "align_len": 619,
+                  "gaps": 0,
+                  "qseq": "AGTAGGAACCGCCTTAAGCCTTCTCATTCGGGTTGGACTAAGCCAACCCGGATCACTTCTAGGTGATGACCAAATTTATAATGTTATCGTAACTGCTCACGCCTTCGTAATTATTTTCTTTATAGTAATGCCTATCCTCATCGGAGGATTTGGAAACTGACTCGTGCCACTAATAATCGGAGCCCCAGACATGGCATTCCCTCGTATAAATAACATAAGCTTCTGACTCCTACCCCCATCATTCCTATTACTACTAGCCTCTTCTGGTGTAGAAGCTGGGGCTGGGACAGGATGAACAGTATATCCACCTCTTGCAGGCAACTTAGCTCACGCAGGAGCGTCAGTAGACCTAACAATTTTCTCACTCCATCTAGCAGGGGTTTCATCAATTCTAGGGGCTATTAATTTCATTACTACAACTATTAATATGAAACCTCCAGCCATCTCACAATACCAAACACCTTTATTCGTCTGATCCGTACTTGTAACCGCCGTACTACTTCTCCTATCACTACCAGTACTGGCCGCTGGCATCACAATGCTTTTAACAGATCGAAATCTAAATACTACATTCTTCGACCCGGCAGGGGGAGGAGACCCAATCCTTTACCAACACCTA",
+                  "hseq": "AGTAGGAACCGCCTTAAGCCTTCTCATTCGGGCTGAACTAAGCCAACCCGGATCACTTCTAGGTGATGACCAAATTTATAATGTTATCGTAACTGCTCACGCCTTCGTAATAATTTTCTTTATAGTAATGCCTATCCTCATCGGAGGATTTGGAAACTGACTCGTGCCACTAATGATCGGAGCCCCAGACATGGCATTCCCTCGTATAAATAACATAAGCTTCTGACTCCTGCCCCCATCATTCCTATTACTACTAGCCTCTTCTGGTGTAGAAGCTGGGGCTGGGACAGGATGAACAGTATATCCACCTCTTGCAGGCAACTTAGCTCACGCAGGAGCGTCAGTAGACCTAACAATTTTCTCACTCCATCTAGCAGGGGTTTCATCAATTCTAGGGGCTATTAATTTCATTACTACAACTATTAATATGAAACCTCCAGCCATCTCACAATACCAAACACCTTTATTCGTCTGATCCGTACTTGTAACCGCCGTACTACTTCTCCTATCACTACCAGTACTGGCCGCTGGCATCACAATGCTTTTAACAGATCGAAATCTAAATACTACATTCTTCGACCCGGCAGGGGGAGGAGACCCAATCCTTTACCAACACCTA",
+                  "midline": "|||||||||||||||||||||||||||||||| || ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| |||||||||||||||||||||||||||||||||||||||||||||||||||||||| |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||"
+                }
+              ]
+            },
+            {
+              "num": 19,
+              "description": [
+                {
+                  "id": "gi|3269657662|gb|PZ285842.1|",
+                  "accession": "PZ285842",
+                  "title": "Labeo rohita isolate Cfs1 cytochrome c oxidase subunit I (COX1) gene, partial cds; mitochondrial",
+                  "taxid": 84645,
+                  "sciname": "Labeo rohita"
+                }
+              ],
+              "len": 620,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 1107.26,
+                  "score": 599,
+                  "evalue": 0,
+                  "identity": 613,
+                  "query_from": 17,
+                  "query_to": 636,
+                  "query_strand": "Plus",
+                  "hit_from": 1,
+                  "hit_to": 620,
+                  "hit_strand": "Plus",
+                  "align_len": 620,
+                  "gaps": 0,
+                  "qseq": "TGAGCCGGATTAGTAGGAACCGCCTTAAGCCTTCTCATTCGGGTTGGACTAAGCCAACCCGGATCACTTCTAGGTGATGACCAAATTTATAATGTTATCGTAACTGCTCACGCCTTCGTAATTATTTTCTTTATAGTAATGCCTATCCTCATCGGAGGATTTGGAAACTGACTCGTGCCACTAATAATCGGAGCCCCAGACATGGCATTCCCTCGTATAAATAACATAAGCTTCTGACTCCTACCCCCATCATTCCTATTACTACTAGCCTCTTCTGGTGTAGAAGCTGGGGCTGGGACAGGATGAACAGTATATCCACCTCTTGCAGGCAACTTAGCTCACGCAGGAGCGTCAGTAGACCTAACAATTTTCTCACTCCATCTAGCAGGGGTTTCATCAATTCTAGGGGCTATTAATTTCATTACTACAACTATTAATATGAAACCTCCAGCCATCTCACAATACCAAACACCTTTATTCGTCTGATCCGTACTTGTAACCGCCGTACTACTTCTCCTATCACTACCAGTACTGGCCGCTGGCATCACAATGCTTTTAACAGATCGAAATCTAAATACTACATTCTTCGACCCGGCAGGGGGAGGAGACCCAATCCTTTA",
+                  "hseq": "TGAGCCGGATTAGTAGGAACCGCCTTAAGCCTTCTCATTCGGGTTGGACTAAGCCAACCCGGATCACTTCTAGGTGATGACCAAATTTATAATGTTATCGTAACTGCTCACGCCTTCGTAATTATTTTTTTTATAGTAATGCCAATCCTCATCGGAGGATTTGGAAACTGACTCGTGCCACTAATAATCGGAGCCCCAGACATGGCATTCCCTCGTATAAATAACATAAGCTTCTGACTCCTACCCCCATCATTCCTATTACTACTAGCCTCTTCTGGTGTAGAAGCTGGGGCTGGGACAGGATGAACAGTATATCCACCTCTTGCAGGCAACTTAGCTCCCGCAGGAGGGTCAGTAGACCAAACAATTTTCTCACTCCATCTAGCAGGGGTTTCATCAATTCTAGGGGCTATTAATTTCATTACTACAACTATTAATATGAAACCTCCAGCCATCTCACAATACCAAACACCTTTATTTGTCTGATCCGTACTTGTAACCGCCGTACTCCTTCTCCTATCACTACCAGTACTGGCCGCTGGCATCACAATGCTTTTAACAGATCGAAATCTAAATACTACATTCTTCGACCCGGCAGGGGGAGGAGACCCAATCCTTTA",
+                  "midline": "|||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| |||||||||||||| |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| |||||||| ||||||||||| ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| ||||||||||||||||||||||||||||| ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||"
+                }
+              ]
+            },
+            {
+              "num": 20,
+              "description": [
+                {
+                  "id": "gi|3328025703|gb|PZ374599.1|",
+                  "accession": "PZ374599",
+                  "title": "Labeo fimbriatus voucher FBRC/ZSI/F/7482 cytochrome c oxidase subunit I (COX1) gene, partial cds; mitochondrial",
+                  "taxid": 182801,
+                  "sciname": "Labeo fimbriatus"
+                }
+              ],
+              "len": 605,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 1096.18,
+                  "score": 593,
+                  "evalue": 0,
+                  "identity": 601,
+                  "query_from": 20,
+                  "query_to": 624,
+                  "query_strand": "Plus",
+                  "hit_from": 1,
+                  "hit_to": 605,
+                  "hit_strand": "Plus",
+                  "align_len": 605,
+                  "gaps": 0,
+                  "qseq": "GCCGGATTAGTAGGAACCGCCTTAAGCCTTCTCATTCGGGTTGGACTAAGCCAACCCGGATCACTTCTAGGTGATGACCAAATTTATAATGTTATCGTAACTGCTCACGCCTTCGTAATTATTTTCTTTATAGTAATGCCTATCCTCATCGGAGGATTTGGAAACTGACTCGTGCCACTAATAATCGGAGCCCCAGACATGGCATTCCCTCGTATAAATAACATAAGCTTCTGACTCCTACCCCCATCATTCCTATTACTACTAGCCTCTTCTGGTGTAGAAGCTGGGGCTGGGACAGGATGAACAGTATATCCACCTCTTGCAGGCAACTTAGCTCACGCAGGAGCGTCAGTAGACCTAACAATTTTCTCACTCCATCTAGCAGGGGTTTCATCAATTCTAGGGGCTATTAATTTCATTACTACAACTATTAATATGAAACCTCCAGCCATCTCACAATACCAAACACCTTTATTCGTCTGATCCGTACTTGTAACCGCCGTACTACTTCTCCTATCACTACCAGTACTGGCCGCTGGCATCACAATGCTTTTAACAGATCGAAATCTAAATACTACATTCTTCGACCCGGCAGGGGGAGGAGA",
+                  "hseq": "GCCGGAATAGTAGGAACCGCCTTAAGCCTTCTCATTCGGGCTGAACTAAGCCAACCCGGATCACTTCTAGGTGATGACCAAATTTATAATGTTATCGTAACTGCTCACGCCTTCGTAATAATTTTCTTTATAGTAATGCCTATCCTCATCGGAGGATTTGGAAACTGACTCGTGCCACTAATAATCGGAGCCCCAGACATGGCATTCCCTCGTATAAATAACATAAGCTTCTGACTCCTACCCCCATCATTCCTATTACTACTAGCCTCTTCTGGTGTAGAAGCTGGGGCTGGGACAGGATGAACAGTATATCCACCTCTTGCAGGCAACTTAGCTCACGCAGGAGCGTCAGTAGACCTAACAATTTTCTCACTCCATCTAGCAGGGGTTTCATCAATTCTAGGGGCTATTAATTTCATTACTACAACTATTAATATGAAACCTCCAGCCATCTCACAATACCAAACACCTTTATTCGTCTGATCCGTACTTGTAACCGCCGTACTACTTCTCCTATCACTACCAGTACTGGCCGCTGGCATCACAATGCTTTTAACAGATCGAAATCTAAATACTACATTCTTCGACCCGGCAGGGGGAGGAGA",
+                  "midline": "|||||| ||||||||||||||||||||||||||||||||| || ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||"
+                }
+              ]
+            }
+          ],
+          "stat": {
+            "db_num": 131120421,
+            "db_len": 1072517070989,
+            "hsp_len": 0,
+            "eff_space": 0,
+            "kappa": 0.46,
+            "lambda": 1.28,
+            "entropy": 0.85
+          }
+        }
+      }
+    }
+  }
+,
+{
+    "report": {
+      "program": "blastn",
+      "version": "BLASTN 2.17.0+",
+      "reference": "Zheng Zhang, Scott Schwartz, Lukas Wagner, and Webb Miller (2000), \"A greedy algorithm for aligning DNA sequences\", J Comput Biol 2000; 7(1-2):203-14.",
+      "search_target": {
+        "db": "core_nt"
+      },
+      "params": {
+        "expect": 10,
+        "sc_match": 1,
+        "sc_mismatch": -2,
+        "gap_open": 0,
+        "gap_extend": 0,
+        "filter": "L;m;"
+      },
+      "results": {
+        "search": {
+          "query_id": "Query_2202358",
+          "query_title": "OQ880720.1 Cyprinus carpio voucher CHK1615 cytochrome c oxidase subunit I (COX1) gene, partial cds; mitochondrial",
+          "query_len": 618,
+          "hits": [
+            {
+              "num": 1,
+              "description": [
+                {
+                  "id": "gi|2497601983|gb|OQ880720.1|",
+                  "accession": "OQ880720",
+                  "title": "Cyprinus carpio voucher CHK1615 cytochrome c oxidase subunit I (COX1) gene, partial cds; mitochondrial",
+                  "taxid": 7962,
+                  "sciname": "Cyprinus carpio"
+                }
+              ],
+              "len": 618,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 1142.35,
+                  "score": 618,
+                  "evalue": 0,
+                  "identity": 618,
+                  "query_from": 1,
+                  "query_to": 618,
+                  "query_strand": "Plus",
+                  "hit_from": 1,
+                  "hit_to": 618,
+                  "hit_strand": "Plus",
+                  "align_len": 618,
+                  "gaps": 0,
+                  "qseq": "AAAGACATCGGCACCCTTTACATAGTATTCGGTGCTTGAGCAGGAATAATCGGCACAGCCCTGAGCCTTTTAATCCGAGCAGAGCTAAGCCAACCAGGAGCACTCCTAGGAGATGACCAAATCTATAACGTCATCGTCACTGCACATGCTTTTGTAATAATTTTCTTCATAGTAATACCTATCCTAATCGGAGGCTTTGGGAACTGACTTGTACCTCTTATAGTCGGGGCCCCAGATATGGCATTCCCACGAATGAATAACATGAGCTTCTGACTACTACCCCCTTCATTCCTCCTTTTATTAGCCTCCTCTGGAGTTGAAGCAGGAGCAGGAACTGGATGAACAGTTTACCCCCCTCTAGCAGGGAATCTTGCACATGCTGGCGCTTCAGTTGACCTGGCCATTTTTTCTCTCCACTTAGCAGGTATCTCCTCAATTTTAGGGGCTATTAACTTTATTACCACAATCATCAACATGAAGCCCCCAGCAATCTCACAATATCAAACACCTCTCTTTGTCTGAGCTGTGCTTGTAACAGCCGTACTTCTTCTCCTCTCACTTCCTGTGCTAGCCGCTGGGATTACTATGCTGCTAACAGATCGTAATCTAAACACCACA",
+                  "hseq": "AAAGACATCGGCACCCTTTACATAGTATTCGGTGCTTGAGCAGGAATAATCGGCACAGCCCTGAGCCTTTTAATCCGAGCAGAGCTAAGCCAACCAGGAGCACTCCTAGGAGATGACCAAATCTATAACGTCATCGTCACTGCACATGCTTTTGTAATAATTTTCTTCATAGTAATACCTATCCTAATCGGAGGCTTTGGGAACTGACTTGTACCTCTTATAGTCGGGGCCCCAGATATGGCATTCCCACGAATGAATAACATGAGCTTCTGACTACTACCCCCTTCATTCCTCCTTTTATTAGCCTCCTCTGGAGTTGAAGCAGGAGCAGGAACTGGATGAACAGTTTACCCCCCTCTAGCAGGGAATCTTGCACATGCTGGCGCTTCAGTTGACCTGGCCATTTTTTCTCTCCACTTAGCAGGTATCTCCTCAATTTTAGGGGCTATTAACTTTATTACCACAATCATCAACATGAAGCCCCCAGCAATCTCACAATATCAAACACCTCTCTTTGTCTGAGCTGTGCTTGTAACAGCCGTACTTCTTCTCCTCTCACTTCCTGTGCTAGCCGCTGGGATTACTATGCTGCTAACAGATCGTAATCTAAACACCACA",
+                  "midline": "||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||"
+                }
+              ]
+            },
+            {
+              "num": 2,
+              "description": [
+                {
+                  "id": "gi|1530728067|gb|MG462794.1|",
+                  "accession": "MG462794",
+                  "title": "Dussumieria acuta voucher DA-25 cytochrome oxidase subunit 1 (COI) gene, partial cds; mitochondrial",
+                  "taxid": 435149,
+                  "sciname": "Dussumieria acuta"
+                }
+              ],
+              "len": 636,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 1134.96,
+                  "score": 614,
+                  "evalue": 0,
+                  "identity": 616,
+                  "query_from": 1,
+                  "query_to": 617,
+                  "query_strand": "Plus",
+                  "hit_from": 2,
+                  "hit_to": 618,
+                  "hit_strand": "Plus",
+                  "align_len": 617,
+                  "gaps": 0,
+                  "qseq": "AAAGACATCGGCACCCTTTACATAGTATTCGGTGCTTGAGCAGGAATAATCGGCACAGCCCTGAGCCTTTTAATCCGAGCAGAGCTAAGCCAACCAGGAGCACTCCTAGGAGATGACCAAATCTATAACGTCATCGTCACTGCACATGCTTTTGTAATAATTTTCTTCATAGTAATACCTATCCTAATCGGAGGCTTTGGGAACTGACTTGTACCTCTTATAGTCGGGGCCCCAGATATGGCATTCCCACGAATGAATAACATGAGCTTCTGACTACTACCCCCTTCATTCCTCCTTTTATTAGCCTCCTCTGGAGTTGAAGCAGGAGCAGGAACTGGATGAACAGTTTACCCCCCTCTAGCAGGGAATCTTGCACATGCTGGCGCTTCAGTTGACCTGGCCATTTTTTCTCTCCACTTAGCAGGTATCTCCTCAATTTTAGGGGCTATTAACTTTATTACCACAATCATCAACATGAAGCCCCCAGCAATCTCACAATATCAAACACCTCTCTTTGTCTGAGCTGTGCTTGTAACAGCCGTACTTCTTCTCCTCTCACTTCCTGTGCTAGCCGCTGGGATTACTATGCTGCTAACAGATCGTAATCTAAACACCAC",
+                  "hseq": "AAAGACATCGGCACCCTTTACATAGTATTCGGTGCTTGAGCAGGGATAATCGGCACAGCCCTGAGCCTTTTAATCCGAGCAGAGCTAAGCCAACCAGGAGCACTCCTAGGAGATGACCAAATCTATAACGTCATCGTCACTGCACATGCTTTTGTAATAATTTTCTTCATAGTAATACCTATCCTAATCGGAGGCTTTGGGAACTGACTTGTACCTCTTATAGTCGGGGCCCCAGATATGGCATTCCCACGAATGAATAACATGAGCTTCTGACTACTACCCCCTTCATTCCTCCTTTTATTAGCCTCCTCTGGAGTTGAAGCAGGAGCAGGAACTGGATGAACAGTTTACCCCCCTCTAGCAGGGAATCTTGCACATGCTGGCGCTTCAGTTGACCTGGCCATTTTTTCTCTCCACTTAGCAGGTATCTCCTCAATTTTAGGGGCTATTAACTTTATTACCACAATCATCAACATGAAGCCCCCAGCAATCTCACAATATCAAACACCTCTCTTTGTCTGAGCTGTGCTTGTAACAGCCGTACTTCTTCTCCTCTCACTTCCTGTGCTAGCCGCTGGGATTACTATGCTGCTAACAGATCGTAATCTAAACACCAC",
+                  "midline": "|||||||||||||||||||||||||||||||||||||||||||| ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||"
+                }
+              ]
+            },
+            {
+              "num": 3,
+              "description": [
+                {
+                  "id": "gi|1530728065|gb|MG462793.1|",
+                  "accession": "MG462793",
+                  "title": "Dussumieria acuta voucher DA-26 cytochrome oxidase subunit 1 (COI) gene, partial cds; mitochondrial",
+                  "taxid": 435149,
+                  "sciname": "Dussumieria acuta"
+                }
+              ],
+              "len": 684,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 1134.96,
+                  "score": 614,
+                  "evalue": 0,
+                  "identity": 616,
+                  "query_from": 1,
+                  "query_to": 617,
+                  "query_strand": "Plus",
+                  "hit_from": 2,
+                  "hit_to": 618,
+                  "hit_strand": "Plus",
+                  "align_len": 617,
+                  "gaps": 0,
+                  "qseq": "AAAGACATCGGCACCCTTTACATAGTATTCGGTGCTTGAGCAGGAATAATCGGCACAGCCCTGAGCCTTTTAATCCGAGCAGAGCTAAGCCAACCAGGAGCACTCCTAGGAGATGACCAAATCTATAACGTCATCGTCACTGCACATGCTTTTGTAATAATTTTCTTCATAGTAATACCTATCCTAATCGGAGGCTTTGGGAACTGACTTGTACCTCTTATAGTCGGGGCCCCAGATATGGCATTCCCACGAATGAATAACATGAGCTTCTGACTACTACCCCCTTCATTCCTCCTTTTATTAGCCTCCTCTGGAGTTGAAGCAGGAGCAGGAACTGGATGAACAGTTTACCCCCCTCTAGCAGGGAATCTTGCACATGCTGGCGCTTCAGTTGACCTGGCCATTTTTTCTCTCCACTTAGCAGGTATCTCCTCAATTTTAGGGGCTATTAACTTTATTACCACAATCATCAACATGAAGCCCCCAGCAATCTCACAATATCAAACACCTCTCTTTGTCTGAGCTGTGCTTGTAACAGCCGTACTTCTTCTCCTCTCACTTCCTGTGCTAGCCGCTGGGATTACTATGCTGCTAACAGATCGTAATCTAAACACCAC",
+                  "hseq": "AAAGACATCGGCACCCTTTACATAGTATTCGGTGCTTGAGCAGGGATAATCGGCACAGCCCTGAGCCTTTTAATCCGAGCAGAGCTAAGCCAACCAGGAGCACTCCTAGGAGATGACCAAATCTATAACGTCATCGTCACTGCACATGCTTTTGTAATAATTTTCTTCATAGTAATACCTATCCTAATCGGAGGCTTTGGGAACTGACTTGTACCTCTTATAGTCGGGGCCCCAGATATGGCATTCCCACGAATGAATAACATGAGCTTCTGACTACTACCCCCTTCATTCCTCCTTTTATTAGCCTCCTCTGGAGTTGAAGCAGGAGCAGGAACTGGATGAACAGTTTACCCCCCTCTAGCAGGGAATCTTGCACATGCTGGCGCTTCAGTTGACCTGGCCATTTTTTCTCTCCACTTAGCAGGTATCTCCTCAATTTTAGGGGCTATTAACTTTATTACCACAATCATCAACATGAAGCCCCCAGCAATCTCACAATATCAAACACCTCTCTTTGTCTGAGCTGTGCTTGTAACAGCCGTACTTCTTCTCCTCTCACTTCCTGTGCTAGCCGCTGGGATTACTATGCTGCTAACAGATCGTAATCTAAACACCAC",
+                  "midline": "|||||||||||||||||||||||||||||||||||||||||||| ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||"
+                }
+              ]
+            },
+            {
+              "num": 4,
+              "description": [
+                {
+                  "id": "gi|563599608|gb|KF693762.1|",
+                  "accession": "KF693762",
+                  "title": "Dussumieria acuta voucher CL-09 cytochrome c oxidase subunit I (COI) gene, complete cds; mitochondrial",
+                  "taxid": 435149,
+                  "sciname": "Dussumieria acuta"
+                }
+              ],
+              "len": 1546,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 1129.42,
+                  "score": 611,
+                  "evalue": 0,
+                  "identity": 615,
+                  "query_from": 1,
+                  "query_to": 617,
+                  "query_strand": "Plus",
+                  "hit_from": 37,
+                  "hit_to": 653,
+                  "hit_strand": "Plus",
+                  "align_len": 617,
+                  "gaps": 0,
+                  "qseq": "AAAGACATCGGCACCCTTTACATAGTATTCGGTGCTTGAGCAGGAATAATCGGCACAGCCCTGAGCCTTTTAATCCGAGCAGAGCTAAGCCAACCAGGAGCACTCCTAGGAGATGACCAAATCTATAACGTCATCGTCACTGCACATGCTTTTGTAATAATTTTCTTCATAGTAATACCTATCCTAATCGGAGGCTTTGGGAACTGACTTGTACCTCTTATAGTCGGGGCCCCAGATATGGCATTCCCACGAATGAATAACATGAGCTTCTGACTACTACCCCCTTCATTCCTCCTTTTATTAGCCTCCTCTGGAGTTGAAGCAGGAGCAGGAACTGGATGAACAGTTTACCCCCCTCTAGCAGGGAATCTTGCACATGCTGGCGCTTCAGTTGACCTGGCCATTTTTTCTCTCCACTTAGCAGGTATCTCCTCAATTTTAGGGGCTATTAACTTTATTACCACAATCATCAACATGAAGCCCCCAGCAATCTCACAATATCAAACACCTCTCTTTGTCTGAGCTGTGCTTGTAACAGCCGTACTTCTTCTCCTCTCACTTCCTGTGCTAGCCGCTGGGATTACTATGCTGCTAACAGATCGTAATCTAAACACCAC",
+                  "hseq": "AAAGACATCGGCACCCTTTACATAGTATTCGGTGCTTGAGCAGGGATAATCGGCACAGCCCTGAGCCTTTTAATCCGAGCAGAGCTAAGCCAACCAGGAGCACTCCTAGGAGATGACCAAATCTATAACGTCATCGTCACTGCACATGCTTTTGTAATAATTTTCTTCATAGTAATACCTATCCTAATCGGAGGCTTTGGGAACTGACTTGTGCCTCTTATAGTCGGGGCCCCAGATATGGCATTCCCACGAATGAATAACATGAGCTTCTGACTACTACCCCCTTCATTCCTCCTTTTATTAGCCTCCTCTGGAGTTGAAGCAGGAGCAGGAACTGGATGAACAGTTTACCCCCCTCTAGCAGGGAATCTTGCACATGCTGGCGCTTCAGTTGACCTGGCCATTTTTTCTCTCCACTTAGCAGGTATCTCCTCAATTTTAGGGGCTATTAACTTTATTACCACAATCATCAACATGAAGCCCCCAGCAATCTCACAATATCAAACACCTCTCTTTGTCTGAGCTGTGCTTGTAACAGCCGTACTTCTTCTCCTCTCACTTCCTGTGCTAGCCGCTGGGATTACTATGCTGCTAACAGATCGTAATCTAAACACCAC",
+                  "midline": "|||||||||||||||||||||||||||||||||||||||||||| ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||"
+                }
+              ]
+            },
+            {
+              "num": 5,
+              "description": [
+                {
+                  "id": "gi|1206255084|ref|NC_035063.1|",
+                  "accession": "NC_035063",
+                  "title": "Dussumieria elopsoides mitochondrion, complete genome",
+                  "taxid": 454028,
+                  "sciname": "Dussumieria elopsoides"
+                },
+                {
+                  "id": "gi|1198362592|dbj|AP017946.1|",
+                  "accession": "AP017946",
+                  "title": "Dussumieria elopsoides mitochondrial DNA, complete sequence, specimen_voucher: KAUM:I:62999",
+                  "taxid": 454028,
+                  "sciname": "Dussumieria elopsoides"
+                }
+              ],
+              "len": 16819,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 1118.34,
+                  "score": 605,
+                  "evalue": 0,
+                  "identity": 613,
+                  "query_from": 1,
+                  "query_to": 617,
+                  "query_strand": "Plus",
+                  "hit_from": 5550,
+                  "hit_to": 6166,
+                  "hit_strand": "Plus",
+                  "align_len": 617,
+                  "gaps": 0,
+                  "qseq": "AAAGACATCGGCACCCTTTACATAGTATTCGGTGCTTGAGCAGGAATAATCGGCACAGCCCTGAGCCTTTTAATCCGAGCAGAGCTAAGCCAACCAGGAGCACTCCTAGGAGATGACCAAATCTATAACGTCATCGTCACTGCACATGCTTTTGTAATAATTTTCTTCATAGTAATACCTATCCTAATCGGAGGCTTTGGGAACTGACTTGTACCTCTTATAGTCGGGGCCCCAGATATGGCATTCCCACGAATGAATAACATGAGCTTCTGACTACTACCCCCTTCATTCCTCCTTTTATTAGCCTCCTCTGGAGTTGAAGCAGGAGCAGGAACTGGATGAACAGTTTACCCCCCTCTAGCAGGGAATCTTGCACATGCTGGCGCTTCAGTTGACCTGGCCATTTTTTCTCTCCACTTAGCAGGTATCTCCTCAATTTTAGGGGCTATTAACTTTATTACCACAATCATCAACATGAAGCCCCCAGCAATCTCACAATATCAAACACCTCTCTTTGTCTGAGCTGTGCTTGTAACAGCCGTACTTCTTCTCCTCTCACTTCCTGTGCTAGCCGCTGGGATTACTATGCTGCTAACAGATCGTAATCTAAACACCAC",
+                  "hseq": "AAAGACATCGGCACCCTTTACATAGTATTCGGTGCTTGAGCAGGAATAATCGGCACAGCCCTGAGCCTTTTAATCCGAGCAGAGCTAAGCCAACCAGGAGCACTCCTAGGAGATGACCAAATCTATAACGTCATCGTCACTGCACATGCTTTTGTAATAATTTTCTTCATAGTAATACCCATCCTAATCGGAGGCTTTGGGAACTGACTTGTGCCTCTTATAGTCGGGGCCCCAGATATGGCATTCCCACGAATGAATAACATGAGCTTCTGACTACTACCCCCTTCATTCCTCCTTTTATTAGCCTCCTCTGGAGTTGAAGCAGGAGCAGGAACTGGATGAACAGTTTACCCCCCTCTAGCAGGGAATCTCGCACATGCTGGCGCTTCAGTTGACCTGGCCATTTTTTCTCTCCACTTAGCAGGTATCTCCTCAATTTTAGGGGCTATTAACTTTATTACCACAATTATCAACATGAAGCCCCCAGCAATCTCACAATATCAAACACCTCTCTTTGTCTGAGCTGTGCTTGTAACAGCCGTACTTCTTCTCCTCTCACTTCCTGTGCTAGCCGCTGGGATTACTATGCTGCTAACAGATCGTAATCTAAACACCAC",
+                  "midline": "||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| |||||||||||||||||||||||||||||||| |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||"
+                }
+              ]
+            },
+            {
+              "num": 6,
+              "description": [
+                {
+                  "id": "gi|1880163449|gb|MT803582.1|",
+                  "accession": "MT803582",
+                  "title": "Dussumieria elopsoides voucher TTP137 cytochrome c oxidase subunit I (COX1) gene, partial cds; mitochondrial",
+                  "taxid": 454028,
+                  "sciname": "Dussumieria elopsoides"
+                }
+              ],
+              "len": 655,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 1109.11,
+                  "score": 600,
+                  "evalue": 0,
+                  "identity": 602,
+                  "query_from": 15,
+                  "query_to": 617,
+                  "query_strand": "Plus",
+                  "hit_from": 1,
+                  "hit_to": 603,
+                  "hit_strand": "Plus",
+                  "align_len": 603,
+                  "gaps": 0,
+                  "qseq": "CCTTTACATAGTATTCGGTGCTTGAGCAGGAATAATCGGCACAGCCCTGAGCCTTTTAATCCGAGCAGAGCTAAGCCAACCAGGAGCACTCCTAGGAGATGACCAAATCTATAACGTCATCGTCACTGCACATGCTTTTGTAATAATTTTCTTCATAGTAATACCTATCCTAATCGGAGGCTTTGGGAACTGACTTGTACCTCTTATAGTCGGGGCCCCAGATATGGCATTCCCACGAATGAATAACATGAGCTTCTGACTACTACCCCCTTCATTCCTCCTTTTATTAGCCTCCTCTGGAGTTGAAGCAGGAGCAGGAACTGGATGAACAGTTTACCCCCCTCTAGCAGGGAATCTTGCACATGCTGGCGCTTCAGTTGACCTGGCCATTTTTTCTCTCCACTTAGCAGGTATCTCCTCAATTTTAGGGGCTATTAACTTTATTACCACAATCATCAACATGAAGCCCCCAGCAATCTCACAATATCAAACACCTCTCTTTGTCTGAGCTGTGCTTGTAACAGCCGTACTTCTTCTCCTCTCACTTCCTGTGCTAGCCGCTGGGATTACTATGCTGCTAACAGATCGTAATCTAAACACCAC",
+                  "hseq": "CCTTTACATAGTATTCGGTGCTTGAGCAGGGATAATCGGCACAGCCCTGAGCCTTTTAATCCGAGCAGAGCTAAGCCAACCAGGAGCACTCCTAGGAGATGACCAAATCTATAACGTCATCGTCACTGCACATGCTTTTGTAATAATTTTCTTCATAGTAATACCTATCCTAATCGGAGGCTTTGGGAACTGACTTGTACCTCTTATAGTCGGGGCCCCAGATATGGCATTCCCACGAATGAATAACATGAGCTTCTGACTACTACCCCCTTCATTCCTCCTTTTATTAGCCTCCTCTGGAGTTGAAGCAGGAGCAGGAACTGGATGAACAGTTTACCCCCCTCTAGCAGGGAATCTTGCACATGCTGGCGCTTCAGTTGACCTGGCCATTTTTTCTCTCCACTTAGCAGGTATCTCCTCAATTTTAGGGGCTATTAACTTTATTACCACAATCATCAACATGAAGCCCCCAGCAATCTCACAATATCAAACACCTCTCTTTGTCTGAGCTGTGCTTGTAACAGCCGTACTTCTTCTCCTCTCACTTCCTGTGCTAGCCGCTGGGATTACTATGCTGCTAACAGATCGTAATCTAAACACCAC",
+                  "midline": "|||||||||||||||||||||||||||||| ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||"
+                }
+              ]
+            },
+            {
+              "num": 7,
+              "description": [
+                {
+                  "id": "gi|1880163441|gb|MT803578.1|",
+                  "accession": "MT803578",
+                  "title": "Dussumieria elopsoides voucher TKC156 cytochrome c oxidase subunit I (COX1) gene, partial cds; mitochondrial",
+                  "taxid": 454028,
+                  "sciname": "Dussumieria elopsoides"
+                }
+              ],
+              "len": 655,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 1109.11,
+                  "score": 600,
+                  "evalue": 0,
+                  "identity": 602,
+                  "query_from": 15,
+                  "query_to": 617,
+                  "query_strand": "Plus",
+                  "hit_from": 1,
+                  "hit_to": 603,
+                  "hit_strand": "Plus",
+                  "align_len": 603,
+                  "gaps": 0,
+                  "qseq": "CCTTTACATAGTATTCGGTGCTTGAGCAGGAATAATCGGCACAGCCCTGAGCCTTTTAATCCGAGCAGAGCTAAGCCAACCAGGAGCACTCCTAGGAGATGACCAAATCTATAACGTCATCGTCACTGCACATGCTTTTGTAATAATTTTCTTCATAGTAATACCTATCCTAATCGGAGGCTTTGGGAACTGACTTGTACCTCTTATAGTCGGGGCCCCAGATATGGCATTCCCACGAATGAATAACATGAGCTTCTGACTACTACCCCCTTCATTCCTCCTTTTATTAGCCTCCTCTGGAGTTGAAGCAGGAGCAGGAACTGGATGAACAGTTTACCCCCCTCTAGCAGGGAATCTTGCACATGCTGGCGCTTCAGTTGACCTGGCCATTTTTTCTCTCCACTTAGCAGGTATCTCCTCAATTTTAGGGGCTATTAACTTTATTACCACAATCATCAACATGAAGCCCCCAGCAATCTCACAATATCAAACACCTCTCTTTGTCTGAGCTGTGCTTGTAACAGCCGTACTTCTTCTCCTCTCACTTCCTGTGCTAGCCGCTGGGATTACTATGCTGCTAACAGATCGTAATCTAAACACCAC",
+                  "hseq": "CCTTTACATAGTATTCGGTGCTTGAGCAGGGATAATCGGCACAGCCCTGAGCCTTTTAATCCGAGCAGAGCTAAGCCAACCAGGAGCACTCCTAGGAGATGACCAAATCTATAACGTCATCGTCACTGCACATGCTTTTGTAATAATTTTCTTCATAGTAATACCTATCCTAATCGGAGGCTTTGGGAACTGACTTGTACCTCTTATAGTCGGGGCCCCAGATATGGCATTCCCACGAATGAATAACATGAGCTTCTGACTACTACCCCCTTCATTCCTCCTTTTATTAGCCTCCTCTGGAGTTGAAGCAGGAGCAGGAACTGGATGAACAGTTTACCCCCCTCTAGCAGGGAATCTTGCACATGCTGGCGCTTCAGTTGACCTGGCCATTTTTTCTCTCCACTTAGCAGGTATCTCCTCAATTTTAGGGGCTATTAACTTTATTACCACAATCATCAACATGAAGCCCCCAGCAATCTCACAATATCAAACACCTCTCTTTGTCTGAGCTGTGCTTGTAACAGCCGTACTTCTTCTCCTCTCACTTCCTGTGCTAGCCGCTGGGATTACTATGCTGCTAACAGATCGTAATCTAAACACCAC",
+                  "midline": "|||||||||||||||||||||||||||||| ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||"
+                }
+              ]
+            },
+            {
+              "num": 8,
+              "description": [
+                {
+                  "id": "gi|1880163435|gb|MT803575.1|",
+                  "accession": "MT803575",
+                  "title": "Dussumieria elopsoides voucher TCP1125 cytochrome c oxidase subunit I (COX1) gene, partial cds; mitochondrial",
+                  "taxid": 454028,
+                  "sciname": "Dussumieria elopsoides"
+                }
+              ],
+              "len": 655,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 1109.11,
+                  "score": 600,
+                  "evalue": 0,
+                  "identity": 602,
+                  "query_from": 15,
+                  "query_to": 617,
+                  "query_strand": "Plus",
+                  "hit_from": 1,
+                  "hit_to": 603,
+                  "hit_strand": "Plus",
+                  "align_len": 603,
+                  "gaps": 0,
+                  "qseq": "CCTTTACATAGTATTCGGTGCTTGAGCAGGAATAATCGGCACAGCCCTGAGCCTTTTAATCCGAGCAGAGCTAAGCCAACCAGGAGCACTCCTAGGAGATGACCAAATCTATAACGTCATCGTCACTGCACATGCTTTTGTAATAATTTTCTTCATAGTAATACCTATCCTAATCGGAGGCTTTGGGAACTGACTTGTACCTCTTATAGTCGGGGCCCCAGATATGGCATTCCCACGAATGAATAACATGAGCTTCTGACTACTACCCCCTTCATTCCTCCTTTTATTAGCCTCCTCTGGAGTTGAAGCAGGAGCAGGAACTGGATGAACAGTTTACCCCCCTCTAGCAGGGAATCTTGCACATGCTGGCGCTTCAGTTGACCTGGCCATTTTTTCTCTCCACTTAGCAGGTATCTCCTCAATTTTAGGGGCTATTAACTTTATTACCACAATCATCAACATGAAGCCCCCAGCAATCTCACAATATCAAACACCTCTCTTTGTCTGAGCTGTGCTTGTAACAGCCGTACTTCTTCTCCTCTCACTTCCTGTGCTAGCCGCTGGGATTACTATGCTGCTAACAGATCGTAATCTAAACACCAC",
+                  "hseq": "CCTTTACATAGTATTCGGTGCTTGAGCAGGGATAATCGGCACAGCCCTGAGCCTTTTAATCCGAGCAGAGCTAAGCCAACCAGGAGCACTCCTAGGAGATGACCAAATCTATAACGTCATCGTCACTGCACATGCTTTTGTAATAATTTTCTTCATAGTAATACCTATCCTAATCGGAGGCTTTGGGAACTGACTTGTACCTCTTATAGTCGGGGCCCCAGATATGGCATTCCCACGAATGAATAACATGAGCTTCTGACTACTACCCCCTTCATTCCTCCTTTTATTAGCCTCCTCTGGAGTTGAAGCAGGAGCAGGAACTGGATGAACAGTTTACCCCCCTCTAGCAGGGAATCTTGCACATGCTGGCGCTTCAGTTGACCTGGCCATTTTTTCTCTCCACTTAGCAGGTATCTCCTCAATTTTAGGGGCTATTAACTTTATTACCACAATCATCAACATGAAGCCCCCAGCAATCTCACAATATCAAACACCTCTCTTTGTCTGAGCTGTGCTTGTAACAGCCGTACTTCTTCTCCTCTCACTTCCTGTGCTAGCCGCTGGGATTACTATGCTGCTAACAGATCGTAATCTAAACACCAC",
+                  "midline": "|||||||||||||||||||||||||||||| ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||"
+                }
+              ]
+            },
+            {
+              "num": 9,
+              "description": [
+                {
+                  "id": "gi|1880163433|gb|MT803574.1|",
+                  "accession": "MT803574",
+                  "title": "Dussumieria elopsoides voucher TCC283 cytochrome c oxidase subunit I (COX1) gene, partial cds; mitochondrial",
+                  "taxid": 454028,
+                  "sciname": "Dussumieria elopsoides"
+                }
+              ],
+              "len": 655,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 1109.11,
+                  "score": 600,
+                  "evalue": 0,
+                  "identity": 602,
+                  "query_from": 15,
+                  "query_to": 617,
+                  "query_strand": "Plus",
+                  "hit_from": 1,
+                  "hit_to": 603,
+                  "hit_strand": "Plus",
+                  "align_len": 603,
+                  "gaps": 0,
+                  "qseq": "CCTTTACATAGTATTCGGTGCTTGAGCAGGAATAATCGGCACAGCCCTGAGCCTTTTAATCCGAGCAGAGCTAAGCCAACCAGGAGCACTCCTAGGAGATGACCAAATCTATAACGTCATCGTCACTGCACATGCTTTTGTAATAATTTTCTTCATAGTAATACCTATCCTAATCGGAGGCTTTGGGAACTGACTTGTACCTCTTATAGTCGGGGCCCCAGATATGGCATTCCCACGAATGAATAACATGAGCTTCTGACTACTACCCCCTTCATTCCTCCTTTTATTAGCCTCCTCTGGAGTTGAAGCAGGAGCAGGAACTGGATGAACAGTTTACCCCCCTCTAGCAGGGAATCTTGCACATGCTGGCGCTTCAGTTGACCTGGCCATTTTTTCTCTCCACTTAGCAGGTATCTCCTCAATTTTAGGGGCTATTAACTTTATTACCACAATCATCAACATGAAGCCCCCAGCAATCTCACAATATCAAACACCTCTCTTTGTCTGAGCTGTGCTTGTAACAGCCGTACTTCTTCTCCTCTCACTTCCTGTGCTAGCCGCTGGGATTACTATGCTGCTAACAGATCGTAATCTAAACACCAC",
+                  "hseq": "CCTTTACATAGTATTCGGTGCTTGAGCAGGGATAATCGGCACAGCCCTGAGCCTTTTAATCCGAGCAGAGCTAAGCCAACCAGGAGCACTCCTAGGAGATGACCAAATCTATAACGTCATCGTCACTGCACATGCTTTTGTAATAATTTTCTTCATAGTAATACCTATCCTAATCGGAGGCTTTGGGAACTGACTTGTACCTCTTATAGTCGGGGCCCCAGATATGGCATTCCCACGAATGAATAACATGAGCTTCTGACTACTACCCCCTTCATTCCTCCTTTTATTAGCCTCCTCTGGAGTTGAAGCAGGAGCAGGAACTGGATGAACAGTTTACCCCCCTCTAGCAGGGAATCTTGCACATGCTGGCGCTTCAGTTGACCTGGCCATTTTTTCTCTCCACTTAGCAGGTATCTCCTCAATTTTAGGGGCTATTAACTTTATTACCACAATCATCAACATGAAGCCCCCAGCAATCTCACAATATCAAACACCTCTCTTTGTCTGAGCTGTGCTTGTAACAGCCGTACTTCTTCTCCTCTCACTTCCTGTGCTAGCCGCTGGGATTACTATGCTGCTAACAGATCGTAATCTAAACACCAC",
+                  "midline": "|||||||||||||||||||||||||||||| ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||"
+                }
+              ]
+            },
+            {
+              "num": 10,
+              "description": [
+                {
+                  "id": "gi|1584453517|gb|MH380303.1|",
+                  "accession": "MH380303",
+                  "title": "Dussumieria elopsoides isolate SRI09 cytochrome c oxidase subunit I gene, partial cds; mitochondrial.",
+                  "taxid": 454028,
+                  "sciname": "Dussumieria elopsoides"
+                }
+              ],
+              "len": 648,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 1107.26,
+                  "score": 599,
+                  "evalue": 0,
+                  "identity": 601,
+                  "query_from": 16,
+                  "query_to": 617,
+                  "query_strand": "Plus",
+                  "hit_from": 1,
+                  "hit_to": 602,
+                  "hit_strand": "Plus",
+                  "align_len": 602,
+                  "gaps": 0,
+                  "qseq": "CTTTACATAGTATTCGGTGCTTGAGCAGGAATAATCGGCACAGCCCTGAGCCTTTTAATCCGAGCAGAGCTAAGCCAACCAGGAGCACTCCTAGGAGATGACCAAATCTATAACGTCATCGTCACTGCACATGCTTTTGTAATAATTTTCTTCATAGTAATACCTATCCTAATCGGAGGCTTTGGGAACTGACTTGTACCTCTTATAGTCGGGGCCCCAGATATGGCATTCCCACGAATGAATAACATGAGCTTCTGACTACTACCCCCTTCATTCCTCCTTTTATTAGCCTCCTCTGGAGTTGAAGCAGGAGCAGGAACTGGATGAACAGTTTACCCCCCTCTAGCAGGGAATCTTGCACATGCTGGCGCTTCAGTTGACCTGGCCATTTTTTCTCTCCACTTAGCAGGTATCTCCTCAATTTTAGGGGCTATTAACTTTATTACCACAATCATCAACATGAAGCCCCCAGCAATCTCACAATATCAAACACCTCTCTTTGTCTGAGCTGTGCTTGTAACAGCCGTACTTCTTCTCCTCTCACTTCCTGTGCTAGCCGCTGGGATTACTATGCTGCTAACAGATCGTAATCTAAACACCAC",
+                  "hseq": "CTTTACATAGTATTCGGTGCTTGAGCAGGGATAATCGGCACAGCCCTGAGCCTTTTAATCCGAGCAGAGCTAAGCCAACCAGGAGCACTCCTAGGAGATGACCAAATCTATAACGTCATCGTCACTGCACATGCTTTTGTAATAATTTTCTTCATAGTAATACCTATCCTAATCGGAGGCTTTGGGAACTGACTTGTACCTCTTATAGTCGGGGCCCCAGATATGGCATTCCCACGAATGAATAACATGAGCTTCTGACTACTACCCCCTTCATTCCTCCTTTTATTAGCCTCCTCTGGAGTTGAAGCAGGAGCAGGAACTGGATGAACAGTTTACCCCCCTCTAGCAGGGAATCTTGCACATGCTGGCGCTTCAGTTGACCTGGCCATTTTTTCTCTCCACTTAGCAGGTATCTCCTCAATTTTAGGGGCTATTAACTTTATTACCACAATCATCAACATGAAGCCCCCAGCAATCTCACAATATCAAACACCTCTCTTTGTCTGAGCTGTGCTTGTAACAGCCGTACTTCTTCTCCTCTCACTTCCTGTGCTAGCCGCTGGGATTACTATGCTGCTAACAGATCGTAATCTAAACACCAC",
+                  "midline": "||||||||||||||||||||||||||||| ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||"
+                }
+              ]
+            },
+            {
+              "num": 11,
+              "description": [
+                {
+                  "id": "gi|1584453511|gb|MH380300.1|",
+                  "accession": "MH380300",
+                  "title": "Dussumieria elopsoides isolate Ra98 cytochrome c oxidase subunit I gene, partial cds; mitochondrial.",
+                  "taxid": 454028,
+                  "sciname": "Dussumieria elopsoides"
+                }
+              ],
+              "len": 648,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 1107.26,
+                  "score": 599,
+                  "evalue": 0,
+                  "identity": 601,
+                  "query_from": 16,
+                  "query_to": 617,
+                  "query_strand": "Plus",
+                  "hit_from": 1,
+                  "hit_to": 602,
+                  "hit_strand": "Plus",
+                  "align_len": 602,
+                  "gaps": 0,
+                  "qseq": "CTTTACATAGTATTCGGTGCTTGAGCAGGAATAATCGGCACAGCCCTGAGCCTTTTAATCCGAGCAGAGCTAAGCCAACCAGGAGCACTCCTAGGAGATGACCAAATCTATAACGTCATCGTCACTGCACATGCTTTTGTAATAATTTTCTTCATAGTAATACCTATCCTAATCGGAGGCTTTGGGAACTGACTTGTACCTCTTATAGTCGGGGCCCCAGATATGGCATTCCCACGAATGAATAACATGAGCTTCTGACTACTACCCCCTTCATTCCTCCTTTTATTAGCCTCCTCTGGAGTTGAAGCAGGAGCAGGAACTGGATGAACAGTTTACCCCCCTCTAGCAGGGAATCTTGCACATGCTGGCGCTTCAGTTGACCTGGCCATTTTTTCTCTCCACTTAGCAGGTATCTCCTCAATTTTAGGGGCTATTAACTTTATTACCACAATCATCAACATGAAGCCCCCAGCAATCTCACAATATCAAACACCTCTCTTTGTCTGAGCTGTGCTTGTAACAGCCGTACTTCTTCTCCTCTCACTTCCTGTGCTAGCCGCTGGGATTACTATGCTGCTAACAGATCGTAATCTAAACACCAC",
+                  "hseq": "CTTTACATAGTATTCGGTGCTTGAGCAGGGATAATCGGCACAGCCCTGAGCCTTTTAATCCGAGCAGAGCTAAGCCAACCAGGAGCACTCCTAGGAGATGACCAAATCTATAACGTCATCGTCACTGCACATGCTTTTGTAATAATTTTCTTCATAGTAATACCTATCCTAATCGGAGGCTTTGGGAACTGACTTGTACCTCTTATAGTCGGGGCCCCAGATATGGCATTCCCACGAATGAATAACATGAGCTTCTGACTACTACCCCCTTCATTCCTCCTTTTATTAGCCTCCTCTGGAGTTGAAGCAGGAGCAGGAACTGGATGAACAGTTTACCCCCCTCTAGCAGGGAATCTTGCACATGCTGGCGCTTCAGTTGACCTGGCCATTTTTTCTCTCCACTTAGCAGGTATCTCCTCAATTTTAGGGGCTATTAACTTTATTACCACAATCATCAACATGAAGCCCCCAGCAATCTCACAATATCAAACACCTCTCTTTGTCTGAGCTGTGCTTGTAACAGCCGTACTTCTTCTCCTCTCACTTCCTGTGCTAGCCGCTGGGATTACTATGCTGCTAACAGATCGTAATCTAAACACCAC",
+                  "midline": "||||||||||||||||||||||||||||| ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||"
+                }
+              ]
+            },
+            {
+              "num": 12,
+              "description": [
+                {
+                  "id": "gi|1584453503|gb|MH380296.1|",
+                  "accession": "MH380296",
+                  "title": "Dussumieria elopsoides isolate Ra13 cytochrome c oxidase subunit I gene, partial cds; mitochondrial.",
+                  "taxid": 454028,
+                  "sciname": "Dussumieria elopsoides"
+                }
+              ],
+              "len": 648,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 1107.26,
+                  "score": 599,
+                  "evalue": 0,
+                  "identity": 601,
+                  "query_from": 16,
+                  "query_to": 617,
+                  "query_strand": "Plus",
+                  "hit_from": 1,
+                  "hit_to": 602,
+                  "hit_strand": "Plus",
+                  "align_len": 602,
+                  "gaps": 0,
+                  "qseq": "CTTTACATAGTATTCGGTGCTTGAGCAGGAATAATCGGCACAGCCCTGAGCCTTTTAATCCGAGCAGAGCTAAGCCAACCAGGAGCACTCCTAGGAGATGACCAAATCTATAACGTCATCGTCACTGCACATGCTTTTGTAATAATTTTCTTCATAGTAATACCTATCCTAATCGGAGGCTTTGGGAACTGACTTGTACCTCTTATAGTCGGGGCCCCAGATATGGCATTCCCACGAATGAATAACATGAGCTTCTGACTACTACCCCCTTCATTCCTCCTTTTATTAGCCTCCTCTGGAGTTGAAGCAGGAGCAGGAACTGGATGAACAGTTTACCCCCCTCTAGCAGGGAATCTTGCACATGCTGGCGCTTCAGTTGACCTGGCCATTTTTTCTCTCCACTTAGCAGGTATCTCCTCAATTTTAGGGGCTATTAACTTTATTACCACAATCATCAACATGAAGCCCCCAGCAATCTCACAATATCAAACACCTCTCTTTGTCTGAGCTGTGCTTGTAACAGCCGTACTTCTTCTCCTCTCACTTCCTGTGCTAGCCGCTGGGATTACTATGCTGCTAACAGATCGTAATCTAAACACCAC",
+                  "hseq": "CTTTACATAGTATTCGGTGCTTGAGCAGGGATAATCGGCACAGCCCTGAGCCTTTTAATCCGAGCAGAGCTAAGCCAACCAGGAGCACTCCTAGGAGATGACCAAATCTATAACGTCATCGTCACTGCACATGCTTTTGTAATAATTTTCTTCATAGTAATACCTATCCTAATCGGAGGCTTTGGGAACTGACTTGTACCTCTTATAGTCGGGGCCCCAGATATGGCATTCCCACGAATGAATAACATGAGCTTCTGACTACTACCCCCTTCATTCCTCCTTTTATTAGCCTCCTCTGGAGTTGAAGCAGGAGCAGGAACTGGATGAACAGTTTACCCCCCTCTAGCAGGGAATCTTGCACATGCTGGCGCTTCAGTTGACCTGGCCATTTTTTCTCTCCACTTAGCAGGTATCTCCTCAATTTTAGGGGCTATTAACTTTATTACCACAATCATCAACATGAAGCCCCCAGCAATCTCACAATATCAAACACCTCTCTTTGTCTGAGCTGTGCTTGTAACAGCCGTACTTCTTCTCCTCTCACTTCCTGTGCTAGCCGCTGGGATTACTATGCTGCTAACAGATCGTAATCTAAACACCAC",
+                  "midline": "||||||||||||||||||||||||||||| ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||"
+                }
+              ]
+            },
+            {
+              "num": 13,
+              "description": [
+                {
+                  "id": "gi|1880163455|gb|MT803584.1|",
+                  "accession": "MT803584",
+                  "title": "Dussumieria elopsoides voucher TTP139 cytochrome c oxidase subunit I (COX1) gene, partial cds; mitochondrial",
+                  "taxid": 454028,
+                  "sciname": "Dussumieria elopsoides"
+                }
+              ],
+              "len": 655,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 1103.57,
+                  "score": 597,
+                  "evalue": 0,
+                  "identity": 601,
+                  "query_from": 15,
+                  "query_to": 617,
+                  "query_strand": "Plus",
+                  "hit_from": 1,
+                  "hit_to": 603,
+                  "hit_strand": "Plus",
+                  "align_len": 603,
+                  "gaps": 0,
+                  "qseq": "CCTTTACATAGTATTCGGTGCTTGAGCAGGAATAATCGGCACAGCCCTGAGCCTTTTAATCCGAGCAGAGCTAAGCCAACCAGGAGCACTCCTAGGAGATGACCAAATCTATAACGTCATCGTCACTGCACATGCTTTTGTAATAATTTTCTTCATAGTAATACCTATCCTAATCGGAGGCTTTGGGAACTGACTTGTACCTCTTATAGTCGGGGCCCCAGATATGGCATTCCCACGAATGAATAACATGAGCTTCTGACTACTACCCCCTTCATTCCTCCTTTTATTAGCCTCCTCTGGAGTTGAAGCAGGAGCAGGAACTGGATGAACAGTTTACCCCCCTCTAGCAGGGAATCTTGCACATGCTGGCGCTTCAGTTGACCTGGCCATTTTTTCTCTCCACTTAGCAGGTATCTCCTCAATTTTAGGGGCTATTAACTTTATTACCACAATCATCAACATGAAGCCCCCAGCAATCTCACAATATCAAACACCTCTCTTTGTCTGAGCTGTGCTTGTAACAGCCGTACTTCTTCTCCTCTCACTTCCTGTGCTAGCCGCTGGGATTACTATGCTGCTAACAGATCGTAATCTAAACACCAC",
+                  "hseq": "CCTTTACATAGTATTCGGTGCTTGAGCAGGGATAATCGGCACAGCCCTGAGCCTTTTAATCCGAGCAGAGCTAAGCCAACCAGGAGCACTCCTAGGAGATGACCAAATCTATAACGTCATCGTCACTGCACATGCTTTTGTAATAATTTTCTTCATAGTAATACCTATCCTAATCGGAGGCTTTGGGAACTGACTTGTGCCTCTTATAGTCGGGGCCCCAGATATGGCATTCCCACGAATGAATAACATGAGCTTCTGACTACTACCCCCTTCATTCCTCCTTTTATTAGCCTCCTCTGGAGTTGAAGCAGGAGCAGGAACTGGATGAACAGTTTACCCCCCTCTAGCAGGGAATCTTGCACATGCTGGCGCTTCAGTTGACCTGGCCATTTTTTCTCTCCACTTAGCAGGTATCTCCTCAATTTTAGGGGCTATTAACTTTATTACCACAATCATCAACATGAAGCCCCCAGCAATCTCACAATATCAAACACCTCTCTTTGTCTGAGCTGTGCTTGTAACAGCCGTACTTCTTCTCCTCTCACTTCCTGTGCTAGCCGCTGGGATTACTATGCTGCTAACAGATCGTAATCTAAACACCAC",
+                  "midline": "|||||||||||||||||||||||||||||| ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||"
+                }
+              ]
+            },
+            {
+              "num": 14,
+              "description": [
+                {
+                  "id": "gi|1880163447|gb|MT803581.1|",
+                  "accession": "MT803581",
+                  "title": "Dussumieria elopsoides voucher TKC159 cytochrome c oxidase subunit I (COX1) gene, partial cds; mitochondrial",
+                  "taxid": 454028,
+                  "sciname": "Dussumieria elopsoides"
+                }
+              ],
+              "len": 655,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 1103.57,
+                  "score": 597,
+                  "evalue": 0,
+                  "identity": 601,
+                  "query_from": 15,
+                  "query_to": 617,
+                  "query_strand": "Plus",
+                  "hit_from": 1,
+                  "hit_to": 603,
+                  "hit_strand": "Plus",
+                  "align_len": 603,
+                  "gaps": 0,
+                  "qseq": "CCTTTACATAGTATTCGGTGCTTGAGCAGGAATAATCGGCACAGCCCTGAGCCTTTTAATCCGAGCAGAGCTAAGCCAACCAGGAGCACTCCTAGGAGATGACCAAATCTATAACGTCATCGTCACTGCACATGCTTTTGTAATAATTTTCTTCATAGTAATACCTATCCTAATCGGAGGCTTTGGGAACTGACTTGTACCTCTTATAGTCGGGGCCCCAGATATGGCATTCCCACGAATGAATAACATGAGCTTCTGACTACTACCCCCTTCATTCCTCCTTTTATTAGCCTCCTCTGGAGTTGAAGCAGGAGCAGGAACTGGATGAACAGTTTACCCCCCTCTAGCAGGGAATCTTGCACATGCTGGCGCTTCAGTTGACCTGGCCATTTTTTCTCTCCACTTAGCAGGTATCTCCTCAATTTTAGGGGCTATTAACTTTATTACCACAATCATCAACATGAAGCCCCCAGCAATCTCACAATATCAAACACCTCTCTTTGTCTGAGCTGTGCTTGTAACAGCCGTACTTCTTCTCCTCTCACTTCCTGTGCTAGCCGCTGGGATTACTATGCTGCTAACAGATCGTAATCTAAACACCAC",
+                  "hseq": "CCTTTACATAGTATTCGGTGCTTGAGCAGGGATAATCGGCACAGCCCTGAGCCTTTTAATCCGAGCAGAGCTAAGCCAACCAGGAGCACTCCTAGGAGATGACCAAATCTATAACGTCATCGTCACTGCACATGCTTTTGTAATAATTTTCTTCATAGTAATACCTATCCTAATCGGAGGCTTTGGGAACTGACTTGTACCTCTTATAGTCGGGGCCCCAGATATGGCATTCCCACGAATGAATAACATGAGCTTCTGACTACTGCCCCCTTCATTCCTCCTTTTATTAGCCTCCTCTGGAGTTGAAGCAGGAGCAGGAACTGGATGAACAGTTTACCCCCCTCTAGCAGGGAATCTTGCACATGCTGGCGCTTCAGTTGACCTGGCCATTTTTTCTCTCCACTTAGCAGGTATCTCCTCAATTTTAGGGGCTATTAACTTTATTACCACAATCATCAACATGAAGCCCCCAGCAATCTCACAATATCAAACACCTCTCTTTGTCTGAGCTGTGCTTGTAACAGCCGTACTTCTTCTCCTCTCACTTCCTGTGCTAGCCGCTGGGATTACTATGCTGCTAACAGATCGTAATCTAAACACCAC",
+                  "midline": "|||||||||||||||||||||||||||||| ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||"
+                }
+              ]
+            },
+            {
+              "num": 15,
+              "description": [
+                {
+                  "id": "gi|1880163445|gb|MT803580.1|",
+                  "accession": "MT803580",
+                  "title": "Dussumieria elopsoides voucher TKC158 cytochrome c oxidase subunit I (COX1) gene, partial cds; mitochondrial",
+                  "taxid": 454028,
+                  "sciname": "Dussumieria elopsoides"
+                }
+              ],
+              "len": 655,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 1103.57,
+                  "score": 597,
+                  "evalue": 0,
+                  "identity": 601,
+                  "query_from": 15,
+                  "query_to": 617,
+                  "query_strand": "Plus",
+                  "hit_from": 1,
+                  "hit_to": 603,
+                  "hit_strand": "Plus",
+                  "align_len": 603,
+                  "gaps": 0,
+                  "qseq": "CCTTTACATAGTATTCGGTGCTTGAGCAGGAATAATCGGCACAGCCCTGAGCCTTTTAATCCGAGCAGAGCTAAGCCAACCAGGAGCACTCCTAGGAGATGACCAAATCTATAACGTCATCGTCACTGCACATGCTTTTGTAATAATTTTCTTCATAGTAATACCTATCCTAATCGGAGGCTTTGGGAACTGACTTGTACCTCTTATAGTCGGGGCCCCAGATATGGCATTCCCACGAATGAATAACATGAGCTTCTGACTACTACCCCCTTCATTCCTCCTTTTATTAGCCTCCTCTGGAGTTGAAGCAGGAGCAGGAACTGGATGAACAGTTTACCCCCCTCTAGCAGGGAATCTTGCACATGCTGGCGCTTCAGTTGACCTGGCCATTTTTTCTCTCCACTTAGCAGGTATCTCCTCAATTTTAGGGGCTATTAACTTTATTACCACAATCATCAACATGAAGCCCCCAGCAATCTCACAATATCAAACACCTCTCTTTGTCTGAGCTGTGCTTGTAACAGCCGTACTTCTTCTCCTCTCACTTCCTGTGCTAGCCGCTGGGATTACTATGCTGCTAACAGATCGTAATCTAAACACCAC",
+                  "hseq": "CCTTTACATAGTATTCGGTGCTTGAGCAGGGATAATCGGCACAGCCCTGAGCCTTTTAATCCGAGCAGAGCTAAGCCAACCAGGAGCACTCCTAGGAGATGACCAAATCTATAACGTCATCGTCACTGCACATGCTTTTGTAATAATTTTCTTCATAGTAATACCTATCCTAATCGGAGGCTTTGGGAACTGACTTGTGCCTCTTATAGTCGGGGCCCCAGATATGGCATTCCCACGAATGAATAACATGAGCTTCTGACTACTACCCCCTTCATTCCTCCTTTTATTAGCCTCCTCTGGAGTTGAAGCAGGAGCAGGAACTGGATGAACAGTTTACCCCCCTCTAGCAGGGAATCTTGCACATGCTGGCGCTTCAGTTGACCTGGCCATTTTTTCTCTCCACTTAGCAGGTATCTCCTCAATTTTAGGGGCTATTAACTTTATTACCACAATCATCAACATGAAGCCCCCAGCAATCTCACAATATCAAACACCTCTCTTTGTCTGAGCTGTGCTTGTAACAGCCGTACTTCTTCTCCTCTCACTTCCTGTGCTAGCCGCTGGGATTACTATGCTGCTAACAGATCGTAATCTAAACACCAC",
+                  "midline": "|||||||||||||||||||||||||||||| ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||"
+                }
+              ]
+            },
+            {
+              "num": 16,
+              "description": [
+                {
+                  "id": "gi|1880163443|gb|MT803579.1|",
+                  "accession": "MT803579",
+                  "title": "Dussumieria elopsoides voucher TKC157 cytochrome c oxidase subunit I (COX1) gene, partial cds; mitochondrial",
+                  "taxid": 454028,
+                  "sciname": "Dussumieria elopsoides"
+                }
+              ],
+              "len": 655,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 1103.57,
+                  "score": 597,
+                  "evalue": 0,
+                  "identity": 601,
+                  "query_from": 15,
+                  "query_to": 617,
+                  "query_strand": "Plus",
+                  "hit_from": 1,
+                  "hit_to": 603,
+                  "hit_strand": "Plus",
+                  "align_len": 603,
+                  "gaps": 0,
+                  "qseq": "CCTTTACATAGTATTCGGTGCTTGAGCAGGAATAATCGGCACAGCCCTGAGCCTTTTAATCCGAGCAGAGCTAAGCCAACCAGGAGCACTCCTAGGAGATGACCAAATCTATAACGTCATCGTCACTGCACATGCTTTTGTAATAATTTTCTTCATAGTAATACCTATCCTAATCGGAGGCTTTGGGAACTGACTTGTACCTCTTATAGTCGGGGCCCCAGATATGGCATTCCCACGAATGAATAACATGAGCTTCTGACTACTACCCCCTTCATTCCTCCTTTTATTAGCCTCCTCTGGAGTTGAAGCAGGAGCAGGAACTGGATGAACAGTTTACCCCCCTCTAGCAGGGAATCTTGCACATGCTGGCGCTTCAGTTGACCTGGCCATTTTTTCTCTCCACTTAGCAGGTATCTCCTCAATTTTAGGGGCTATTAACTTTATTACCACAATCATCAACATGAAGCCCCCAGCAATCTCACAATATCAAACACCTCTCTTTGTCTGAGCTGTGCTTGTAACAGCCGTACTTCTTCTCCTCTCACTTCCTGTGCTAGCCGCTGGGATTACTATGCTGCTAACAGATCGTAATCTAAACACCAC",
+                  "hseq": "CCTTTACATAGTATTCGGTGCTTGAGCAGGGATAATCGGCACAGCCCTGAGCCTTTTAATCCGAGCAGAGCTAAGCCAACCAGGAGCACTCCTAGGAGATGACCAAATCTATAACGTCATCGTCACTGCACATGCTTTTGTAATAATTTTCTTCATAGTAATACCTATCCTAATCGGAGGCTTTGGGAACTGACTTGTGCCTCTTATAGTCGGGGCCCCAGATATGGCATTCCCACGAATGAATAACATGAGCTTCTGACTACTACCCCCTTCATTCCTCCTTTTATTAGCCTCCTCTGGAGTTGAAGCAGGAGCAGGAACTGGATGAACAGTTTACCCCCCTCTAGCAGGGAATCTTGCACATGCTGGCGCTTCAGTTGACCTGGCCATTTTTTCTCTCCACTTAGCAGGTATCTCCTCAATTTTAGGGGCTATTAACTTTATTACCACAATCATCAACATGAAGCCCCCAGCAATCTCACAATATCAAACACCTCTCTTTGTCTGAGCTGTGCTTGTAACAGCCGTACTTCTTCTCCTCTCACTTCCTGTGCTAGCCGCTGGGATTACTATGCTGCTAACAGATCGTAATCTAAACACCAC",
+                  "midline": "|||||||||||||||||||||||||||||| ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||"
+                }
+              ]
+            },
+            {
+              "num": 17,
+              "description": [
+                {
+                  "id": "gi|1880163439|gb|MT803577.1|",
+                  "accession": "MT803577",
+                  "title": "Dussumieria elopsoides voucher TCP1128 cytochrome c oxidase subunit I (COX1) gene, partial cds; mitochondrial",
+                  "taxid": 454028,
+                  "sciname": "Dussumieria elopsoides"
+                }
+              ],
+              "len": 655,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 1103.57,
+                  "score": 597,
+                  "evalue": 0,
+                  "identity": 601,
+                  "query_from": 15,
+                  "query_to": 617,
+                  "query_strand": "Plus",
+                  "hit_from": 1,
+                  "hit_to": 603,
+                  "hit_strand": "Plus",
+                  "align_len": 603,
+                  "gaps": 0,
+                  "qseq": "CCTTTACATAGTATTCGGTGCTTGAGCAGGAATAATCGGCACAGCCCTGAGCCTTTTAATCCGAGCAGAGCTAAGCCAACCAGGAGCACTCCTAGGAGATGACCAAATCTATAACGTCATCGTCACTGCACATGCTTTTGTAATAATTTTCTTCATAGTAATACCTATCCTAATCGGAGGCTTTGGGAACTGACTTGTACCTCTTATAGTCGGGGCCCCAGATATGGCATTCCCACGAATGAATAACATGAGCTTCTGACTACTACCCCCTTCATTCCTCCTTTTATTAGCCTCCTCTGGAGTTGAAGCAGGAGCAGGAACTGGATGAACAGTTTACCCCCCTCTAGCAGGGAATCTTGCACATGCTGGCGCTTCAGTTGACCTGGCCATTTTTTCTCTCCACTTAGCAGGTATCTCCTCAATTTTAGGGGCTATTAACTTTATTACCACAATCATCAACATGAAGCCCCCAGCAATCTCACAATATCAAACACCTCTCTTTGTCTGAGCTGTGCTTGTAACAGCCGTACTTCTTCTCCTCTCACTTCCTGTGCTAGCCGCTGGGATTACTATGCTGCTAACAGATCGTAATCTAAACACCAC",
+                  "hseq": "CCTTTACATAGTATTCGGTGCTTGAGCAGGGATAATCGGCACAGCCCTGAGCCTTTTAATCCGAGCAGAGCTAAGCCAACCAGGAGCACTCCTAGGAGATGACCAAATCTATAACGTCATCGTCACTGCACATGCTTTTGTAATAATTTTCTTCATAGTAATACCTATCCTAATCGGAGGCTTTGGGAACTGACTTGTGCCTCTTATAGTCGGGGCCCCAGATATGGCATTCCCACGAATGAATAACATGAGCTTCTGACTACTACCCCCTTCATTCCTCCTTTTATTAGCCTCCTCTGGAGTTGAAGCAGGAGCAGGAACTGGATGAACAGTTTACCCCCCTCTAGCAGGGAATCTTGCACATGCTGGCGCTTCAGTTGACCTGGCCATTTTTTCTCTCCACTTAGCAGGTATCTCCTCAATTTTAGGGGCTATTAACTTTATTACCACAATCATCAACATGAAGCCCCCAGCAATCTCACAATATCAAACACCTCTCTTTGTCTGAGCTGTGCTTGTAACAGCCGTACTTCTTCTCCTCTCACTTCCTGTGCTAGCCGCTGGGATTACTATGCTGCTAACAGATCGTAATCTAAACACCAC",
+                  "midline": "|||||||||||||||||||||||||||||| ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||"
+                }
+              ]
+            },
+            {
+              "num": 18,
+              "description": [
+                {
+                  "id": "gi|1880163437|gb|MT803576.1|",
+                  "accession": "MT803576",
+                  "title": "Dussumieria elopsoides voucher TCP1126 cytochrome c oxidase subunit I (COX1) gene, partial cds; mitochondrial",
+                  "taxid": 454028,
+                  "sciname": "Dussumieria elopsoides"
+                }
+              ],
+              "len": 655,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 1103.57,
+                  "score": 597,
+                  "evalue": 0,
+                  "identity": 601,
+                  "query_from": 15,
+                  "query_to": 617,
+                  "query_strand": "Plus",
+                  "hit_from": 1,
+                  "hit_to": 603,
+                  "hit_strand": "Plus",
+                  "align_len": 603,
+                  "gaps": 0,
+                  "qseq": "CCTTTACATAGTATTCGGTGCTTGAGCAGGAATAATCGGCACAGCCCTGAGCCTTTTAATCCGAGCAGAGCTAAGCCAACCAGGAGCACTCCTAGGAGATGACCAAATCTATAACGTCATCGTCACTGCACATGCTTTTGTAATAATTTTCTTCATAGTAATACCTATCCTAATCGGAGGCTTTGGGAACTGACTTGTACCTCTTATAGTCGGGGCCCCAGATATGGCATTCCCACGAATGAATAACATGAGCTTCTGACTACTACCCCCTTCATTCCTCCTTTTATTAGCCTCCTCTGGAGTTGAAGCAGGAGCAGGAACTGGATGAACAGTTTACCCCCCTCTAGCAGGGAATCTTGCACATGCTGGCGCTTCAGTTGACCTGGCCATTTTTTCTCTCCACTTAGCAGGTATCTCCTCAATTTTAGGGGCTATTAACTTTATTACCACAATCATCAACATGAAGCCCCCAGCAATCTCACAATATCAAACACCTCTCTTTGTCTGAGCTGTGCTTGTAACAGCCGTACTTCTTCTCCTCTCACTTCCTGTGCTAGCCGCTGGGATTACTATGCTGCTAACAGATCGTAATCTAAACACCAC",
+                  "hseq": "CCTTTACATAGTATTCGGTGCTTGAGCAGGGATAATCGGCACAGCCCTGAGCCTTTTAATCCGAGCAGAGCTAAGCCAACCAGGAGCACTCCTAGGAGATGACCAAATCTATAACGTCATCGTCACTGCACATGCTTTTGTAATAATTTTCTTCATAGTAATACCTATCCTAATCGGAGGCTTTGGGAACTGACTTGTGCCTCTTATAGTCGGGGCCCCAGATATGGCATTCCCACGAATGAATAACATGAGCTTCTGACTACTACCCCCTTCATTCCTCCTTTTATTAGCCTCCTCTGGAGTTGAAGCAGGAGCAGGAACTGGATGAACAGTTTACCCCCCTCTAGCAGGGAATCTTGCACATGCTGGCGCTTCAGTTGACCTGGCCATTTTTTCTCTCCACTTAGCAGGTATCTCCTCAATTTTAGGGGCTATTAACTTTATTACCACAATCATCAACATGAAGCCCCCAGCAATCTCACAATATCAAACACCTCTCTTTGTCTGAGCTGTGCTTGTAACAGCCGTACTTCTTCTCCTCTCACTTCCTGTGCTAGCCGCTGGGATTACTATGCTGCTAACAGATCGTAATCTAAACACCAC",
+                  "midline": "|||||||||||||||||||||||||||||| ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||"
+                }
+              ]
+            },
+            {
+              "num": 19,
+              "description": [
+                {
+                  "id": "gi|1880163427|gb|MT803571.1|",
+                  "accession": "MT803571",
+                  "title": "Dussumieria elopsoides voucher PY229 cytochrome c oxidase subunit I (COX1) gene, partial cds; mitochondrial",
+                  "taxid": 454028,
+                  "sciname": "Dussumieria elopsoides"
+                }
+              ],
+              "len": 655,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 1103.57,
+                  "score": 597,
+                  "evalue": 0,
+                  "identity": 601,
+                  "query_from": 15,
+                  "query_to": 617,
+                  "query_strand": "Plus",
+                  "hit_from": 1,
+                  "hit_to": 603,
+                  "hit_strand": "Plus",
+                  "align_len": 603,
+                  "gaps": 0,
+                  "qseq": "CCTTTACATAGTATTCGGTGCTTGAGCAGGAATAATCGGCACAGCCCTGAGCCTTTTAATCCGAGCAGAGCTAAGCCAACCAGGAGCACTCCTAGGAGATGACCAAATCTATAACGTCATCGTCACTGCACATGCTTTTGTAATAATTTTCTTCATAGTAATACCTATCCTAATCGGAGGCTTTGGGAACTGACTTGTACCTCTTATAGTCGGGGCCCCAGATATGGCATTCCCACGAATGAATAACATGAGCTTCTGACTACTACCCCCTTCATTCCTCCTTTTATTAGCCTCCTCTGGAGTTGAAGCAGGAGCAGGAACTGGATGAACAGTTTACCCCCCTCTAGCAGGGAATCTTGCACATGCTGGCGCTTCAGTTGACCTGGCCATTTTTTCTCTCCACTTAGCAGGTATCTCCTCAATTTTAGGGGCTATTAACTTTATTACCACAATCATCAACATGAAGCCCCCAGCAATCTCACAATATCAAACACCTCTCTTTGTCTGAGCTGTGCTTGTAACAGCCGTACTTCTTCTCCTCTCACTTCCTGTGCTAGCCGCTGGGATTACTATGCTGCTAACAGATCGTAATCTAAACACCAC",
+                  "hseq": "CCTTTACATAGTATTCGGTGCTTGAGCAGGGATAATCGGCACAGCCCTGAGCCTTTTAATCCGAGCAGAGCTAAGCCAACCAGGAGCACTCCTAGGAGATGACCAAATCTATAACGTCATCGTCACTGCACATGCTTTTGTAATAATTTTCTTCATAGTAATACCTATCCTAATCGGAGGCTTTGGGAACTGACTTGTACCTCTTATAGTCGGGGCCCCAGATATGGCATTCCCACGAATGAATAACATGAGCTTCTGACTACTACCCCCTTCATTCCTCCTTTTATTAGCCTCCTCTGGAGTTGAAGCGGGAGCAGGAACTGGATGAACAGTTTACCCCCCTCTAGCAGGGAATCTTGCACATGCTGGCGCTTCAGTTGACCTGGCCATTTTTTCTCTCCACTTAGCAGGTATCTCCTCAATTTTAGGGGCTATTAACTTTATTACCACAATCATCAACATGAAGCCCCCAGCAATCTCACAATATCAAACACCTCTCTTTGTCTGAGCTGTGCTTGTAACAGCCGTACTTCTTCTCCTCTCACTTCCTGTGCTAGCCGCTGGGATTACTATGCTGCTAACAGATCGTAATCTAAACACCAC",
+                  "midline": "|||||||||||||||||||||||||||||| |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||"
+                }
+              ]
+            },
+            {
+              "num": 20,
+              "description": [
+                {
+                  "id": "gi|1584453521|gb|MH380305.1|",
+                  "accession": "MH380305",
+                  "title": "Dussumieria elopsoides isolate MAY83 cytochrome c oxidase subunit I gene, partial cds; mitochondrial.",
+                  "taxid": 454028,
+                  "sciname": "Dussumieria elopsoides"
+                }
+              ],
+              "len": 648,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 1101.72,
+                  "score": 596,
+                  "evalue": 0,
+                  "identity": 600,
+                  "query_from": 16,
+                  "query_to": 617,
+                  "query_strand": "Plus",
+                  "hit_from": 1,
+                  "hit_to": 602,
+                  "hit_strand": "Plus",
+                  "align_len": 602,
+                  "gaps": 0,
+                  "qseq": "CTTTACATAGTATTCGGTGCTTGAGCAGGAATAATCGGCACAGCCCTGAGCCTTTTAATCCGAGCAGAGCTAAGCCAACCAGGAGCACTCCTAGGAGATGACCAAATCTATAACGTCATCGTCACTGCACATGCTTTTGTAATAATTTTCTTCATAGTAATACCTATCCTAATCGGAGGCTTTGGGAACTGACTTGTACCTCTTATAGTCGGGGCCCCAGATATGGCATTCCCACGAATGAATAACATGAGCTTCTGACTACTACCCCCTTCATTCCTCCTTTTATTAGCCTCCTCTGGAGTTGAAGCAGGAGCAGGAACTGGATGAACAGTTTACCCCCCTCTAGCAGGGAATCTTGCACATGCTGGCGCTTCAGTTGACCTGGCCATTTTTTCTCTCCACTTAGCAGGTATCTCCTCAATTTTAGGGGCTATTAACTTTATTACCACAATCATCAACATGAAGCCCCCAGCAATCTCACAATATCAAACACCTCTCTTTGTCTGAGCTGTGCTTGTAACAGCCGTACTTCTTCTCCTCTCACTTCCTGTGCTAGCCGCTGGGATTACTATGCTGCTAACAGATCGTAATCTAAACACCAC",
+                  "hseq": "CTTTACATAGTATTCGGTGCTTGAGCAGGGATAATCGGCACAGCCCTGAGCCTTTTAATCCGAGCAGAGCTAAGCCAACCAGGAGCACTCCTAGGAGATGACCAAATCTATAACGTCATCGTCACTGCACATGCTTTTGTAATAATTTTCTTCATAGTAATACCTATCCTAATCGGAGGCTTTGGGAACTGACTTGTACCTCTTATAGTCGGGGCCCCAGATATGGCATTCCCACGAATGAATAACATGAGCTTCTGACTACTACCCCCTTCATTCCTCCTTTTATTAGCCTCCTCTGGAGTTGAAGCAGGAGCAGGAACTGGATGAACAGTTTACCCCCCTCTAGCAGGGAATCTTGCACATGCTGGCGCTTCAGTTGACCTGGCCATTTTTTCTCTCCACTTAGCAGGTATCTCCTCAATTTTAGGGGCTATTAACTTTATTACCACAATCATCAACATGAAGCCCCCAGCAATCTCACAATATCAAACACCTCTCTTTGTCTGAGCTGTGCTTGTAACAGCCGTACTTCTTCTCCTCTCACTTCCTGTGCTAGCCGCCGGGATTACTATGCTGCTAACAGATCGTAATCTAAACACCAC",
+                  "midline": "||||||||||||||||||||||||||||| |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| |||||||||||||||||||||||||||||||||||||||||"
+                }
+              ]
+            }
+          ],
+          "stat": {
+            "db_num": 131120421,
+            "db_len": 1072517070989,
+            "hsp_len": 0,
+            "eff_space": 0,
+            "kappa": 0.46,
+            "lambda": 1.28,
+            "entropy": 0.85
+          }
+        }
+      }
+    }
+  }
+,
+{
+    "report": {
+      "program": "blastn",
+      "version": "BLASTN 2.17.0+",
+      "reference": "Zheng Zhang, Scott Schwartz, Lukas Wagner, and Webb Miller (2000), \"A greedy algorithm for aligning DNA sequences\", J Comput Biol 2000; 7(1-2):203-14.",
+      "search_target": {
+        "db": "core_nt"
+      },
+      "params": {
+        "expect": 10,
+        "sc_match": 1,
+        "sc_mismatch": -2,
+        "gap_open": 0,
+        "gap_extend": 0,
+        "filter": "L;m;"
+      },
+      "results": {
+        "search": {
+          "query_id": "Query_2202359",
+          "query_title": "OQ880759.1 Labeo catla voucher CHA1728 cytochrome c oxidase subunit I (COX1) gene, partial cds; mitochondrial",
+          "query_len": 640,
+          "hits": [
+            {
+              "num": 1,
+              "description": [
+                {
+                  "id": "gi|2497602061|gb|OQ880759.1|",
+                  "accession": "OQ880759",
+                  "title": "Labeo catla voucher CHA1728 cytochrome c oxidase subunit I (COX1) gene, partial cds; mitochondrial",
+                  "taxid": 72446,
+                  "sciname": "Labeo catla"
+                }
+              ],
+              "len": 640,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 1182.98,
+                  "score": 640,
+                  "evalue": 0,
+                  "identity": 640,
+                  "query_from": 1,
+                  "query_to": 640,
+                  "query_strand": "Plus",
+                  "hit_from": 1,
+                  "hit_to": 640,
+                  "hit_strand": "Plus",
+                  "align_len": 640,
+                  "gaps": 0,
+                  "qseq": "CGGAATAGTAGGGACTGCTCTAAGCCTGCTAATCCGAGCGGAACTAAGCCAACCAGGCGCCCTATTAGGCGATGACCAAATTTATAATGTTATCGTTACCGCCCATGCATTTGTTATAATTTTCTTTATAGTAATACCAATTATGATTGGAGGATTTGGAAACTGATTAATCCCCTTAATAATCGGCGCCCCGGACATGGCCTTCCCTCGAATAAACAACATAAGCTTTTGACTACTGCCTCCTTCTTTTCTCCTCCTTCTCTCATCCTCTTGGGTTGAAGCAGGGGCAGGAACAGGGTGAACCGTCTACCCCCCACTGGCAGGAAACCTTGCACATGCCGGGGCTTCAGTAGACCTGACCATTTTTTCCCTTCATCTCGCAGGTATTTCCTCTATCCTTGGGGCTATTAATTTTATTACTACGATTTTAAATATAAAACCCCCAGCAATCTCACAATATCAAACACCCCTCTTTGTGTGAGCAGTTCTAATTACTGCCGTACTACTACTTCTTTCCCTTCCAGTTCTTGCCGCAGGCATTACAATGCTCCTGACAGACCGAAACCTAAACACAACATTCTTTGACCCTGCAGGCGGAGGTGACCCAATCTTATACCAACACCTGTTCTGATTCTTTGGC",
+                  "hseq": "CGGAATAGTAGGGACTGCTCTAAGCCTGCTAATCCGAGCGGAACTAAGCCAACCAGGCGCCCTATTAGGCGATGACCAAATTTATAATGTTATCGTTACCGCCCATGCATTTGTTATAATTTTCTTTATAGTAATACCAATTATGATTGGAGGATTTGGAAACTGATTAATCCCCTTAATAATCGGCGCCCCGGACATGGCCTTCCCTCGAATAAACAACATAAGCTTTTGACTACTGCCTCCTTCTTTTCTCCTCCTTCTCTCATCCTCTTGGGTTGAAGCAGGGGCAGGAACAGGGTGAACCGTCTACCCCCCACTGGCAGGAAACCTTGCACATGCCGGGGCTTCAGTAGACCTGACCATTTTTTCCCTTCATCTCGCAGGTATTTCCTCTATCCTTGGGGCTATTAATTTTATTACTACGATTTTAAATATAAAACCCCCAGCAATCTCACAATATCAAACACCCCTCTTTGTGTGAGCAGTTCTAATTACTGCCGTACTACTACTTCTTTCCCTTCCAGTTCTTGCCGCAGGCATTACAATGCTCCTGACAGACCGAAACCTAAACACAACATTCTTTGACCCTGCAGGCGGAGGTGACCCAATCTTATACCAACACCTGTTCTGATTCTTTGGC",
+                  "midline": "||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||"
+                }
+              ]
+            },
+            {
+              "num": 2,
+              "description": [
+                {
+                  "id": "gi|3366545015|gb|PZ746836.1|",
+                  "accession": "PZ746836",
+                  "title": "Glossogobius giuris isolate ZSI/SRC F1767 cytochrome c oxidase subunit I (COX1) gene, partial cds; mitochondrial",
+                  "taxid": 3412538,
+                  "sciname": "Glossogobius giuris"
+                }
+              ],
+              "len": 681,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 1171.9,
+                  "score": 634,
+                  "evalue": 0,
+                  "identity": 638,
+                  "query_from": 1,
+                  "query_to": 640,
+                  "query_strand": "Plus",
+                  "hit_from": 28,
+                  "hit_to": 667,
+                  "hit_strand": "Plus",
+                  "align_len": 640,
+                  "gaps": 0,
+                  "qseq": "CGGAATAGTAGGGACTGCTCTAAGCCTGCTAATCCGAGCGGAACTAAGCCAACCAGGCGCCCTATTAGGCGATGACCAAATTTATAATGTTATCGTTACCGCCCATGCATTTGTTATAATTTTCTTTATAGTAATACCAATTATGATTGGAGGATTTGGAAACTGATTAATCCCCTTAATAATCGGCGCCCCGGACATGGCCTTCCCTCGAATAAACAACATAAGCTTTTGACTACTGCCTCCTTCTTTTCTCCTCCTTCTCTCATCCTCTTGGGTTGAAGCAGGGGCAGGAACAGGGTGAACCGTCTACCCCCCACTGGCAGGAAACCTTGCACATGCCGGGGCTTCAGTAGACCTGACCATTTTTTCCCTTCATCTCGCAGGTATTTCCTCTATCCTTGGGGCTATTAATTTTATTACTACGATTTTAAATATAAAACCCCCAGCAATCTCACAATATCAAACACCCCTCTTTGTGTGAGCAGTTCTAATTACTGCCGTACTACTACTTCTTTCCCTTCCAGTTCTTGCCGCAGGCATTACAATGCTCCTGACAGACCGAAACCTAAACACAACATTCTTTGACCCTGCAGGCGGAGGTGACCCAATCTTATACCAACACCTGTTCTGATTCTTTGGC",
+                  "hseq": "CGGAATAGTAGGGACTGCTCTAAGCCTGCTAATCCGAGCGGAACTAAGCCAACCAGGCGCCCTATTAGGCGATGACCAAATTTATAATGTTATCGTTACCGCCCATGCATTTGTTATAATTTTCTTTATAGTAATACCAATTATGATTGGAGGATTTGGAAACTGATTAATCCCCTTAATAATCGGCGCCCCAGACATGGCCTTCCCTCGAATAAACAACATAAGCTTTTGACTACTGCCTCCTTCTTTTCTCCTCCTTCTCTCATCCTCTTGGGTTGAAGCAGGGGCAGGAACAGGGTGAACCGTCTACCCCCCACTGGCAGGAAACCTTGCACATGCCGGGGCTTCAGTAGACCTGACCATTTTTTCCCTTCATCTCGCAGGTATTTCCTCTATCCTTGGGGCTATTAATTTTATTACTACGATTTTAAATATGAAACCCCCAGCAATCTCACAATATCAAACACCCCTCTTTGTGTGAGCAGTTCTAATTACTGCCGTACTACTACTTCTTTCCCTTCCAGTTCTTGCCGCAGGCATTACAATGCTCCTGACAGACCGAAACCTAAACACAACATTCTTTGACCCTGCAGGCGGAGGTGACCCAATCTTATACCAACACCTGTTCTGATTCTTTGGC",
+                  "midline": "|||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||"
+                }
+              ]
+            },
+            {
+              "num": 3,
+              "description": [
+                {
+                  "id": "gi|2936264575|gb|PV354452.1|",
+                  "accession": "PV354452",
+                  "title": "Glossogobius giuris voucher AP183 cytochrome c oxidase subunit I (COX1) gene, partial cds; mitochondrial",
+                  "taxid": 3412538,
+                  "sciname": "Glossogobius giuris"
+                }
+              ],
+              "len": 653,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 1171.9,
+                  "score": 634,
+                  "evalue": 0,
+                  "identity": 638,
+                  "query_from": 1,
+                  "query_to": 640,
+                  "query_strand": "Plus",
+                  "hit_from": 9,
+                  "hit_to": 648,
+                  "hit_strand": "Plus",
+                  "align_len": 640,
+                  "gaps": 0,
+                  "qseq": "CGGAATAGTAGGGACTGCTCTAAGCCTGCTAATCCGAGCGGAACTAAGCCAACCAGGCGCCCTATTAGGCGATGACCAAATTTATAATGTTATCGTTACCGCCCATGCATTTGTTATAATTTTCTTTATAGTAATACCAATTATGATTGGAGGATTTGGAAACTGATTAATCCCCTTAATAATCGGCGCCCCGGACATGGCCTTCCCTCGAATAAACAACATAAGCTTTTGACTACTGCCTCCTTCTTTTCTCCTCCTTCTCTCATCCTCTTGGGTTGAAGCAGGGGCAGGAACAGGGTGAACCGTCTACCCCCCACTGGCAGGAAACCTTGCACATGCCGGGGCTTCAGTAGACCTGACCATTTTTTCCCTTCATCTCGCAGGTATTTCCTCTATCCTTGGGGCTATTAATTTTATTACTACGATTTTAAATATAAAACCCCCAGCAATCTCACAATATCAAACACCCCTCTTTGTGTGAGCAGTTCTAATTACTGCCGTACTACTACTTCTTTCCCTTCCAGTTCTTGCCGCAGGCATTACAATGCTCCTGACAGACCGAAACCTAAACACAACATTCTTTGACCCTGCAGGCGGAGGTGACCCAATCTTATACCAACACCTGTTCTGATTCTTTGGC",
+                  "hseq": "CGGAATAGTAGGGACTGCTCTAAGCCTGCTAATCCGAGCGGAACTAAGCCAACCAGGCGCCCTATTAGGCGATGACCAAATTTATAATGTTATCGTTACCGCCCATGCATTTGTTATAATTTTCTTTATAGTAATACCAATTATGATTGGAGGATTTGGAAACTGATTAATCCCCTTAATAATCGGCGCCCCAGACATGGCCTTCCCTCGAATAAACAACATAAGCTTTTGACTACTGCCTCCTTCTTTTCTCCTCCTTCTCTCATCCTCTTGGGTTGAAGCAGGGGCAGGAACAGGGTGAACCGTCTACCCCCCACTGGCAGGAAACCTTGCACATGCCGGGGCTTCAGTAGACCTGACCATTTTTTCCCTTCATCTCGCAGGTATTTCCTCTATCCTTGGGGCTATTAATTTTATTACTACGATTTTAAATATGAAACCCCCAGCAATCTCACAATATCAAACACCCCTCTTTGTGTGAGCAGTTCTAATTACTGCCGTACTACTACTTCTTTCCCTTCCAGTTCTTGCCGCAGGCATTACAATGCTCCTGACAGACCGAAACCTAAACACAACATTCTTTGACCCTGCAGGCGGAGGTGACCCAATCTTATACCAACACCTGTTCTGATTCTTTGGC",
+                  "midline": "|||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||"
+                }
+              ]
+            },
+            {
+              "num": 4,
+              "description": [
+                {
+                  "id": "gi|2936264547|gb|PV354438.1|",
+                  "accession": "PV354438",
+                  "title": "Glossogobius giuris voucher TG33 cytochrome c oxidase subunit I (COX1) gene, partial cds; mitochondrial",
+                  "taxid": 3412538,
+                  "sciname": "Glossogobius giuris"
+                }
+              ],
+              "len": 652,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 1171.9,
+                  "score": 634,
+                  "evalue": 0,
+                  "identity": 638,
+                  "query_from": 1,
+                  "query_to": 640,
+                  "query_strand": "Plus",
+                  "hit_from": 9,
+                  "hit_to": 648,
+                  "hit_strand": "Plus",
+                  "align_len": 640,
+                  "gaps": 0,
+                  "qseq": "CGGAATAGTAGGGACTGCTCTAAGCCTGCTAATCCGAGCGGAACTAAGCCAACCAGGCGCCCTATTAGGCGATGACCAAATTTATAATGTTATCGTTACCGCCCATGCATTTGTTATAATTTTCTTTATAGTAATACCAATTATGATTGGAGGATTTGGAAACTGATTAATCCCCTTAATAATCGGCGCCCCGGACATGGCCTTCCCTCGAATAAACAACATAAGCTTTTGACTACTGCCTCCTTCTTTTCTCCTCCTTCTCTCATCCTCTTGGGTTGAAGCAGGGGCAGGAACAGGGTGAACCGTCTACCCCCCACTGGCAGGAAACCTTGCACATGCCGGGGCTTCAGTAGACCTGACCATTTTTTCCCTTCATCTCGCAGGTATTTCCTCTATCCTTGGGGCTATTAATTTTATTACTACGATTTTAAATATAAAACCCCCAGCAATCTCACAATATCAAACACCCCTCTTTGTGTGAGCAGTTCTAATTACTGCCGTACTACTACTTCTTTCCCTTCCAGTTCTTGCCGCAGGCATTACAATGCTCCTGACAGACCGAAACCTAAACACAACATTCTTTGACCCTGCAGGCGGAGGTGACCCAATCTTATACCAACACCTGTTCTGATTCTTTGGC",
+                  "hseq": "CGGAATAGTAGGGACTGCTCTAAGCCTGCTAATCCGAGCGGAACTAAGCCAACCAGGCGCCCTATTAGGCGATGACCAAATTTATAATGTTATCGTTACCGCCCATGCATTTGTTATAATTTTCTTTATAGTAATACCAATTATGATTGGAGGATTTGGAAACTGATTAATCCCCTTAATAATCGGCGCCCCAGACATGGCCTTCCCTCGAATAAACAACATAAGCTTTTGACTACTGCCTCCTTCTTTTCTCCTCCTTCTCTCATCCTCTTGGGTTGAAGCAGGGGCAGGAACAGGGTGAACCGTCTACCCCCCACTGGCAGGAAACCTTGCACATGCCGGGGCTTCAGTAGACCTGACCATTTTTTCCCTTCATCTCGCAGGTATTTCCTCTATCCTTGGGGCTATTAATTTTATTACTACGATTTTAAATATGAAACCCCCAGCAATCTCACAATATCAAACACCCCTCTTTGTGTGAGCAGTTCTAATTACTGCCGTACTACTACTTCTTTCCCTTCCAGTTCTTGCCGCAGGCATTACAATGCTCCTGACAGACCGAAACCTAAACACAACATTCTTTGACCCTGCAGGCGGAGGTGACCCAATCTTATACCAACACCTGTTCTGATTCTTTGGC",
+                  "midline": "|||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||"
+                }
+              ]
+            },
+            {
+              "num": 5,
+              "description": [
+                {
+                  "id": "gi|2562458148|gb|OR431509.1|",
+                  "accession": "OR431509",
+                  "title": "Gerres erythrourus voucher MAHF416 cytochrome c oxidase subunit I (COX1) gene, partial cds; mitochondrial",
+                  "taxid": 332416,
+                  "sciname": "Gerres erythrourus"
+                }
+              ],
+              "len": 651,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 1171.9,
+                  "score": 634,
+                  "evalue": 0,
+                  "identity": 638,
+                  "query_from": 1,
+                  "query_to": 640,
+                  "query_strand": "Plus",
+                  "hit_from": 11,
+                  "hit_to": 650,
+                  "hit_strand": "Plus",
+                  "align_len": 640,
+                  "gaps": 0,
+                  "qseq": "CGGAATAGTAGGGACTGCTCTAAGCCTGCTAATCCGAGCGGAACTAAGCCAACCAGGCGCCCTATTAGGCGATGACCAAATTTATAATGTTATCGTTACCGCCCATGCATTTGTTATAATTTTCTTTATAGTAATACCAATTATGATTGGAGGATTTGGAAACTGATTAATCCCCTTAATAATCGGCGCCCCGGACATGGCCTTCCCTCGAATAAACAACATAAGCTTTTGACTACTGCCTCCTTCTTTTCTCCTCCTTCTCTCATCCTCTTGGGTTGAAGCAGGGGCAGGAACAGGGTGAACCGTCTACCCCCCACTGGCAGGAAACCTTGCACATGCCGGGGCTTCAGTAGACCTGACCATTTTTTCCCTTCATCTCGCAGGTATTTCCTCTATCCTTGGGGCTATTAATTTTATTACTACGATTTTAAATATAAAACCCCCAGCAATCTCACAATATCAAACACCCCTCTTTGTGTGAGCAGTTCTAATTACTGCCGTACTACTACTTCTTTCCCTTCCAGTTCTTGCCGCAGGCATTACAATGCTCCTGACAGACCGAAACCTAAACACAACATTCTTTGACCCTGCAGGCGGAGGTGACCCAATCTTATACCAACACCTGTTCTGATTCTTTGGC",
+                  "hseq": "CGGAATAGTAGGGACTGCTCTAAGCCTGCTAATCCGAGCGGAACTAAGCCAACCAGGCGCCCTATTAGGCGATGACCAAATTTATAATGTTATCGTTACCGCCCATGCATTTGTTATAATTTTCTTTATAGTAATACCAATTATGATTGGAGGATTTGGAAACTGATTAATCCCCTTAATAATCGGCGCCCCGGACATGGCCTTCCCTCGAATAAACAACATAAGCTTTTGACTACTGCCTCCTTCTTTTCTCCTCCTTCTCTCATCCTCTTGGGTTGAAGCAGGGGCAGGAACAGGGTGAACCGTCTACCCCCCATTGGCAGGAAACCTTGCACATGCCGGGGCTTCAGTAGACCTGACCATTTTTTCCCTTCATCTCGCGGGTATTTCCTCTATCCTTGGGGCTATTAATTTTATTACTACGATTTTAAATATAAAACCCCCAGCAATCTCACAATATCAAACACCCCTCTTTGTGTGAGCAGTTCTAATTACTGCCGTACTACTACTTCTTTCCCTTCCAGTTCTTGCCGCAGGCATTACAATGCTCCTGACAGACCGAAACCTAAACACAACATTCTTTGACCCTGCAGGCGGAGGTGACCCAATCTTATACCAACACCTGTTCTGATTCTTTGGC",
+                  "midline": "|||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||"
+                }
+              ]
+            },
+            {
+              "num": 6,
+              "description": [
+                {
+                  "id": "gi|2562458146|gb|OR431508.1|",
+                  "accession": "OR431508",
+                  "title": "Escualosa thoracata voucher MAHN2005 cytochrome c oxidase subunit I (COX1) gene, partial cds; mitochondrial",
+                  "taxid": 454032,
+                  "sciname": "Escualosa thoracata"
+                }
+              ],
+              "len": 652,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 1171.9,
+                  "score": 634,
+                  "evalue": 0,
+                  "identity": 638,
+                  "query_from": 1,
+                  "query_to": 640,
+                  "query_strand": "Plus",
+                  "hit_from": 11,
+                  "hit_to": 650,
+                  "hit_strand": "Plus",
+                  "align_len": 640,
+                  "gaps": 0,
+                  "qseq": "CGGAATAGTAGGGACTGCTCTAAGCCTGCTAATCCGAGCGGAACTAAGCCAACCAGGCGCCCTATTAGGCGATGACCAAATTTATAATGTTATCGTTACCGCCCATGCATTTGTTATAATTTTCTTTATAGTAATACCAATTATGATTGGAGGATTTGGAAACTGATTAATCCCCTTAATAATCGGCGCCCCGGACATGGCCTTCCCTCGAATAAACAACATAAGCTTTTGACTACTGCCTCCTTCTTTTCTCCTCCTTCTCTCATCCTCTTGGGTTGAAGCAGGGGCAGGAACAGGGTGAACCGTCTACCCCCCACTGGCAGGAAACCTTGCACATGCCGGGGCTTCAGTAGACCTGACCATTTTTTCCCTTCATCTCGCAGGTATTTCCTCTATCCTTGGGGCTATTAATTTTATTACTACGATTTTAAATATAAAACCCCCAGCAATCTCACAATATCAAACACCCCTCTTTGTGTGAGCAGTTCTAATTACTGCCGTACTACTACTTCTTTCCCTTCCAGTTCTTGCCGCAGGCATTACAATGCTCCTGACAGACCGAAACCTAAACACAACATTCTTTGACCCTGCAGGCGGAGGTGACCCAATCTTATACCAACACCTGTTCTGATTCTTTGGC",
+                  "hseq": "CGGAATAGTAGGGACTGCTCTAAGCCTGCTAATCCGAGCGGAACTAAGCCAACCAGGCGCCCTATTAGGCGATGACCAAATTTATAATGTTATCGTTACCGCCCATGCATTTGTTATAATTTTCTTTATAGTAATACCAATTATGATTGGAGGATTTGGAAACTGATTAATCCCCTTAATAATCGGCGCCCCAGACATGGCCTTCCCTCGAATAAACAACATAAGCTTTTGACTACTGCCTCCTTCTTTTCTCCTCCTTCTCTCATCCTCTTGGGTTGAAGCAGGGGCAGGAACAGGGTGAACCGTCTACCCCCCACTGGCAGGAAACCTTGCACATGCCGGGGCTTCAGTAGACCTGACCATTTTTTCCCTTCATCTCGCAGGTATTTCCTCTATCCTTGGGGCTATTAATTTTATTACTACGATTTTAAATATGAAACCCCCAGCAATCTCACAATATCAAACACCCCTCTTTGTGTGAGCAGTTCTAATTACTGCCGTACTACTACTTCTTTCCCTTCCAGTTCTTGCCGCAGGCATTACAATGCTCCTGACAGACCGAAACCTAAACACAACATTCTTTGACCCTGCAGGCGGAGGTGACCCAATCTTATACCAACACCTGTTCTGATTCTTTGGC",
+                  "midline": "|||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||"
+                }
+              ]
+            },
+            {
+              "num": 7,
+              "description": [
+                {
+                  "id": "gi|1635255569|gb|MK348189.1|",
+                  "accession": "MK348189",
+                  "title": "Glossogobius giuris voucher NBFGR:CHN:49A2 cytochrome c oxidase subunit I (COI) gene, partial cds; mitochondrial",
+                  "taxid": 3412538,
+                  "sciname": "Glossogobius giuris"
+                }
+              ],
+              "len": 684,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 1171.9,
+                  "score": 634,
+                  "evalue": 0,
+                  "identity": 638,
+                  "query_from": 1,
+                  "query_to": 640,
+                  "query_strand": "Plus",
+                  "hit_from": 42,
+                  "hit_to": 681,
+                  "hit_strand": "Plus",
+                  "align_len": 640,
+                  "gaps": 0,
+                  "qseq": "CGGAATAGTAGGGACTGCTCTAAGCCTGCTAATCCGAGCGGAACTAAGCCAACCAGGCGCCCTATTAGGCGATGACCAAATTTATAATGTTATCGTTACCGCCCATGCATTTGTTATAATTTTCTTTATAGTAATACCAATTATGATTGGAGGATTTGGAAACTGATTAATCCCCTTAATAATCGGCGCCCCGGACATGGCCTTCCCTCGAATAAACAACATAAGCTTTTGACTACTGCCTCCTTCTTTTCTCCTCCTTCTCTCATCCTCTTGGGTTGAAGCAGGGGCAGGAACAGGGTGAACCGTCTACCCCCCACTGGCAGGAAACCTTGCACATGCCGGGGCTTCAGTAGACCTGACCATTTTTTCCCTTCATCTCGCAGGTATTTCCTCTATCCTTGGGGCTATTAATTTTATTACTACGATTTTAAATATAAAACCCCCAGCAATCTCACAATATCAAACACCCCTCTTTGTGTGAGCAGTTCTAATTACTGCCGTACTACTACTTCTTTCCCTTCCAGTTCTTGCCGCAGGCATTACAATGCTCCTGACAGACCGAAACCTAAACACAACATTCTTTGACCCTGCAGGCGGAGGTGACCCAATCTTATACCAACACCTGTTCTGATTCTTTGGC",
+                  "hseq": "CGGAATAGTAGGGACTGCTCTAAGCCTGCTAATCCGAGCGGAACTAAGCCAACCAGGCGCCCTATTAGGCGATGACCAAATTTATAATGTTATCGTTACCGCCCATGCATTTGTTATAATTTTCTTTATAGTAATACCAATTATGATTGGAGGATTTGGAAACTGATTAATCCCCTTAATAATCGGCGCCCCAGACATGGCCTTCCCTCGAATAAACAACATAAGCTTTTGACTACTGCCTCCTTCTTTTCTCCTCCTTCTCTCATCCTCTTGGGTTGAAGCAGGGGCAGGAACAGGGTGAACCGTCTACCCCCCACTGGCAGGAAACCTTGCACATGCCGGGGCTTCAGTAGACCTGACCATTTTTTCCCTTCATCTCGCAGGTATTTCCTCTATCCTTGGGGCTATTAATTTTATTACTACGATTTTAAATATGAAACCCCCAGCAATCTCACAATATCAAACACCCCTCTTTGTGTGAGCAGTTCTAATTACTGCCGTACTACTACTTCTTTCCCTTCCAGTTCTTGCCGCAGGCATTACAATGCTCCTGACAGACCGAAACCTAAACACAACATTCTTTGACCCTGCAGGCGGAGGTGACCCAATCTTATACCAACACCTGTTCTGATTCTTTGGC",
+                  "midline": "|||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||"
+                }
+              ]
+            },
+            {
+              "num": 8,
+              "description": [
+                {
+                  "id": "gi|3063054884|gb|PX396709.1|",
+                  "accession": "PX396709",
+                  "title": "Glossogobius giuris isolate ZSI/SRC F-1555 cytochrome c oxidase subunit I (COX1) gene, partial cds; mitochondrial",
+                  "taxid": 3412538,
+                  "sciname": "Glossogobius giuris"
+                }
+              ],
+              "len": 681,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 1166.36,
+                  "score": 631,
+                  "evalue": 0,
+                  "identity": 637,
+                  "query_from": 1,
+                  "query_to": 640,
+                  "query_strand": "Plus",
+                  "hit_from": 28,
+                  "hit_to": 667,
+                  "hit_strand": "Plus",
+                  "align_len": 640,
+                  "gaps": 0,
+                  "qseq": "CGGAATAGTAGGGACTGCTCTAAGCCTGCTAATCCGAGCGGAACTAAGCCAACCAGGCGCCCTATTAGGCGATGACCAAATTTATAATGTTATCGTTACCGCCCATGCATTTGTTATAATTTTCTTTATAGTAATACCAATTATGATTGGAGGATTTGGAAACTGATTAATCCCCTTAATAATCGGCGCCCCGGACATGGCCTTCCCTCGAATAAACAACATAAGCTTTTGACTACTGCCTCCTTCTTTTCTCCTCCTTCTCTCATCCTCTTGGGTTGAAGCAGGGGCAGGAACAGGGTGAACCGTCTACCCCCCACTGGCAGGAAACCTTGCACATGCCGGGGCTTCAGTAGACCTGACCATTTTTTCCCTTCATCTCGCAGGTATTTCCTCTATCCTTGGGGCTATTAATTTTATTACTACGATTTTAAATATAAAACCCCCAGCAATCTCACAATATCAAACACCCCTCTTTGTGTGAGCAGTTCTAATTACTGCCGTACTACTACTTCTTTCCCTTCCAGTTCTTGCCGCAGGCATTACAATGCTCCTGACAGACCGAAACCTAAACACAACATTCTTTGACCCTGCAGGCGGAGGTGACCCAATCTTATACCAACACCTGTTCTGATTCTTTGGC",
+                  "hseq": "CGGAATAGTAGGGACTGCTCTAAGCCTGCTAATCCGAGCAGAACTAAGCCAACCAGGCGCCCTATTAGGCGATGACCAAATTTATAATGTTATCGTTACCGCCCATGCATTTGTTATAATTTTCTTTATAGTAATACCAATTATGATTGGAGGATTTGGAAACTGATTAATCCCCTTAATAATCGGCGCCCCAGACATGGCCTTCCCTCGAATAAACAACATAAGCTTTTGACTACTGCCTCCTTCTTTTCTCCTCCTTCTCTCATCCTCTTGGGTTGAAGCAGGGGCAGGAACAGGGTGAACCGTCTACCCCCCACTGGCAGGAAACCTTGCACATGCCGGGGCTTCAGTAGACCTGACCATTTTTTCCCTTCATCTCGCAGGTATTTCCTCTATCCTTGGGGCTATTAATTTTATTACTACGATTTTAAATATGAAACCCCCAGCAATCTCACAATATCAAACACCCCTCTTTGTGTGAGCAGTTCTAATTACTGCCGTACTACTACTTCTTTCCCTTCCAGTTCTTGCCGCAGGCATTACAATGCTCCTGACAGACCGAAACCTAAACACAACATTCTTTGACCCTGCAGGCGGAGGTGACCCAATCTTATACCAACACCTGTTCTGATTCTTTGGC",
+                  "midline": "||||||||||||||||||||||||||||||||||||||| |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||"
+                }
+              ]
+            },
+            {
+              "num": 9,
+              "description": [
+                {
+                  "id": "gi|3005541047|gb|PV840052.1|",
+                  "accession": "PV840052",
+                  "title": "Glossogobius giuris isolate ZSI/SRC F-1339 cytochrome c oxidase subunit I (COX1) gene, partial cds; mitochondrial",
+                  "taxid": 3412538,
+                  "sciname": "Glossogobius giuris"
+                }
+              ],
+              "len": 667,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 1166.36,
+                  "score": 631,
+                  "evalue": 0,
+                  "identity": 637,
+                  "query_from": 1,
+                  "query_to": 640,
+                  "query_strand": "Plus",
+                  "hit_from": 15,
+                  "hit_to": 654,
+                  "hit_strand": "Plus",
+                  "align_len": 640,
+                  "gaps": 0,
+                  "qseq": "CGGAATAGTAGGGACTGCTCTAAGCCTGCTAATCCGAGCGGAACTAAGCCAACCAGGCGCCCTATTAGGCGATGACCAAATTTATAATGTTATCGTTACCGCCCATGCATTTGTTATAATTTTCTTTATAGTAATACCAATTATGATTGGAGGATTTGGAAACTGATTAATCCCCTTAATAATCGGCGCCCCGGACATGGCCTTCCCTCGAATAAACAACATAAGCTTTTGACTACTGCCTCCTTCTTTTCTCCTCCTTCTCTCATCCTCTTGGGTTGAAGCAGGGGCAGGAACAGGGTGAACCGTCTACCCCCCACTGGCAGGAAACCTTGCACATGCCGGGGCTTCAGTAGACCTGACCATTTTTTCCCTTCATCTCGCAGGTATTTCCTCTATCCTTGGGGCTATTAATTTTATTACTACGATTTTAAATATAAAACCCCCAGCAATCTCACAATATCAAACACCCCTCTTTGTGTGAGCAGTTCTAATTACTGCCGTACTACTACTTCTTTCCCTTCCAGTTCTTGCCGCAGGCATTACAATGCTCCTGACAGACCGAAACCTAAACACAACATTCTTTGACCCTGCAGGCGGAGGTGACCCAATCTTATACCAACACCTGTTCTGATTCTTTGGC",
+                  "hseq": "CGGAATAGTAGGGACTGCTCTAAGCCTGCTAATCCGAGCAGAACTAAGCCAACCAGGCGCCCTATTAGGCGATGACCAAATTTATAATGTTATCGTTACCGCCCATGCATTTGTTATAATTTTCTTTATAGTAATACCAATTATGATTGGAGGATTTGGAAACTGATTAATCCCCTTAATAATCGGCGCCCCAGACATGGCCTTCCCTCGAATAAACAACATAAGCTTTTGACTACTGCCTCCTTCTTTTCTCCTCCTTCTCTCATCCTCTTGGGTTGAAGCAGGGGCAGGAACAGGGTGAACCGTCTACCCCCCACTGGCAGGAAACCTTGCACATGCCGGGGCTTCAGTAGACCTGACCATTTTTTCCCTTCATCTCGCAGGTATTTCCTCTATCCTTGGGGCTATTAATTTTATTACTACGATTTTAAATATGAAACCCCCAGCAATCTCACAATATCAAACACCCCTCTTTGTGTGAGCAGTTCTAATTACTGCCGTACTACTACTTCTTTCCCTTCCAGTTCTTGCCGCAGGCATTACAATGCTCCTGACAGACCGAAACCTAAACACAACATTCTTTGACCCTGCAGGCGGAGGTGACCCAATCTTATACCAACACCTGTTCTGATTCTTTGGC",
+                  "midline": "||||||||||||||||||||||||||||||||||||||| |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||"
+                }
+              ]
+            },
+            {
+              "num": 10,
+              "description": [
+                {
+                  "id": "gi|2936264557|gb|PV354443.1|",
+                  "accession": "PV354443",
+                  "title": "Glossogobius giuris voucher AP143 cytochrome c oxidase subunit I (COX1) gene, partial cds; mitochondrial",
+                  "taxid": 3412538,
+                  "sciname": "Glossogobius giuris"
+                }
+              ],
+              "len": 652,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 1166.36,
+                  "score": 631,
+                  "evalue": 0,
+                  "identity": 637,
+                  "query_from": 1,
+                  "query_to": 640,
+                  "query_strand": "Plus",
+                  "hit_from": 9,
+                  "hit_to": 648,
+                  "hit_strand": "Plus",
+                  "align_len": 640,
+                  "gaps": 0,
+                  "qseq": "CGGAATAGTAGGGACTGCTCTAAGCCTGCTAATCCGAGCGGAACTAAGCCAACCAGGCGCCCTATTAGGCGATGACCAAATTTATAATGTTATCGTTACCGCCCATGCATTTGTTATAATTTTCTTTATAGTAATACCAATTATGATTGGAGGATTTGGAAACTGATTAATCCCCTTAATAATCGGCGCCCCGGACATGGCCTTCCCTCGAATAAACAACATAAGCTTTTGACTACTGCCTCCTTCTTTTCTCCTCCTTCTCTCATCCTCTTGGGTTGAAGCAGGGGCAGGAACAGGGTGAACCGTCTACCCCCCACTGGCAGGAAACCTTGCACATGCCGGGGCTTCAGTAGACCTGACCATTTTTTCCCTTCATCTCGCAGGTATTTCCTCTATCCTTGGGGCTATTAATTTTATTACTACGATTTTAAATATAAAACCCCCAGCAATCTCACAATATCAAACACCCCTCTTTGTGTGAGCAGTTCTAATTACTGCCGTACTACTACTTCTTTCCCTTCCAGTTCTTGCCGCAGGCATTACAATGCTCCTGACAGACCGAAACCTAAACACAACATTCTTTGACCCTGCAGGCGGAGGTGACCCAATCTTATACCAACACCTGTTCTGATTCTTTGGC",
+                  "hseq": "CGGAATAGTAGGGACTGCTCTAAGCCTGCTAATCCGAGCGGAACTAAGCCAACCAGGCGCCCTATTAGGCGATGACCAAATTTATAATGTTATCGTTACCGCCCATGCATTTGTTATAATTTTCTTTATAGTAATACCAATTATGATTGGAGGATTTGGAAACTGATTAATCCCCTTAATAATCGGCGCCCCAGACATGGCCTTCCCTCGAATAAACAACATAAGCTTTTGACTACTGCCTCCTTCTTTTCTCCTCCTTCTCTCATCCTCTTGGGTTGAAGCAGGGGCAGGAACAGGGTGAACCGTCTACCCCCCACTGGCAGGAAACCTTGCACATGCCGGGGCTTCAGTAGACCTGACCATTTTTTCCCTTCATCTCGCAGGTATTTCCTCTATCCTTGGGGCTATTAATTTTATTACTACGATTTTAAATATGAAACCCCCAGCAATCTCACAATATCAAACACCCCTCTTTGTATGAGCAGTTCTAATTACTGCCGTACTACTACTTCTTTCCCTTCCAGTTCTTGCCGCAGGCATTACAATGCTCCTGACAGACCGAAACCTAAACACAACATTCTTTGACCCTGCAGGCGGAGGTGACCCAATCTTATACCAACACCTGTTCTGATTCTTTGGC",
+                  "midline": "|||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| ||||||||||||||||||||||||||||||||||||||||| ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||"
+                }
+              ]
+            },
+            {
+              "num": 11,
+              "description": [
+                {
+                  "id": "gi|1635255571|gb|MK348190.1|",
+                  "accession": "MK348190",
+                  "title": "Glossogobius giuris voucher NBFGR:CHN:49A3 cytochrome c oxidase subunit I (COI) gene, partial cds; mitochondrial",
+                  "taxid": 3412538,
+                  "sciname": "Glossogobius giuris"
+                }
+              ],
+              "len": 684,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 1166.36,
+                  "score": 631,
+                  "evalue": 0,
+                  "identity": 637,
+                  "query_from": 1,
+                  "query_to": 640,
+                  "query_strand": "Plus",
+                  "hit_from": 42,
+                  "hit_to": 681,
+                  "hit_strand": "Plus",
+                  "align_len": 640,
+                  "gaps": 0,
+                  "qseq": "CGGAATAGTAGGGACTGCTCTAAGCCTGCTAATCCGAGCGGAACTAAGCCAACCAGGCGCCCTATTAGGCGATGACCAAATTTATAATGTTATCGTTACCGCCCATGCATTTGTTATAATTTTCTTTATAGTAATACCAATTATGATTGGAGGATTTGGAAACTGATTAATCCCCTTAATAATCGGCGCCCCGGACATGGCCTTCCCTCGAATAAACAACATAAGCTTTTGACTACTGCCTCCTTCTTTTCTCCTCCTTCTCTCATCCTCTTGGGTTGAAGCAGGGGCAGGAACAGGGTGAACCGTCTACCCCCCACTGGCAGGAAACCTTGCACATGCCGGGGCTTCAGTAGACCTGACCATTTTTTCCCTTCATCTCGCAGGTATTTCCTCTATCCTTGGGGCTATTAATTTTATTACTACGATTTTAAATATAAAACCCCCAGCAATCTCACAATATCAAACACCCCTCTTTGTGTGAGCAGTTCTAATTACTGCCGTACTACTACTTCTTTCCCTTCCAGTTCTTGCCGCAGGCATTACAATGCTCCTGACAGACCGAAACCTAAACACAACATTCTTTGACCCTGCAGGCGGAGGTGACCCAATCTTATACCAACACCTGTTCTGATTCTTTGGC",
+                  "hseq": "CGGAATAGTAGGGACTGCTCTAAGCCTGCTAATCCGAGCGGAACTAAGCCAACCAGGCGCCCTATTAGGCGATGACCAAATTTATAATGTTATCGTTACCGCCCATGCATTTGTTATAATTTTCTTTATAGTAATACCAATTATGATTGGAGGATTTGGAAACTGATTAATCCCCTTAATAATCGGCGCCCCAGACATGGCCTTCCCTCGAATAAACAACATAAGCTTTTGACTACTGCCTCCTTCTTTTCTCCTCCTTCTCTCATCCTCTTGGGTTGAAGCAGGGGCAGGAACAGGGTGAACCGTCTACCCCCCACTGGCAGGAAACCTTGCACATGCCGGGGCTTCAGTAGACCTGACCATTTTTTCCCTTCATCTCGCAGGTATTTCCTCTATCCTTGGGGCTATTAATTTTATTACTACGATTTTAAATATGAAACCCCCAGCAATCTCACAATATCAAACACCCCTCTTTGTATGAGCAGTTCTAATTACTGCCGTACTACTACTTCTTTCCCTTCCAGTTCTTGCCGCAGGCATTACAATGCTCCTGACAGACCGAAACCTAAACACAACATTCTTTGACCCTGCAGGCGGAGGTGACCCAATCTTATACCAACACCTGTTCTGATTCTTTGGC",
+                  "midline": "|||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| ||||||||||||||||||||||||||||||||||||||||| ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||"
+                }
+              ]
+            },
+            {
+              "num": 12,
+              "description": [
+                {
+                  "id": "gi|1043349695|gb|KX239491.1|",
+                  "accession": "KX239491",
+                  "title": "Glossogobius giuris voucher PUMNH 43/2013 cytochrome oxidase subunit I (COI) gene, partial cds; mitochondrial",
+                  "taxid": 3412538,
+                  "sciname": "Glossogobius giuris"
+                }
+              ],
+              "len": 678,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 1166.36,
+                  "score": 631,
+                  "evalue": 0,
+                  "identity": 635,
+                  "query_from": 1,
+                  "query_to": 637,
+                  "query_strand": "Plus",
+                  "hit_from": 42,
+                  "hit_to": 678,
+                  "hit_strand": "Plus",
+                  "align_len": 637,
+                  "gaps": 0,
+                  "qseq": "CGGAATAGTAGGGACTGCTCTAAGCCTGCTAATCCGAGCGGAACTAAGCCAACCAGGCGCCCTATTAGGCGATGACCAAATTTATAATGTTATCGTTACCGCCCATGCATTTGTTATAATTTTCTTTATAGTAATACCAATTATGATTGGAGGATTTGGAAACTGATTAATCCCCTTAATAATCGGCGCCCCGGACATGGCCTTCCCTCGAATAAACAACATAAGCTTTTGACTACTGCCTCCTTCTTTTCTCCTCCTTCTCTCATCCTCTTGGGTTGAAGCAGGGGCAGGAACAGGGTGAACCGTCTACCCCCCACTGGCAGGAAACCTTGCACATGCCGGGGCTTCAGTAGACCTGACCATTTTTTCCCTTCATCTCGCAGGTATTTCCTCTATCCTTGGGGCTATTAATTTTATTACTACGATTTTAAATATAAAACCCCCAGCAATCTCACAATATCAAACACCCCTCTTTGTGTGAGCAGTTCTAATTACTGCCGTACTACTACTTCTTTCCCTTCCAGTTCTTGCCGCAGGCATTACAATGCTCCTGACAGACCGAAACCTAAACACAACATTCTTTGACCCTGCAGGCGGAGGTGACCCAATCTTATACCAACACCTGTTCTGATTCTTT",
+                  "hseq": "CGGAATAGTAGGGACTGCTCTAAGCCTGCTAATCCGAGCAGAACTAAGCCAACCAGGCGCCCTATTAGGCGATGACCAAATTTATAATGTTATCGTTACCGCCCATGCATTTGTTATAATTTTCTTTATAGTAATACCAATTATGATTGGAGGATTTGGAAACTGATTAATCCCCTTAATAATCGGCGCCCCAGACATGGCCTTCCCTCGAATAAACAACATAAGCTTTTGACTACTGCCTCCTTCTTTTCTCCTCCTTCTCTCATCCTCTTGGGTTGAAGCAGGGGCAGGAACAGGGTGAACCGTCTACCCCCCACTGGCAGGAAACCTTGCACATGCCGGGGCTTCAGTAGACCTGACCATTTTTTCCCTTCATCTCGCAGGTATTTCCTCTATCCTTGGGGCTATTAATTTTATTACTACGATTTTAAATATAAAACCCCCAGCAATCTCACAATATCAAACACCCCTCTTTGTGTGAGCAGTTCTAATTACTGCCGTACTACTACTTCTTTCCCTTCCAGTTCTTGCCGCAGGCATTACAATGCTCCTGACAGACCGAAACCTAAACACAACATTCTTTGACCCTGCAGGCGGAGGTGACCCAATCTTATACCAACACCTGTTCTGATTCTTT",
+                  "midline": "||||||||||||||||||||||||||||||||||||||| |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||"
+                }
+              ]
+            },
+            {
+              "num": 13,
+              "description": [
+                {
+                  "id": "gi|2987286920|gb|PV687302.1|",
+                  "accession": "PV687302",
+                  "title": "Glossogobius giuris isolate ITIBB1 cytochrome c oxidase subunit I (COX1) gene, partial cds; mitochondrial",
+                  "taxid": 3412538,
+                  "sciname": "Glossogobius giuris"
+                }
+              ],
+              "len": 663,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 1164.51,
+                  "score": 630,
+                  "evalue": 0,
+                  "identity": 634,
+                  "query_from": 1,
+                  "query_to": 636,
+                  "query_strand": "Plus",
+                  "hit_from": 28,
+                  "hit_to": 663,
+                  "hit_strand": "Plus",
+                  "align_len": 636,
+                  "gaps": 0,
+                  "qseq": "CGGAATAGTAGGGACTGCTCTAAGCCTGCTAATCCGAGCGGAACTAAGCCAACCAGGCGCCCTATTAGGCGATGACCAAATTTATAATGTTATCGTTACCGCCCATGCATTTGTTATAATTTTCTTTATAGTAATACCAATTATGATTGGAGGATTTGGAAACTGATTAATCCCCTTAATAATCGGCGCCCCGGACATGGCCTTCCCTCGAATAAACAACATAAGCTTTTGACTACTGCCTCCTTCTTTTCTCCTCCTTCTCTCATCCTCTTGGGTTGAAGCAGGGGCAGGAACAGGGTGAACCGTCTACCCCCCACTGGCAGGAAACCTTGCACATGCCGGGGCTTCAGTAGACCTGACCATTTTTTCCCTTCATCTCGCAGGTATTTCCTCTATCCTTGGGGCTATTAATTTTATTACTACGATTTTAAATATAAAACCCCCAGCAATCTCACAATATCAAACACCCCTCTTTGTGTGAGCAGTTCTAATTACTGCCGTACTACTACTTCTTTCCCTTCCAGTTCTTGCCGCAGGCATTACAATGCTCCTGACAGACCGAAACCTAAACACAACATTCTTTGACCCTGCAGGCGGAGGTGACCCAATCTTATACCAACACCTGTTCTGATTCTT",
+                  "hseq": "CGGAATAGTAGGGACTGCTCTAAGCCTGCTAATCCGAGCGGAACTAAGCCAACCAGGCGCCCTATTAGGCGATGACCAAATTTATAATGTTATCGTTACCGCCCATGCATTTGTTATAATTTTCTTTATAGTAATACCAATTATGATTGGAGGATTTGGAAACTGATTAATCCCCTTAATAATCGGCGCCCCAGACATGGCCTTCCCTCGAATAAACAACATAAGCTTTTGACTACTGCCTCCTTCTTTTCTCCTCCTTCTCTCATCCTCTTGGGTTGAAGCAGGGGCAGGAACAGGGTGAACCGTCTACCCCCCACTGGCAGGAAACCTTGCACATGCCGGGGCTTCAGTAGACCTGACCATTTTTTCCCTTCATCTCGCAGGTATTTCCTCTATCCTTGGGGCTATTAATTTTATTACTACGATTTTAAATATGAAACCCCCAGCAATCTCACAATATCAAACACCCCTCTTTGTGTGAGCAGTTCTAATTACTGCCGTACTACTACTTCTTTCCCTTCCAGTTCTTGCCGCAGGCATTACAATGCTCCTGACAGACCGAAACCTAAACACAACATTCTTTGACCCTGCAGGCGGAGGTGACCCAATCTTATACCAACACCTGTTCTGATTCTT",
+                  "midline": "|||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||"
+                }
+              ]
+            },
+            {
+              "num": 14,
+              "description": [
+                {
+                  "id": "gi|1891027840|gb|MT890481.1|",
+                  "accession": "MT890481",
+                  "title": "Glossogobius giuris voucher FBRC-ZSI-F 3547 cytochrome c oxidase subunit I (COX1) gene, partial cds; mitochondrial",
+                  "taxid": 3412538,
+                  "sciname": "Glossogobius giuris"
+                }
+              ],
+              "len": 655,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 1164.51,
+                  "score": 630,
+                  "evalue": 0,
+                  "identity": 634,
+                  "query_from": 1,
+                  "query_to": 636,
+                  "query_strand": "Plus",
+                  "hit_from": 20,
+                  "hit_to": 655,
+                  "hit_strand": "Plus",
+                  "align_len": 636,
+                  "gaps": 0,
+                  "qseq": "CGGAATAGTAGGGACTGCTCTAAGCCTGCTAATCCGAGCGGAACTAAGCCAACCAGGCGCCCTATTAGGCGATGACCAAATTTATAATGTTATCGTTACCGCCCATGCATTTGTTATAATTTTCTTTATAGTAATACCAATTATGATTGGAGGATTTGGAAACTGATTAATCCCCTTAATAATCGGCGCCCCGGACATGGCCTTCCCTCGAATAAACAACATAAGCTTTTGACTACTGCCTCCTTCTTTTCTCCTCCTTCTCTCATCCTCTTGGGTTGAAGCAGGGGCAGGAACAGGGTGAACCGTCTACCCCCCACTGGCAGGAAACCTTGCACATGCCGGGGCTTCAGTAGACCTGACCATTTTTTCCCTTCATCTCGCAGGTATTTCCTCTATCCTTGGGGCTATTAATTTTATTACTACGATTTTAAATATAAAACCCCCAGCAATCTCACAATATCAAACACCCCTCTTTGTGTGAGCAGTTCTAATTACTGCCGTACTACTACTTCTTTCCCTTCCAGTTCTTGCCGCAGGCATTACAATGCTCCTGACAGACCGAAACCTAAACACAACATTCTTTGACCCTGCAGGCGGAGGTGACCCAATCTTATACCAACACCTGTTCTGATTCTT",
+                  "hseq": "CGGAATAGTAGGGACTGCTCTAAGCCTGCTAATCCGAGCGGAACTAAGCCAACCAGGCGCCCTATTAGGCGATGACCAAATTTATAATGTTATCGTTACCGCCCATGCATTTGTTATAATTTTCTTTATAGTAATACCAATTATGATTGGAGGATTTGGAAACTGATTAATCCCCTTAATAATCGGCGCCCCGGACATGGCCTTCCCTCGAATAAACAACATAAGCTTTTGACTACTGCCTCCTTCTTTTCTCCTCCTTCTCTCATCCTCTTGGGTTGAAGCAGGGGCAGGAACAGGGTGAACCGTCTACCCCCCACTGGCAGGAAACCTTGCACATGCCGGGGCTTCAGTAGACCTGACCATTTTTTCCCTTCATCTCGCGGGTATTTCCTCTATCCTTGGGGCTATTAATTTTATTACTACGATTTTAAATATGAAACCCCCAGCAATCTCACAATATCAAACACCCCTCTTTGTGTGAGCAGTTCTAATTACTGCCGTACTACTACTTCTTTCCCTTCCAGTTCTTGCCGCAGGCATTACAATGCTCCTGACAGACCGAAACCTAAACACAACATTCTTTGACCCTGCAGGCGGAGGTGACCCAATCTTATACCAACACCTGTTCTGATTCTT",
+                  "midline": "||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| ||||||||||||||||||||||||||||||||||||||||||||||||||||| ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||"
+                }
+              ]
+            },
+            {
+              "num": 15,
+              "description": [
+                {
+                  "id": "gi|1441241995|gb|MG923360.1|",
+                  "accession": "MG923360",
+                  "title": "Glossogobius giuris voucher NBFGR:CHN:10V1 cytochrome c oxidase subunit I (COI) gene, partial cds; mitochondrial",
+                  "taxid": 3412538,
+                  "sciname": "Glossogobius giuris"
+                }
+              ],
+              "len": 677,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 1164.51,
+                  "score": 630,
+                  "evalue": 0,
+                  "identity": 634,
+                  "query_from": 1,
+                  "query_to": 636,
+                  "query_strand": "Plus",
+                  "hit_from": 42,
+                  "hit_to": 677,
+                  "hit_strand": "Plus",
+                  "align_len": 636,
+                  "gaps": 0,
+                  "qseq": "CGGAATAGTAGGGACTGCTCTAAGCCTGCTAATCCGAGCGGAACTAAGCCAACCAGGCGCCCTATTAGGCGATGACCAAATTTATAATGTTATCGTTACCGCCCATGCATTTGTTATAATTTTCTTTATAGTAATACCAATTATGATTGGAGGATTTGGAAACTGATTAATCCCCTTAATAATCGGCGCCCCGGACATGGCCTTCCCTCGAATAAACAACATAAGCTTTTGACTACTGCCTCCTTCTTTTCTCCTCCTTCTCTCATCCTCTTGGGTTGAAGCAGGGGCAGGAACAGGGTGAACCGTCTACCCCCCACTGGCAGGAAACCTTGCACATGCCGGGGCTTCAGTAGACCTGACCATTTTTTCCCTTCATCTCGCAGGTATTTCCTCTATCCTTGGGGCTATTAATTTTATTACTACGATTTTAAATATAAAACCCCCAGCAATCTCACAATATCAAACACCCCTCTTTGTGTGAGCAGTTCTAATTACTGCCGTACTACTACTTCTTTCCCTTCCAGTTCTTGCCGCAGGCATTACAATGCTCCTGACAGACCGAAACCTAAACACAACATTCTTTGACCCTGCAGGCGGAGGTGACCCAATCTTATACCAACACCTGTTCTGATTCTT",
+                  "hseq": "CGGAATAGTAGGGACTGCTCTAAGCCTGCTAATCCGAGCGGAACTAAGCCAACCAGGCGCCCTATTAGGCGATGACCAAATTTATAATGTTATCGTTACCGCCCATGCATTTGTTATAATTTTCTTTATAGTAATACCAATTATGATTGGAGGATTTGGAAACTGATTAATCCCCTTAATAATCGGCGCCCCAGACATGGCCTTCCCTCGAATAAACAACATAAGCTTTTGACTACTGCCTCCTTCTTTTCTCCTCCTTCTCTCATCCTCTTGGGTTGAAGCAGGGGCAGGAACAGGGTGAACCGTCTACCCCCCACTGGCAGGAAACCTTGCACATGCCGGGGCTTCAGTAGACCTGACCATTTTTTCCCTTCATCTCGCAGGTATTTCCTCTATCCTTGGGGCTATTAATTTTATTACTACGATTTTAAATATGAAACCCCCAGCAATCTCACAATATCAAACACCCCTCTTTGTGTGAGCAGTTCTAATTACTGCCGTACTACTACTTCTTTCCCTTCCAGTTCTTGCCGCAGGCATTACAATGCTCCTGACAGACCGAAACCTAAACACAACATTCTTTGACCCTGCAGGCGGAGGTGACCCAATCTTATACCAACACCTGTTCTGATTCTT",
+                  "midline": "|||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||"
+                }
+              ]
+            },
+            {
+              "num": 16,
+              "description": [
+                {
+                  "id": "gi|3352471545|gb|PZ587011.1|",
+                  "accession": "PZ587011",
+                  "title": "Glossogobius giuris isolate ZSI/SRC F1813 cytochrome c oxidase subunit I (COX1) gene, partial cds; mitochondrial",
+                  "taxid": 3412538,
+                  "sciname": "Glossogobius giuris"
+                }
+              ],
+              "len": 665,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 1160.82,
+                  "score": 628,
+                  "evalue": 0,
+                  "identity": 636,
+                  "query_from": 1,
+                  "query_to": 640,
+                  "query_strand": "Plus",
+                  "hit_from": 15,
+                  "hit_to": 654,
+                  "hit_strand": "Plus",
+                  "align_len": 640,
+                  "gaps": 0,
+                  "qseq": "CGGAATAGTAGGGACTGCTCTAAGCCTGCTAATCCGAGCGGAACTAAGCCAACCAGGCGCCCTATTAGGCGATGACCAAATTTATAATGTTATCGTTACCGCCCATGCATTTGTTATAATTTTCTTTATAGTAATACCAATTATGATTGGAGGATTTGGAAACTGATTAATCCCCTTAATAATCGGCGCCCCGGACATGGCCTTCCCTCGAATAAACAACATAAGCTTTTGACTACTGCCTCCTTCTTTTCTCCTCCTTCTCTCATCCTCTTGGGTTGAAGCAGGGGCAGGAACAGGGTGAACCGTCTACCCCCCACTGGCAGGAAACCTTGCACATGCCGGGGCTTCAGTAGACCTGACCATTTTTTCCCTTCATCTCGCAGGTATTTCCTCTATCCTTGGGGCTATTAATTTTATTACTACGATTTTAAATATAAAACCCCCAGCAATCTCACAATATCAAACACCCCTCTTTGTGTGAGCAGTTCTAATTACTGCCGTACTACTACTTCTTTCCCTTCCAGTTCTTGCCGCAGGCATTACAATGCTCCTGACAGACCGAAACCTAAACACAACATTCTTTGACCCTGCAGGCGGAGGTGACCCAATCTTATACCAACACCTGTTCTGATTCTTTGGC",
+                  "hseq": "CGGTATAGTAGGGACTGCTCTAAGCCTGCTAATCCGAGCAGAACTAAGCCAACCAGGCGCCCTATTAGGCGATGACCAAATTTATAATGTTATCGTTACCGCCCATGCATTTGTTATAATTTTCTTTATAGTAATACCAATTATGATTGGAGGATTTGGAAACTGATTAATCCCCTTAATAATCGGCGCCCCAGACATGGCCTTCCCTCGAATAAACAACATAAGCTTTTGACTACTGCCTCCTTCTTTTCTCCTCCTTCTCTCATCCTCTTGGGTTGAAGCAGGGGCAGGAACAGGGTGAACCGTCTACCCCCCACTGGCAGGAAACCTTGCACATGCCGGGGCTTCAGTAGACCTGACCATTTTTTCCCTTCATCTCGCAGGTATTTCCTCTATCCTTGGGGCTATTAATTTTATTACTACGATTTTAAATATGAAACCCCCAGCAATCTCACAATATCAAACACCCCTCTTTGTGTGAGCAGTTCTAATTACTGCCGTACTACTACTTCTTTCCCTTCCAGTTCTTGCCGCAGGCATTACAATGCTCCTGACAGACCGAAACCTAAACACAACATTCTTTGACCCTGCAGGCGGAGGTGACCCAATCTTATACCAACACCTGTTCTGATTCTTTGGC",
+                  "midline": "||| ||||||||||||||||||||||||||||||||||| |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||"
+                }
+              ]
+            },
+            {
+              "num": 17,
+              "description": [
+                {
+                  "id": "gi|1441242001|gb|MG923363.1|",
+                  "accession": "MG923363",
+                  "title": "Glossogobius giuris voucher NBFGR:CHN:10V5 cytochrome c oxidase subunit I (COI) gene, partial cds; mitochondrial",
+                  "taxid": 3412538,
+                  "sciname": "Glossogobius giuris"
+                }
+              ],
+              "len": 677,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 1158.97,
+                  "score": 627,
+                  "evalue": 0,
+                  "identity": 633,
+                  "query_from": 1,
+                  "query_to": 636,
+                  "query_strand": "Plus",
+                  "hit_from": 42,
+                  "hit_to": 677,
+                  "hit_strand": "Plus",
+                  "align_len": 636,
+                  "gaps": 0,
+                  "qseq": "CGGAATAGTAGGGACTGCTCTAAGCCTGCTAATCCGAGCGGAACTAAGCCAACCAGGCGCCCTATTAGGCGATGACCAAATTTATAATGTTATCGTTACCGCCCATGCATTTGTTATAATTTTCTTTATAGTAATACCAATTATGATTGGAGGATTTGGAAACTGATTAATCCCCTTAATAATCGGCGCCCCGGACATGGCCTTCCCTCGAATAAACAACATAAGCTTTTGACTACTGCCTCCTTCTTTTCTCCTCCTTCTCTCATCCTCTTGGGTTGAAGCAGGGGCAGGAACAGGGTGAACCGTCTACCCCCCACTGGCAGGAAACCTTGCACATGCCGGGGCTTCAGTAGACCTGACCATTTTTTCCCTTCATCTCGCAGGTATTTCCTCTATCCTTGGGGCTATTAATTTTATTACTACGATTTTAAATATAAAACCCCCAGCAATCTCACAATATCAAACACCCCTCTTTGTGTGAGCAGTTCTAATTACTGCCGTACTACTACTTCTTTCCCTTCCAGTTCTTGCCGCAGGCATTACAATGCTCCTGACAGACCGAAACCTAAACACAACATTCTTTGACCCTGCAGGCGGAGGTGACCCAATCTTATACCAACACCTGTTCTGATTCTT",
+                  "hseq": "CGGAATAGTAGGGACTGCTCTAAGCCTGCTAATCCGAGCGGAACTAAGCCAACCAGGCGCCCTATTAGGCGATGACCAAATTTATAATGTTATCGTTACCGCCCATGCATTTGTTATAATTTTCTTTATAGTAATACCAATTATGATTGGAGGATTTGGAAACTGATTAATCCCCTTAATAATCGGCGCCCCAGACATGGCCTTCCCTCGAATAAACAACATAAGCTTTTGACTACTGCCTCCTTCTTTTCTCCTCCTTCTCTCATCCTCTTGGGTTGAAGCAGGGGCAGGAACAGGGTGAACCGTCTACCCCCCACTGGCAGGAAACCTTGCGCATGCCGGGGCTTCAGTAGACCTGACCATTTTTTCCCTTCATCTCGCAGGTATTTCCTCTATCCTTGGGGCTATTAATTTTATTACTACGATTTTAAATATGAAACCCCCAGCAATCTCACAATATCAAACACCCCTCTTTGTGTGAGCAGTTCTAATTACTGCCGTACTACTACTTCTTTCCCTTCCAGTTCTTGCCGCAGGCATTACAATGCTCCTGACAGACCGAAACCTAAACACAACATTCTTTGACCCTGCAGGCGGAGGTGACCCAATCTTATACCAACACCTGTTCTGATTCTT",
+                  "midline": "|||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||"
+                }
+              ]
+            },
+            {
+              "num": 18,
+              "description": [
+                {
+                  "id": "gi|1441241999|gb|MG923362.1|",
+                  "accession": "MG923362",
+                  "title": "Glossogobius giuris voucher NBFGR:CHN:10V3 cytochrome c oxidase subunit I (COI) gene, partial cds; mitochondrial",
+                  "taxid": 3412538,
+                  "sciname": "Glossogobius giuris"
+                }
+              ],
+              "len": 677,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 1158.97,
+                  "score": 627,
+                  "evalue": 0,
+                  "identity": 633,
+                  "query_from": 1,
+                  "query_to": 636,
+                  "query_strand": "Plus",
+                  "hit_from": 42,
+                  "hit_to": 677,
+                  "hit_strand": "Plus",
+                  "align_len": 636,
+                  "gaps": 0,
+                  "qseq": "CGGAATAGTAGGGACTGCTCTAAGCCTGCTAATCCGAGCGGAACTAAGCCAACCAGGCGCCCTATTAGGCGATGACCAAATTTATAATGTTATCGTTACCGCCCATGCATTTGTTATAATTTTCTTTATAGTAATACCAATTATGATTGGAGGATTTGGAAACTGATTAATCCCCTTAATAATCGGCGCCCCGGACATGGCCTTCCCTCGAATAAACAACATAAGCTTTTGACTACTGCCTCCTTCTTTTCTCCTCCTTCTCTCATCCTCTTGGGTTGAAGCAGGGGCAGGAACAGGGTGAACCGTCTACCCCCCACTGGCAGGAAACCTTGCACATGCCGGGGCTTCAGTAGACCTGACCATTTTTTCCCTTCATCTCGCAGGTATTTCCTCTATCCTTGGGGCTATTAATTTTATTACTACGATTTTAAATATAAAACCCCCAGCAATCTCACAATATCAAACACCCCTCTTTGTGTGAGCAGTTCTAATTACTGCCGTACTACTACTTCTTTCCCTTCCAGTTCTTGCCGCAGGCATTACAATGCTCCTGACAGACCGAAACCTAAACACAACATTCTTTGACCCTGCAGGCGGAGGTGACCCAATCTTATACCAACACCTGTTCTGATTCTT",
+                  "hseq": "CGGAATAGTAGGGACTGCTTTAAGCCTGCTAATCCGAGCGGAACTAAGCCAACCAGGCGCCCTATTAGGCGATGACCAAATTTATAATGTTATCGTTACCGCCCATGCATTTGTTATAATTTTCTTTATAGTAATACCAATTATGATTGGAGGATTTGGAAACTGATTAATCCCCTTAATAATCGGCGCCCCAGACATGGCCTTCCCTCGAATAAACAACATAAGCTTTTGACTACTGCCTCCTTCTTTTCTCCTCCTTCTCTCATCCTCTTGGGTTGAAGCAGGGGCAGGAACAGGGTGAACCGTCTACCCCCCACTGGCAGGAAACCTTGCACATGCCGGGGCTTCAGTAGACCTGACCATTTTTTCCCTTCATCTCGCAGGTATTTCCTCTATCCTTGGGGCTATTAATTTTATTACTACGATTTTAAATATGAAACCCCCAGCAATCTCACAATATCAAACACCCCTCTTTGTGTGAGCAGTTCTAATTACTGCCGTACTACTACTTCTTTCCCTTCCAGTTCTTGCCGCAGGCATTACAATGCTCCTGACAGACCGAAACCTAAACACAACATTCTTTGACCCTGCAGGCGGAGGTGACCCAATCTTATACCAACACCTGTTCTGATTCTT",
+                  "midline": "||||||||||||||||||| |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||"
+                }
+              ]
+            },
+            {
+              "num": 19,
+              "description": [
+                {
+                  "id": "gi|1441241997|gb|MG923361.1|",
+                  "accession": "MG923361",
+                  "title": "Glossogobius giuris voucher NBFGR:CHN:10V2 cytochrome c oxidase subunit I (COI) gene, partial cds; mitochondrial",
+                  "taxid": 3412538,
+                  "sciname": "Glossogobius giuris"
+                }
+              ],
+              "len": 677,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 1158.97,
+                  "score": 627,
+                  "evalue": 0,
+                  "identity": 633,
+                  "query_from": 1,
+                  "query_to": 636,
+                  "query_strand": "Plus",
+                  "hit_from": 42,
+                  "hit_to": 677,
+                  "hit_strand": "Plus",
+                  "align_len": 636,
+                  "gaps": 0,
+                  "qseq": "CGGAATAGTAGGGACTGCTCTAAGCCTGCTAATCCGAGCGGAACTAAGCCAACCAGGCGCCCTATTAGGCGATGACCAAATTTATAATGTTATCGTTACCGCCCATGCATTTGTTATAATTTTCTTTATAGTAATACCAATTATGATTGGAGGATTTGGAAACTGATTAATCCCCTTAATAATCGGCGCCCCGGACATGGCCTTCCCTCGAATAAACAACATAAGCTTTTGACTACTGCCTCCTTCTTTTCTCCTCCTTCTCTCATCCTCTTGGGTTGAAGCAGGGGCAGGAACAGGGTGAACCGTCTACCCCCCACTGGCAGGAAACCTTGCACATGCCGGGGCTTCAGTAGACCTGACCATTTTTTCCCTTCATCTCGCAGGTATTTCCTCTATCCTTGGGGCTATTAATTTTATTACTACGATTTTAAATATAAAACCCCCAGCAATCTCACAATATCAAACACCCCTCTTTGTGTGAGCAGTTCTAATTACTGCCGTACTACTACTTCTTTCCCTTCCAGTTCTTGCCGCAGGCATTACAATGCTCCTGACAGACCGAAACCTAAACACAACATTCTTTGACCCTGCAGGCGGAGGTGACCCAATCTTATACCAACACCTGTTCTGATTCTT",
+                  "hseq": "CGGAATAGTAGGGACTGCTCTAAGCCTGCTAATCCGAGCGGAACTAAGCCAACCAGGCGCCCTATTAGGCGATGACCAAATTTATAATGTTATCGTTACCGCCCATGCATTTGTTATAATTTTCTTTATAGTAATACCAATTATGATTGGAGGATTTGGAAACTGATTAATCCCCTTAATAATCGGCGCCCCAGACATGGCCTTCCCTCGAATAAACAACATAAGCTTTTGACTACTGCCTCCTTCTTTTCTCCTCCTTCTCTCATCCTCTTGGGTTGAAGCAGGGGCAGGAACAGGGTGAACCGTCTACCCCCCACTGGCAGGAAACCTTGCACATGCCGGGGCTTCAGTAGACCTGACCATTTTTTCCCTTCATCTCGCAGGTATTTCCTCTATCCTTGGGGCTATTAATTTTATTACTACGATTTTAAATATGAAACCCCCAGCAATTTCACAATATCAAACACCCCTCTTTGTGTGAGCAGTTCTAATTACTGCCGTACTACTACTTCTTTCCCTTCCAGTTCTTGCCGCAGGCATTACAATGCTCCTGACAGACCGAAACCTAAACACAACATTCTTTGACCCTGCAGGCGGAGGTGACCCAATCTTATACCAACACCTGTTCTGATTCTT",
+                  "midline": "|||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| |||||||||||||| |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||"
+                }
+              ]
+            },
+            {
+              "num": 20,
+              "description": [
+                {
+                  "id": "gi|2987286915|gb|PV687298.1|",
+                  "accession": "PV687298",
+                  "title": "Glossogobius giuris isolate ITTKA4 cytochrome c oxidase subunit I (COX1) gene, partial cds; mitochondrial",
+                  "taxid": 3412538,
+                  "sciname": "Glossogobius giuris"
+                }
+              ],
+              "len": 662,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 1153.43,
+                  "score": 624,
+                  "evalue": 0,
+                  "identity": 632,
+                  "query_from": 1,
+                  "query_to": 636,
+                  "query_strand": "Plus",
+                  "hit_from": 27,
+                  "hit_to": 662,
+                  "hit_strand": "Plus",
+                  "align_len": 636,
+                  "gaps": 0,
+                  "qseq": "CGGAATAGTAGGGACTGCTCTAAGCCTGCTAATCCGAGCGGAACTAAGCCAACCAGGCGCCCTATTAGGCGATGACCAAATTTATAATGTTATCGTTACCGCCCATGCATTTGTTATAATTTTCTTTATAGTAATACCAATTATGATTGGAGGATTTGGAAACTGATTAATCCCCTTAATAATCGGCGCCCCGGACATGGCCTTCCCTCGAATAAACAACATAAGCTTTTGACTACTGCCTCCTTCTTTTCTCCTCCTTCTCTCATCCTCTTGGGTTGAAGCAGGGGCAGGAACAGGGTGAACCGTCTACCCCCCACTGGCAGGAAACCTTGCACATGCCGGGGCTTCAGTAGACCTGACCATTTTTTCCCTTCATCTCGCAGGTATTTCCTCTATCCTTGGGGCTATTAATTTTATTACTACGATTTTAAATATAAAACCCCCAGCAATCTCACAATATCAAACACCCCTCTTTGTGTGAGCAGTTCTAATTACTGCCGTACTACTACTTCTTTCCCTTCCAGTTCTTGCCGCAGGCATTACAATGCTCCTGACAGACCGAAACCTAAACACAACATTCTTTGACCCTGCAGGCGGAGGTGACCCAATCTTATACCAACACCTGTTCTGATTCTT",
+                  "hseq": "CGGAATAGTAGGGACTGCTCTAAGCCTGCTAATCCGAGCGGAACTAAGCCAACCAGGCGCCCTATTAGGCGATGACCAAATTTATAATGTTATCGTTACCGCCCATGCATTTGTTATAATTTTCTTTATAGTAATACCAATTATGATTGGAGGATTTGGAAACTGATTAATCCCCTTAATAATCGGCGCCCCAGACATGGCCTTCCCTCGAATAAACAACATAAGCTTTTGACTACTGCCTCCTTCTTTTCTCCTCCTTCTCTCATCCTCTTGGGTTGAAGCAGGGGCAGGAACAGGGTGAACCGTCTACCCCCCACTGGCAGGAAACCTTGCACATGCCGGGGCTTCAGTAGACCTGACCATTTTTTCCCTTCATCTCGCAGGTATTTCCTCTATCCTTGGGGCTATTAATTTTATTACTACGATTTTAAATATGAAACCCCCAGCAATTTCACAATATCAAACACCCCTCTTTGTGTGAGCAGTTCTAATTACTGCCGTACTACTACTTCTTTCCCTTCCAGTTCTTGCCGCAGGCATTACAATGCTCCTGACAGACCGAAACCTAAACACAACATTCTTTGACCCTGCAGGCGGAGGTGACCCAATCTTATACCAACACCTATTCTGATTCTT",
+                  "midline": "|||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| |||||||||||||| ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| |||||||||||"
+                }
+              ]
+            }
+          ],
+          "stat": {
+            "db_num": 131120421,
+            "db_len": 1072517070989,
+            "hsp_len": 0,
+            "eff_space": 0,
+            "kappa": 0.46,
+            "lambda": 1.28,
+            "entropy": 0.85
+          }
+        }
+      }
+    }
+  }
+]
+}
+

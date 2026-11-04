@@ -1,0 +1,8 @@
+{
+  "title": "Bioinformatics for Every Biologist — companion files (data and scripts)",
+  "upload_type": "dataset",
+  "description": "Practice data, scripts, the conda environment file and corrections for the book <i>Bioinformatics for Every Biologist: Start modern research from home with free tools and AI</i> by K.K. Sahu. Scripts are under the MIT licence; data files and text under CC BY 4.0. Sequence records come from public databases and remain under their terms.",
+  "creators": [{"name": "Sahu, K.K.", "affiliation": "Former Professor of Botany, L.N. Mithila University, Darbhanga, Bihar, India"}],
+  "license": "cc-by-4.0",
+  "keywords": ["bioinformatics", "education", "DNA barcoding", "phylogenetics", "workbook", "India"]
+}

@@ -1,0 +1,19 @@
+Checking 291 sequences (genetic code 2)
+
+JX983352.1   Labeo rohita         nearest is PZ861205.1 (Labeo catla) at 5.18%; median 7.0% from its own species
+OQ880759.1   Labeo catla          median 21.3% from its own species
+OQ880760.1   Labeo catla          median 21.6% from its own species
+OQ880761.1   Labeo catla          median 21.8% from its own species
+OQ880763.1   Labeo catla          median 19.0% from its own species
+OQ880764.1   Labeo catla          median 19.0% from its own species
+OQ880765.1   Labeo catla          nearest is OQ622030.1 (Labeo calbasu) at 13.32%; median 14.0% from its own species
+OQ880772.1   Labeo catla          median 12.7% from its own species
+OQ880773.1   Labeo catla          median 13.1% from its own species
+MZ678761.1   Cyprinus carpio      median 3.0% from its own species
+OQ880720.1   Cyprinus carpio      median 18.9% from its own species
+OQ880723.1   Cyprinus carpio      median 19.8% from its own species
+OQ880724.1   Cyprinus carpio      median 19.7% from its own species
+OQ880725.1   Cyprinus carpio      median 20.4% from its own species
+OQ880726.1   Cyprinus carpio      median 20.6% from its own species
+
+15 of 291 records flagged for a closer look.

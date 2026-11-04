@@ -1,0 +1,21 @@
+WITHIN species (p-distance, %)
+  Cirrhinus mrigala    n= 4  mean  0.31  max  0.61
+  Cyprinus carpio      n= 7  mean  0.00  max  0.00
+  Labeo calbasu        n= 8  mean  0.04  max  0.15
+  Labeo catla          n= 2  mean  0.00  max  0.00
+  Labeo rohita         n= 7  mean  0.15  max  0.46
+BETWEEN species (p-distance, %)
+  Cirrhinus mrigala    vs Cyprinus carpio       min  9.77  mean  9.97
+  Cirrhinus mrigala    vs Labeo calbasu         min  9.77  mean  9.92
+  Cirrhinus mrigala    vs Labeo catla           min 11.16  mean 11.16
+  Cirrhinus mrigala    vs Labeo rohita          min 10.28  mean 10.51
+  Cyprinus carpio      vs Labeo calbasu         min  9.92  mean  9.97
+  Cyprinus carpio      vs Labeo catla           min 12.60  mean 12.60
+  Cyprinus carpio      vs Labeo rohita          min 10.84  mean 11.06
+  Labeo calbasu        vs Labeo catla           min  5.90  mean  6.04
+  Labeo calbasu        vs Labeo rohita          min  6.13  mean  6.26
+  Labeo catla          vs Labeo rohita          min  5.90  mean  5.95
+
+Largest within-species distance:  0.61%
+Smallest between-species distance: 5.90%
+Barcode gap present

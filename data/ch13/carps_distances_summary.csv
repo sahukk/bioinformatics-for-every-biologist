@@ -1,0 +1,16 @@
+comparison,species_1,species_2,min_percent,mean_percent,max_percent
+within,Cirrhinus mrigala,Cirrhinus mrigala,0.0,0.31,0.61
+within,Cyprinus carpio,Cyprinus carpio,0.0,0.0,0.0
+within,Labeo calbasu,Labeo calbasu,0.0,0.04,0.15
+within,Labeo catla,Labeo catla,0.0,0.0,0.0
+within,Labeo rohita,Labeo rohita,0.0,0.15,0.46
+between,Cirrhinus mrigala,Cyprinus carpio,9.77,9.97,10.28
+between,Cirrhinus mrigala,Labeo calbasu,9.77,9.92,10.08
+between,Cirrhinus mrigala,Labeo catla,11.16,11.16,11.16
+between,Cirrhinus mrigala,Labeo rohita,10.28,10.51,10.69
+between,Cyprinus carpio,Labeo calbasu,9.92,9.97,10.12
+between,Cyprinus carpio,Labeo catla,12.6,12.6,12.6
+between,Cyprinus carpio,Labeo rohita,10.84,11.06,11.3
+between,Labeo calbasu,Labeo catla,5.9,6.04,6.06
+between,Labeo calbasu,Labeo rohita,6.13,6.26,6.56
+between,Labeo catla,Labeo rohita,5.9,5.95,6.06

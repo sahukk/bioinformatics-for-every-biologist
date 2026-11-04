@@ -1,0 +1,16 @@
+# Software environment for "Bioinformatics for Every Biologist"
+# Create with:  conda env create -f environment.yml
+# Then use with: conda activate bioinfo_book
+name: bioinfo_book
+channels:
+  - conda-forge
+  - bioconda
+dependencies:
+  - python=3.12
+  - biopython
+  - matplotlib
+  - blast
+  - mafft
+  - iqtree
+  - seqkit
+  - entrez-direct

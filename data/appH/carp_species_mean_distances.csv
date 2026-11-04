@@ -1,0 +1,6 @@
+species,Rohu,Catla,Calbasu,Mrigal,Common carp
+Rohu,0.15,5.95,6.26,10.51,11.06
+Catla,5.95,0.00,6.04,11.16,12.60
+Calbasu,6.26,6.04,0.04,9.92,9.97
+Mrigal,10.51,11.16,9.92,0.31,9.97
+Common carp,11.06,12.60,9.97,9.97,0.00

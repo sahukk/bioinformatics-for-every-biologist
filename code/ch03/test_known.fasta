@@ -1,0 +1,10 @@
+>test1_all_GC
+GGGGCCCC
+>test2_half_GC
+GGCCAATT
+>test3_no_GC
+AAAATTTT
+>test4_lowercase_half
+ggccaatt
+>test5_with_N
+GGCCAATTNN

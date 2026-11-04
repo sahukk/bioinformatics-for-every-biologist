@@ -1,0 +1,211 @@
+IQ-TREE version 3.1.4 for MacOS ARM 64-bit built Sep 29 2026
+Developed by Bui Quang Minh, Thomas Wong, Nhan Ly-Trong, Huaiyan Ren
+Contributed by Lam-Tung Nguyen, Dominik Schrempf, Chris Bielow,
+Olga Chernomor, Michael Woodhams, Diep Thi Hoang, Heiko Schmidt
+
+Host:    Krishna-Kumar-Sahus-MacBook-Pro.local (SSE4.2, 24 GB RAM)
+Command: iqtree -s carps_COI_28.aln.fasta -m MFP -B 1000 --seed 12345 --prefix carps28 -T 1
+Seed:    12345 (Using SPRNG - Scalable Parallel Random Number Generator)
+Time:    Thu Oct  1 07:59:05 2026
+Kernel:  SSE2 - 1 threads (10 CPU cores detected)
+
+HINT: Use -nt option to specify number of threads because your CPU has 10 cores!
+HINT: -nt AUTO will automatically determine the best number of threads to use.
+
+Reading alignment file carps_COI_28.aln.fasta ... Fasta format detected
+Reading fasta file: done in 0.000420094 secs using 73.08% CPU
+Alignment most likely contains DNA/RNA sequences
+Constructing alignment: done in 0.000613928 secs using 61.73% CPU
+Alignment has 28 sequences with 655 columns, 77 distinct patterns
+122 parsimony-informative, 2 singleton sites, 531 constant sites
+            Gap/Ambiguity  Composition  p-value
+Analyzing sequences: done in 2.98023e-05 secs using 26.84% CPU
+   1  EU030668.1    0.00%    passed     99.54%
+   2  EU030669.1    0.00%    passed     99.42%
+   3  EU030670.1    0.00%    passed     99.79%
+   4  EU030671.1    0.00%    passed     98.67%
+   5  EU030672.1    0.00%    passed     99.79%
+   6  EU417753.1    0.00%    passed     82.05%
+   7  EU417754.1    0.00%    passed     82.98%
+   8  EU417755.1    0.00%    passed     82.98%
+   9  EU417756.1    0.00%    passed     82.05%
+  10  EU417757.1    0.00%    passed     97.67%
+  11  EU417758.1    0.00%    passed     97.67%
+  12  EU417759.1    0.00%    passed     97.40%
+  13  EU417760.1    0.00%    passed     97.67%
+  14  EU417761.1    0.00%    passed     97.67%
+  15  EU417771.1    0.00%    passed     98.86%
+  16  EU417772.1    0.00%    passed     98.86%
+  17  EU417773.1    0.00%    passed     98.86%
+  18  EU417774.1    0.00%    passed     98.86%
+  19  EU417775.1    0.00%    passed     98.86%
+  20  KX946601.1    4.27%    passed     89.72%
+  21  KX946602.1    4.27%    passed     89.72%
+  22  KX946616.1    0.46%    passed     98.76%
+  23  KX946617.1    0.46%    passed     98.76%
+  24  KX946686.1    0.46%    passed     97.54%
+  25  KX946687.1    0.46%    passed     97.54%
+  26  KX946689.1    0.46%    passed     97.54%
+  27  KX946691.1    0.46%    passed     99.21%
+  28  KX946693.1    0.46%    passed     99.21%
+****  TOTAL         0.42%  0 sequences failed composition chi2 test (p-value<5%; df=3)
+NOTE: EU030672.1 is identical to EU030670.1 but kept for subsequent analysis
+NOTE: EU417755.1 is identical to EU417754.1 but kept for subsequent analysis
+NOTE: EU417758.1 is identical to EU417757.1 but kept for subsequent analysis
+NOTE: EU417772.1 is identical to EU417771.1 but kept for subsequent analysis
+NOTE: KX946602.1 is identical to KX946601.1 but kept for subsequent analysis
+NOTE: KX946617.1 is identical to KX946616.1 but kept for subsequent analysis
+NOTE: KX946687.1 is identical to KX946686.1 but kept for subsequent analysis
+NOTE: KX946693.1 is identical to KX946691.1 but kept for subsequent analysis
+Checking for duplicate sequences: done in 0.000140905 secs using 41.87% CPU
+Identifying sites to remove: done in 0.000227213 secs using 97.27% CPU
+NOTE: 6 identical sequences (see below) will be ignored for subsequent analysis
+NOTE: EU417760.1 (identical to EU417757.1) is ignored but added at the end
+NOTE: EU417761.1 (identical to EU417757.1) is ignored but added at the end
+NOTE: EU417773.1 (identical to EU417771.1) is ignored but added at the end
+NOTE: EU417774.1 (identical to EU417771.1) is ignored but added at the end
+NOTE: EU417775.1 (identical to EU417771.1) is ignored but added at the end
+NOTE: KX946689.1 (identical to KX946686.1) is ignored but added at the end
+Alignment was printed to carps28.uniqueseq.phy
+
+For your convenience alignment with unique sequences printed to carps28.uniqueseq.phy
+
+
+Create initial parsimony tree by phylogenetic likelihood library (PLL)... 0.000 seconds
+Perform fast likelihood tree search using GTR+I+G model...
+Estimate model parameters (epsilon = 5.000)
+
+WARNING: Estimated model parameters are at boundary that can cause numerical instability!
+
+Perform nearest neighbor interchange...
+Estimate model parameters (epsilon = 1.000)
+1. Initial log-likelihood: -1639.325
+Optimal log-likelihood: -1639.240
+Rate parameters:  A-C: 7.14925  A-G: 51.97749  A-T: 7.47500  C-G: 0.00010  C-T: 99.92135  G-T: 1.00000
+Warning! Some parameters hit the boundaries
+Base frequencies:  A: 0.264  C: 0.277  G: 0.176  T: 0.282
+Proportion of invariable sites: 0.394
+Gamma shape alpha: 0.451
+Parameters optimization took 1 rounds (0.004 sec)
+
+WARNING: Estimated model parameters are at boundary that can cause numerical instability!
+
+Time for fast ML tree search: 0.024 seconds
+
+NOTE: ModelFinder requires 0 MB RAM!
+ModelFinder will test up to 968 DNA models (sample size: 655 epsilon: 0.100) ...
+Akaike Information Criterion:           TIM2+F+I
+Corrected Akaike Information Criterion: TIM2+F+I
+Bayesian Information Criterion:         HKY+F+I
+Best-fit model: HKY+F+I chosen according to BIC
+
+All model information printed to carps28.model.gz
+CPU time for ModelFinder: 0.329 seconds (0h:0m:0s)
+Wall-clock time for ModelFinder: 0.337 seconds (0h:0m:0s)
+Generating 1000 samples for ultrafast bootstrap (seed: 12345)...
+
+NOTE: 0 MB RAM (0 GB) is required!
+Estimate model parameters (epsilon = 0.100)
+1. Initial log-likelihood: -1644.404
+2. Current log-likelihood: -1643.598
+Optimal log-likelihood: -1643.574
+Rate parameters:  A-C: 1.00000  A-G: 15.66143  A-T: 1.00000  C-G: 1.00000  C-T: 15.66143  G-T: 1.00000
+Base frequencies:  A: 0.264  C: 0.277  G: 0.176  T: 0.282
+Proportion of invariable sites: 0.725
+Parameters optimization took 2 rounds (0.001 sec)
+Wrote distance file to... 
+Computing ML distances based on estimated model parameters...
+Calculating distance matrix: done in 0.000234127 secs using 98.24% CPU
+Computing ML distances took 0.000248 sec (of wall-clock time) 0.000240 sec (of CPU time)
+Setting up auxiliary I and S matrices: done in 1.3113e-05 secs using 76.26% CPU
+Constructing RapidNJ tree: done in 2.40803e-05 secs using 83.06% CPU
+Computing RapidNJ tree took 0.000051 sec (of wall-clock time) 0.000036 sec (of CPU time)
+Log-likelihood of RapidNJ tree: -1643.591
+--------------------------------------------------------------------
+|             INITIALIZING CANDIDATE TREE SET                      |
+--------------------------------------------------------------------
+Generating 98 parsimony trees... 0.014 second
+Computing log-likelihood of 98 initial trees ... 0.010 seconds
+Current best score: -1643.574
+
+Do NNI search on 20 best initial trees
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 1: -1643.574
+BETTER TREE FOUND at iteration 3: -1643.569
+Iteration 10 / LogL: -1643.569 / Time: 0h:0m:0s
+Iteration 20 / LogL: -1643.570 / Time: 0h:0m:0s
+Finish initializing candidate tree set (17)
+Current best tree score: -1643.569 / CPU time: 0.079
+Number of iterations: 20
+--------------------------------------------------------------------
+|               OPTIMIZING CANDIDATE TREE SET                      |
+--------------------------------------------------------------------
+Iteration 30 / LogL: -1662.377 / Time: 0h:0m:0s (0h:0m:0s left)
+Iteration 40 / LogL: -1643.571 / Time: 0h:0m:0s (0h:0m:0s left)
+Iteration 50 / LogL: -1643.571 / Time: 0h:0m:0s (0h:0m:0s left)
+Log-likelihood cutoff on original alignment: -1663.630
+Iteration 60 / LogL: -1643.570 / Time: 0h:0m:0s (0h:0m:0s left)
+Iteration 70 / LogL: -1643.571 / Time: 0h:0m:0s (0h:0m:0s left)
+Iteration 80 / LogL: -1643.571 / Time: 0h:0m:0s (0h:0m:0s left)
+Iteration 90 / LogL: -1643.570 / Time: 0h:0m:0s (0h:0m:0s left)
+UPDATE BEST LOG-LIKELIHOOD: -1643.569
+BETTER TREE FOUND at iteration 97: -1643.569
+Iteration 100 / LogL: -1643.570 / Time: 0h:0m:0s (0h:0m:0s left)
+Log-likelihood cutoff on original alignment: -1664.795
+NOTE: Bootstrap correlation coefficient of split occurrence frequencies: 0.988
+NOTE: UFBoot does not converge, continue at least 100 more iterations
+Iteration 110 / LogL: -1663.610 / Time: 0h:0m:0s (0h:0m:0s left)
+Iteration 120 / LogL: -1643.572 / Time: 0h:0m:0s (0h:0m:0s left)
+Iteration 130 / LogL: -1643.572 / Time: 0h:0m:0s (0h:0m:0s left)
+Iteration 140 / LogL: -1643.569 / Time: 0h:0m:0s (0h:0m:0s left)
+Iteration 150 / LogL: -1643.569 / Time: 0h:0m:1s (0h:0m:0s left)
+Log-likelihood cutoff on original alignment: -1663.702
+Iteration 160 / LogL: -1643.569 / Time: 0h:0m:1s (0h:0m:0s left)
+Iteration 170 / LogL: -1643.569 / Time: 0h:0m:1s (0h:0m:0s left)
+Iteration 180 / LogL: -1712.440 / Time: 0h:0m:1s (0h:0m:0s left)
+Iteration 190 / LogL: -1644.026 / Time: 0h:0m:1s (0h:0m:0s left)
+Iteration 200 / LogL: -1643.571 / Time: 0h:0m:1s (0h:0m:0s left)
+Log-likelihood cutoff on original alignment: -1663.701
+NOTE: Bootstrap correlation coefficient of split occurrence frequencies: 0.992
+TREE SEARCH COMPLETED AFTER 200 ITERATIONS / Time: 0h:0m:1s
+
+--------------------------------------------------------------------
+|                    FINALIZING TREE SEARCH                        |
+--------------------------------------------------------------------
+Performs final model parameters optimization
+Estimate model parameters (epsilon = 0.010)
+1. Initial log-likelihood: -1643.569
+Optimal log-likelihood: -1643.569
+Rate parameters:  A-C: 1.00000  A-G: 15.67025  A-T: 1.00000  C-G: 1.00000  C-T: 15.67025  G-T: 1.00000
+Base frequencies:  A: 0.264  C: 0.277  G: 0.176  T: 0.282
+Proportion of invariable sites: 0.726
+Parameters optimization took 1 rounds (0.000 sec)
+BEST SCORE FOUND : -1643.569
+Creating bootstrap support values...
+Split supports printed to NEXUS file carps28.splits.nex
+Total tree length: 0.365
+
+Total number of iterations: 200
+CPU time used for tree search: 0.932 sec (0h:0m:0s)
+Wall-clock time used for tree search: 0.951 sec (0h:0m:0s)
+Total CPU time used: 1.278 sec (0h:0m:1s)
+Total wall-clock time used: 1.321 sec (0h:0m:1s)
+
+Computing bootstrap consensus tree...
+Reading input file carps28.splits.nex...
+22 taxa and 170 splits.
+Consensus tree written to carps28.contree
+Reading input trees file carps28.contree
+Log-likelihood of consensus tree: -1643.595
+
+Analysis results written to: 
+  IQ-TREE report:                carps28.iqtree
+  Maximum-likelihood tree:       carps28.treefile
+  Likelihood distances:          carps28.mldist
+
+Ultrafast bootstrap approximation results written to:
+  Split support values:          carps28.splits.nex
+  Consensus tree:                carps28.contree
+  Screen log file:               carps28.log
+
+Date and Time: Thu Oct  1 07:59:07 2026

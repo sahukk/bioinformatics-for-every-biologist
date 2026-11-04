@@ -1,0 +1,379 @@
+record_1,species_1,record_2,species_2,comparison,p_distance_percent
+EU030668.1,Rohu,EU030669.1,Rohu,within,0.31
+EU030668.1,Rohu,EU030670.1,Rohu,within,0.15
+EU030668.1,Rohu,EU030671.1,Rohu,within,0.46
+EU030668.1,Rohu,EU030672.1,Rohu,within,0.15
+EU030668.1,Rohu,EU417753.1,Mrigal,between,10.69
+EU030668.1,Rohu,EU417754.1,Mrigal,between,10.69
+EU030668.1,Rohu,EU417755.1,Mrigal,between,10.69
+EU030668.1,Rohu,EU417756.1,Mrigal,between,10.53
+EU030668.1,Rohu,EU417757.1,Calbasu,between,6.41
+EU030668.1,Rohu,EU417758.1,Calbasu,between,6.41
+EU030668.1,Rohu,EU417759.1,Calbasu,between,6.56
+EU030668.1,Rohu,EU417760.1,Calbasu,between,6.41
+EU030668.1,Rohu,EU417761.1,Calbasu,between,6.41
+EU030668.1,Rohu,EU417771.1,Common carp,between,11.3
+EU030668.1,Rohu,EU417772.1,Common carp,between,11.3
+EU030668.1,Rohu,EU417773.1,Common carp,between,11.3
+EU030668.1,Rohu,EU417774.1,Common carp,between,11.3
+EU030668.1,Rohu,EU417775.1,Common carp,between,11.3
+EU030668.1,Rohu,KX946601.1,Catla,between,5.9
+EU030668.1,Rohu,KX946602.1,Catla,between,5.9
+EU030668.1,Rohu,KX946616.1,Common carp,between,11.2
+EU030668.1,Rohu,KX946617.1,Common carp,between,11.2
+EU030668.1,Rohu,KX946686.1,Calbasu,between,6.29
+EU030668.1,Rohu,KX946687.1,Calbasu,between,6.29
+EU030668.1,Rohu,KX946689.1,Calbasu,between,6.29
+EU030668.1,Rohu,KX946691.1,Rohu,within,0.15
+EU030668.1,Rohu,KX946693.1,Rohu,within,0.15
+EU030669.1,Rohu,EU030670.1,Rohu,within,0.15
+EU030669.1,Rohu,EU030671.1,Rohu,within,0.15
+EU030669.1,Rohu,EU030672.1,Rohu,within,0.15
+EU030669.1,Rohu,EU417753.1,Mrigal,between,10.69
+EU030669.1,Rohu,EU417754.1,Mrigal,between,10.69
+EU030669.1,Rohu,EU417755.1,Mrigal,between,10.69
+EU030669.1,Rohu,EU417756.1,Mrigal,between,10.53
+EU030669.1,Rohu,EU417757.1,Calbasu,between,6.41
+EU030669.1,Rohu,EU417758.1,Calbasu,between,6.41
+EU030669.1,Rohu,EU417759.1,Calbasu,between,6.56
+EU030669.1,Rohu,EU417760.1,Calbasu,between,6.41
+EU030669.1,Rohu,EU417761.1,Calbasu,between,6.41
+EU030669.1,Rohu,EU417771.1,Common carp,between,10.99
+EU030669.1,Rohu,EU417772.1,Common carp,between,10.99
+EU030669.1,Rohu,EU417773.1,Common carp,between,10.99
+EU030669.1,Rohu,EU417774.1,Common carp,between,10.99
+EU030669.1,Rohu,EU417775.1,Common carp,between,10.99
+EU030669.1,Rohu,KX946601.1,Catla,between,6.06
+EU030669.1,Rohu,KX946602.1,Catla,between,6.06
+EU030669.1,Rohu,KX946616.1,Common carp,between,10.89
+EU030669.1,Rohu,KX946617.1,Common carp,between,10.89
+EU030669.1,Rohu,KX946686.1,Calbasu,between,6.29
+EU030669.1,Rohu,KX946687.1,Calbasu,between,6.29
+EU030669.1,Rohu,KX946689.1,Calbasu,between,6.29
+EU030669.1,Rohu,KX946691.1,Rohu,within,0.15
+EU030669.1,Rohu,KX946693.1,Rohu,within,0.15
+EU030670.1,Rohu,EU030671.1,Rohu,within,0.31
+EU030670.1,Rohu,EU030672.1,Rohu,within,0.0
+EU030670.1,Rohu,EU417753.1,Mrigal,between,10.53
+EU030670.1,Rohu,EU417754.1,Mrigal,between,10.53
+EU030670.1,Rohu,EU417755.1,Mrigal,between,10.53
+EU030670.1,Rohu,EU417756.1,Mrigal,between,10.38
+EU030670.1,Rohu,EU417757.1,Calbasu,between,6.26
+EU030670.1,Rohu,EU417758.1,Calbasu,between,6.26
+EU030670.1,Rohu,EU417759.1,Calbasu,between,6.41
+EU030670.1,Rohu,EU417760.1,Calbasu,between,6.26
+EU030670.1,Rohu,EU417761.1,Calbasu,between,6.26
+EU030670.1,Rohu,EU417771.1,Common carp,between,11.15
+EU030670.1,Rohu,EU417772.1,Common carp,between,11.15
+EU030670.1,Rohu,EU417773.1,Common carp,between,11.15
+EU030670.1,Rohu,EU417774.1,Common carp,between,11.15
+EU030670.1,Rohu,EU417775.1,Common carp,between,11.15
+EU030670.1,Rohu,KX946601.1,Catla,between,5.9
+EU030670.1,Rohu,KX946602.1,Catla,between,5.9
+EU030670.1,Rohu,KX946616.1,Common carp,between,11.04
+EU030670.1,Rohu,KX946617.1,Common carp,between,11.04
+EU030670.1,Rohu,KX946686.1,Calbasu,between,6.13
+EU030670.1,Rohu,KX946687.1,Calbasu,between,6.13
+EU030670.1,Rohu,KX946689.1,Calbasu,between,6.13
+EU030670.1,Rohu,KX946691.1,Rohu,within,0.0
+EU030670.1,Rohu,KX946693.1,Rohu,within,0.0
+EU030671.1,Rohu,EU030672.1,Rohu,within,0.31
+EU030671.1,Rohu,EU417753.1,Mrigal,between,10.53
+EU030671.1,Rohu,EU417754.1,Mrigal,between,10.53
+EU030671.1,Rohu,EU417755.1,Mrigal,between,10.53
+EU030671.1,Rohu,EU417756.1,Mrigal,between,10.38
+EU030671.1,Rohu,EU417757.1,Calbasu,between,6.26
+EU030671.1,Rohu,EU417758.1,Calbasu,between,6.26
+EU030671.1,Rohu,EU417759.1,Calbasu,between,6.41
+EU030671.1,Rohu,EU417760.1,Calbasu,between,6.26
+EU030671.1,Rohu,EU417761.1,Calbasu,between,6.26
+EU030671.1,Rohu,EU417771.1,Common carp,between,10.84
+EU030671.1,Rohu,EU417772.1,Common carp,between,10.84
+EU030671.1,Rohu,EU417773.1,Common carp,between,10.84
+EU030671.1,Rohu,EU417774.1,Common carp,between,10.84
+EU030671.1,Rohu,EU417775.1,Common carp,between,10.84
+EU030671.1,Rohu,KX946601.1,Catla,between,6.06
+EU030671.1,Rohu,KX946602.1,Catla,between,6.06
+EU030671.1,Rohu,KX946616.1,Common carp,between,10.89
+EU030671.1,Rohu,KX946617.1,Common carp,between,10.89
+EU030671.1,Rohu,KX946686.1,Calbasu,between,6.29
+EU030671.1,Rohu,KX946687.1,Calbasu,between,6.29
+EU030671.1,Rohu,KX946689.1,Calbasu,between,6.29
+EU030671.1,Rohu,KX946691.1,Rohu,within,0.15
+EU030671.1,Rohu,KX946693.1,Rohu,within,0.15
+EU030672.1,Rohu,EU417753.1,Mrigal,between,10.53
+EU030672.1,Rohu,EU417754.1,Mrigal,between,10.53
+EU030672.1,Rohu,EU417755.1,Mrigal,between,10.53
+EU030672.1,Rohu,EU417756.1,Mrigal,between,10.38
+EU030672.1,Rohu,EU417757.1,Calbasu,between,6.26
+EU030672.1,Rohu,EU417758.1,Calbasu,between,6.26
+EU030672.1,Rohu,EU417759.1,Calbasu,between,6.41
+EU030672.1,Rohu,EU417760.1,Calbasu,between,6.26
+EU030672.1,Rohu,EU417761.1,Calbasu,between,6.26
+EU030672.1,Rohu,EU417771.1,Common carp,between,11.15
+EU030672.1,Rohu,EU417772.1,Common carp,between,11.15
+EU030672.1,Rohu,EU417773.1,Common carp,between,11.15
+EU030672.1,Rohu,EU417774.1,Common carp,between,11.15
+EU030672.1,Rohu,EU417775.1,Common carp,between,11.15
+EU030672.1,Rohu,KX946601.1,Catla,between,5.9
+EU030672.1,Rohu,KX946602.1,Catla,between,5.9
+EU030672.1,Rohu,KX946616.1,Common carp,between,11.04
+EU030672.1,Rohu,KX946617.1,Common carp,between,11.04
+EU030672.1,Rohu,KX946686.1,Calbasu,between,6.13
+EU030672.1,Rohu,KX946687.1,Calbasu,between,6.13
+EU030672.1,Rohu,KX946689.1,Calbasu,between,6.13
+EU030672.1,Rohu,KX946691.1,Rohu,within,0.0
+EU030672.1,Rohu,KX946693.1,Rohu,within,0.0
+EU417753.1,Mrigal,EU417754.1,Mrigal,within,0.46
+EU417753.1,Mrigal,EU417755.1,Mrigal,within,0.46
+EU417753.1,Mrigal,EU417756.1,Mrigal,within,0.61
+EU417753.1,Mrigal,EU417757.1,Calbasu,between,9.92
+EU417753.1,Mrigal,EU417758.1,Calbasu,between,9.92
+EU417753.1,Mrigal,EU417759.1,Calbasu,between,10.08
+EU417753.1,Mrigal,EU417760.1,Calbasu,between,9.92
+EU417753.1,Mrigal,EU417761.1,Calbasu,between,9.92
+EU417753.1,Mrigal,EU417771.1,Common carp,between,10.23
+EU417753.1,Mrigal,EU417772.1,Common carp,between,10.23
+EU417753.1,Mrigal,EU417773.1,Common carp,between,10.23
+EU417753.1,Mrigal,EU417774.1,Common carp,between,10.23
+EU417753.1,Mrigal,EU417775.1,Common carp,between,10.23
+EU417753.1,Mrigal,KX946601.1,Catla,between,11.16
+EU417753.1,Mrigal,KX946602.1,Catla,between,11.16
+EU417753.1,Mrigal,KX946616.1,Common carp,between,10.28
+EU417753.1,Mrigal,KX946617.1,Common carp,between,10.28
+EU417753.1,Mrigal,KX946686.1,Calbasu,between,9.97
+EU417753.1,Mrigal,KX946687.1,Calbasu,between,9.97
+EU417753.1,Mrigal,KX946689.1,Calbasu,between,9.97
+EU417753.1,Mrigal,KX946691.1,Rohu,between,10.43
+EU417753.1,Mrigal,KX946693.1,Rohu,between,10.43
+EU417754.1,Mrigal,EU417755.1,Mrigal,within,0.0
+EU417754.1,Mrigal,EU417756.1,Mrigal,within,0.15
+EU417754.1,Mrigal,EU417757.1,Calbasu,between,9.92
+EU417754.1,Mrigal,EU417758.1,Calbasu,between,9.92
+EU417754.1,Mrigal,EU417759.1,Calbasu,between,10.08
+EU417754.1,Mrigal,EU417760.1,Calbasu,between,9.92
+EU417754.1,Mrigal,EU417761.1,Calbasu,between,9.92
+EU417754.1,Mrigal,EU417771.1,Common carp,between,9.92
+EU417754.1,Mrigal,EU417772.1,Common carp,between,9.92
+EU417754.1,Mrigal,EU417773.1,Common carp,between,9.92
+EU417754.1,Mrigal,EU417774.1,Common carp,between,9.92
+EU417754.1,Mrigal,EU417775.1,Common carp,between,9.92
+EU417754.1,Mrigal,KX946601.1,Catla,between,11.16
+EU417754.1,Mrigal,KX946602.1,Catla,between,11.16
+EU417754.1,Mrigal,KX946616.1,Common carp,between,9.97
+EU417754.1,Mrigal,KX946617.1,Common carp,between,9.97
+EU417754.1,Mrigal,KX946686.1,Calbasu,between,9.97
+EU417754.1,Mrigal,KX946687.1,Calbasu,between,9.97
+EU417754.1,Mrigal,KX946689.1,Calbasu,between,9.97
+EU417754.1,Mrigal,KX946691.1,Rohu,between,10.43
+EU417754.1,Mrigal,KX946693.1,Rohu,between,10.43
+EU417755.1,Mrigal,EU417756.1,Mrigal,within,0.15
+EU417755.1,Mrigal,EU417757.1,Calbasu,between,9.92
+EU417755.1,Mrigal,EU417758.1,Calbasu,between,9.92
+EU417755.1,Mrigal,EU417759.1,Calbasu,between,10.08
+EU417755.1,Mrigal,EU417760.1,Calbasu,between,9.92
+EU417755.1,Mrigal,EU417761.1,Calbasu,between,9.92
+EU417755.1,Mrigal,EU417771.1,Common carp,between,9.92
+EU417755.1,Mrigal,EU417772.1,Common carp,between,9.92
+EU417755.1,Mrigal,EU417773.1,Common carp,between,9.92
+EU417755.1,Mrigal,EU417774.1,Common carp,between,9.92
+EU417755.1,Mrigal,EU417775.1,Common carp,between,9.92
+EU417755.1,Mrigal,KX946601.1,Catla,between,11.16
+EU417755.1,Mrigal,KX946602.1,Catla,between,11.16
+EU417755.1,Mrigal,KX946616.1,Common carp,between,9.97
+EU417755.1,Mrigal,KX946617.1,Common carp,between,9.97
+EU417755.1,Mrigal,KX946686.1,Calbasu,between,9.97
+EU417755.1,Mrigal,KX946687.1,Calbasu,between,9.97
+EU417755.1,Mrigal,KX946689.1,Calbasu,between,9.97
+EU417755.1,Mrigal,KX946691.1,Rohu,between,10.43
+EU417755.1,Mrigal,KX946693.1,Rohu,between,10.43
+EU417756.1,Mrigal,EU417757.1,Calbasu,between,9.77
+EU417756.1,Mrigal,EU417758.1,Calbasu,between,9.77
+EU417756.1,Mrigal,EU417759.1,Calbasu,between,9.92
+EU417756.1,Mrigal,EU417760.1,Calbasu,between,9.77
+EU417756.1,Mrigal,EU417761.1,Calbasu,between,9.77
+EU417756.1,Mrigal,EU417771.1,Common carp,between,9.77
+EU417756.1,Mrigal,EU417772.1,Common carp,between,9.77
+EU417756.1,Mrigal,EU417773.1,Common carp,between,9.77
+EU417756.1,Mrigal,EU417774.1,Common carp,between,9.77
+EU417756.1,Mrigal,EU417775.1,Common carp,between,9.77
+EU417756.1,Mrigal,KX946601.1,Catla,between,11.16
+EU417756.1,Mrigal,KX946602.1,Catla,between,11.16
+EU417756.1,Mrigal,KX946616.1,Common carp,between,9.82
+EU417756.1,Mrigal,KX946617.1,Common carp,between,9.82
+EU417756.1,Mrigal,KX946686.1,Calbasu,between,9.82
+EU417756.1,Mrigal,KX946687.1,Calbasu,between,9.82
+EU417756.1,Mrigal,KX946689.1,Calbasu,between,9.82
+EU417756.1,Mrigal,KX946691.1,Rohu,between,10.28
+EU417756.1,Mrigal,KX946693.1,Rohu,between,10.28
+EU417757.1,Calbasu,EU417758.1,Calbasu,within,0.0
+EU417757.1,Calbasu,EU417759.1,Calbasu,within,0.15
+EU417757.1,Calbasu,EU417760.1,Calbasu,within,0.0
+EU417757.1,Calbasu,EU417761.1,Calbasu,within,0.0
+EU417757.1,Calbasu,EU417771.1,Common carp,between,9.92
+EU417757.1,Calbasu,EU417772.1,Common carp,between,9.92
+EU417757.1,Calbasu,EU417773.1,Common carp,between,9.92
+EU417757.1,Calbasu,EU417774.1,Common carp,between,9.92
+EU417757.1,Calbasu,EU417775.1,Common carp,between,9.92
+EU417757.1,Calbasu,KX946601.1,Catla,between,6.06
+EU417757.1,Calbasu,KX946602.1,Catla,between,6.06
+EU417757.1,Calbasu,KX946616.1,Common carp,between,9.97
+EU417757.1,Calbasu,KX946617.1,Common carp,between,9.97
+EU417757.1,Calbasu,KX946686.1,Calbasu,within,0.0
+EU417757.1,Calbasu,KX946687.1,Calbasu,within,0.0
+EU417757.1,Calbasu,KX946689.1,Calbasu,within,0.0
+EU417757.1,Calbasu,KX946691.1,Rohu,between,6.13
+EU417757.1,Calbasu,KX946693.1,Rohu,between,6.13
+EU417758.1,Calbasu,EU417759.1,Calbasu,within,0.15
+EU417758.1,Calbasu,EU417760.1,Calbasu,within,0.0
+EU417758.1,Calbasu,EU417761.1,Calbasu,within,0.0
+EU417758.1,Calbasu,EU417771.1,Common carp,between,9.92
+EU417758.1,Calbasu,EU417772.1,Common carp,between,9.92
+EU417758.1,Calbasu,EU417773.1,Common carp,between,9.92
+EU417758.1,Calbasu,EU417774.1,Common carp,between,9.92
+EU417758.1,Calbasu,EU417775.1,Common carp,between,9.92
+EU417758.1,Calbasu,KX946601.1,Catla,between,6.06
+EU417758.1,Calbasu,KX946602.1,Catla,between,6.06
+EU417758.1,Calbasu,KX946616.1,Common carp,between,9.97
+EU417758.1,Calbasu,KX946617.1,Common carp,between,9.97
+EU417758.1,Calbasu,KX946686.1,Calbasu,within,0.0
+EU417758.1,Calbasu,KX946687.1,Calbasu,within,0.0
+EU417758.1,Calbasu,KX946689.1,Calbasu,within,0.0
+EU417758.1,Calbasu,KX946691.1,Rohu,between,6.13
+EU417758.1,Calbasu,KX946693.1,Rohu,between,6.13
+EU417759.1,Calbasu,EU417760.1,Calbasu,within,0.15
+EU417759.1,Calbasu,EU417761.1,Calbasu,within,0.15
+EU417759.1,Calbasu,EU417771.1,Common carp,between,10.08
+EU417759.1,Calbasu,EU417772.1,Common carp,between,10.08
+EU417759.1,Calbasu,EU417773.1,Common carp,between,10.08
+EU417759.1,Calbasu,EU417774.1,Common carp,between,10.08
+EU417759.1,Calbasu,EU417775.1,Common carp,between,10.08
+EU417759.1,Calbasu,KX946601.1,Catla,between,5.9
+EU417759.1,Calbasu,KX946602.1,Catla,between,5.9
+EU417759.1,Calbasu,KX946616.1,Common carp,between,10.12
+EU417759.1,Calbasu,KX946617.1,Common carp,between,10.12
+EU417759.1,Calbasu,KX946686.1,Calbasu,within,0.15
+EU417759.1,Calbasu,KX946687.1,Calbasu,within,0.15
+EU417759.1,Calbasu,KX946689.1,Calbasu,within,0.15
+EU417759.1,Calbasu,KX946691.1,Rohu,between,6.29
+EU417759.1,Calbasu,KX946693.1,Rohu,between,6.29
+EU417760.1,Calbasu,EU417761.1,Calbasu,within,0.0
+EU417760.1,Calbasu,EU417771.1,Common carp,between,9.92
+EU417760.1,Calbasu,EU417772.1,Common carp,between,9.92
+EU417760.1,Calbasu,EU417773.1,Common carp,between,9.92
+EU417760.1,Calbasu,EU417774.1,Common carp,between,9.92
+EU417760.1,Calbasu,EU417775.1,Common carp,between,9.92
+EU417760.1,Calbasu,KX946601.1,Catla,between,6.06
+EU417760.1,Calbasu,KX946602.1,Catla,between,6.06
+EU417760.1,Calbasu,KX946616.1,Common carp,between,9.97
+EU417760.1,Calbasu,KX946617.1,Common carp,between,9.97
+EU417760.1,Calbasu,KX946686.1,Calbasu,within,0.0
+EU417760.1,Calbasu,KX946687.1,Calbasu,within,0.0
+EU417760.1,Calbasu,KX946689.1,Calbasu,within,0.0
+EU417760.1,Calbasu,KX946691.1,Rohu,between,6.13
+EU417760.1,Calbasu,KX946693.1,Rohu,between,6.13
+EU417761.1,Calbasu,EU417771.1,Common carp,between,9.92
+EU417761.1,Calbasu,EU417772.1,Common carp,between,9.92
+EU417761.1,Calbasu,EU417773.1,Common carp,between,9.92
+EU417761.1,Calbasu,EU417774.1,Common carp,between,9.92
+EU417761.1,Calbasu,EU417775.1,Common carp,between,9.92
+EU417761.1,Calbasu,KX946601.1,Catla,between,6.06
+EU417761.1,Calbasu,KX946602.1,Catla,between,6.06
+EU417761.1,Calbasu,KX946616.1,Common carp,between,9.97
+EU417761.1,Calbasu,KX946617.1,Common carp,between,9.97
+EU417761.1,Calbasu,KX946686.1,Calbasu,within,0.0
+EU417761.1,Calbasu,KX946687.1,Calbasu,within,0.0
+EU417761.1,Calbasu,KX946689.1,Calbasu,within,0.0
+EU417761.1,Calbasu,KX946691.1,Rohu,between,6.13
+EU417761.1,Calbasu,KX946693.1,Rohu,between,6.13
+EU417771.1,Common carp,EU417772.1,Common carp,within,0.0
+EU417771.1,Common carp,EU417773.1,Common carp,within,0.0
+EU417771.1,Common carp,EU417774.1,Common carp,within,0.0
+EU417771.1,Common carp,EU417775.1,Common carp,within,0.0
+EU417771.1,Common carp,KX946601.1,Catla,between,12.6
+EU417771.1,Common carp,KX946602.1,Catla,between,12.6
+EU417771.1,Common carp,KX946616.1,Common carp,within,0.0
+EU417771.1,Common carp,KX946617.1,Common carp,within,0.0
+EU417771.1,Common carp,KX946686.1,Calbasu,between,9.97
+EU417771.1,Common carp,KX946687.1,Calbasu,between,9.97
+EU417771.1,Common carp,KX946689.1,Calbasu,between,9.97
+EU417771.1,Common carp,KX946691.1,Rohu,between,11.04
+EU417771.1,Common carp,KX946693.1,Rohu,between,11.04
+EU417772.1,Common carp,EU417773.1,Common carp,within,0.0
+EU417772.1,Common carp,EU417774.1,Common carp,within,0.0
+EU417772.1,Common carp,EU417775.1,Common carp,within,0.0
+EU417772.1,Common carp,KX946601.1,Catla,between,12.6
+EU417772.1,Common carp,KX946602.1,Catla,between,12.6
+EU417772.1,Common carp,KX946616.1,Common carp,within,0.0
+EU417772.1,Common carp,KX946617.1,Common carp,within,0.0
+EU417772.1,Common carp,KX946686.1,Calbasu,between,9.97
+EU417772.1,Common carp,KX946687.1,Calbasu,between,9.97
+EU417772.1,Common carp,KX946689.1,Calbasu,between,9.97
+EU417772.1,Common carp,KX946691.1,Rohu,between,11.04
+EU417772.1,Common carp,KX946693.1,Rohu,between,11.04
+EU417773.1,Common carp,EU417774.1,Common carp,within,0.0
+EU417773.1,Common carp,EU417775.1,Common carp,within,0.0
+EU417773.1,Common carp,KX946601.1,Catla,between,12.6
+EU417773.1,Common carp,KX946602.1,Catla,between,12.6
+EU417773.1,Common carp,KX946616.1,Common carp,within,0.0
+EU417773.1,Common carp,KX946617.1,Common carp,within,0.0
+EU417773.1,Common carp,KX946686.1,Calbasu,between,9.97
+EU417773.1,Common carp,KX946687.1,Calbasu,between,9.97
+EU417773.1,Common carp,KX946689.1,Calbasu,between,9.97
+EU417773.1,Common carp,KX946691.1,Rohu,between,11.04
+EU417773.1,Common carp,KX946693.1,Rohu,between,11.04
+EU417774.1,Common carp,EU417775.1,Common carp,within,0.0
+EU417774.1,Common carp,KX946601.1,Catla,between,12.6
+EU417774.1,Common carp,KX946602.1,Catla,between,12.6
+EU417774.1,Common carp,KX946616.1,Common carp,within,0.0
+EU417774.1,Common carp,KX946617.1,Common carp,within,0.0
+EU417774.1,Common carp,KX946686.1,Calbasu,between,9.97
+EU417774.1,Common carp,KX946687.1,Calbasu,between,9.97
+EU417774.1,Common carp,KX946689.1,Calbasu,between,9.97
+EU417774.1,Common carp,KX946691.1,Rohu,between,11.04
+EU417774.1,Common carp,KX946693.1,Rohu,between,11.04
+EU417775.1,Common carp,KX946601.1,Catla,between,12.6
+EU417775.1,Common carp,KX946602.1,Catla,between,12.6
+EU417775.1,Common carp,KX946616.1,Common carp,within,0.0
+EU417775.1,Common carp,KX946617.1,Common carp,within,0.0
+EU417775.1,Common carp,KX946686.1,Calbasu,between,9.97
+EU417775.1,Common carp,KX946687.1,Calbasu,between,9.97
+EU417775.1,Common carp,KX946689.1,Calbasu,between,9.97
+EU417775.1,Common carp,KX946691.1,Rohu,between,11.04
+EU417775.1,Common carp,KX946693.1,Rohu,between,11.04
+KX946601.1,Catla,KX946602.1,Catla,within,0.0
+KX946601.1,Catla,KX946616.1,Common carp,between,12.6
+KX946601.1,Catla,KX946617.1,Common carp,between,12.6
+KX946601.1,Catla,KX946686.1,Calbasu,between,6.06
+KX946601.1,Catla,KX946687.1,Calbasu,between,6.06
+KX946601.1,Catla,KX946689.1,Calbasu,between,6.06
+KX946601.1,Catla,KX946691.1,Rohu,between,5.9
+KX946601.1,Catla,KX946693.1,Rohu,between,5.9
+KX946602.1,Catla,KX946616.1,Common carp,between,12.6
+KX946602.1,Catla,KX946617.1,Common carp,between,12.6
+KX946602.1,Catla,KX946686.1,Calbasu,between,6.06
+KX946602.1,Catla,KX946687.1,Calbasu,between,6.06
+KX946602.1,Catla,KX946689.1,Calbasu,between,6.06
+KX946602.1,Catla,KX946691.1,Rohu,between,5.9
+KX946602.1,Catla,KX946693.1,Rohu,between,5.9
+KX946616.1,Common carp,KX946617.1,Common carp,within,0.0
+KX946616.1,Common carp,KX946686.1,Calbasu,between,9.97
+KX946616.1,Common carp,KX946687.1,Calbasu,between,9.97
+KX946616.1,Common carp,KX946689.1,Calbasu,between,9.97
+KX946616.1,Common carp,KX946691.1,Rohu,between,11.04
+KX946616.1,Common carp,KX946693.1,Rohu,between,11.04
+KX946617.1,Common carp,KX946686.1,Calbasu,between,9.97
+KX946617.1,Common carp,KX946687.1,Calbasu,between,9.97
+KX946617.1,Common carp,KX946689.1,Calbasu,between,9.97
+KX946617.1,Common carp,KX946691.1,Rohu,between,11.04
+KX946617.1,Common carp,KX946693.1,Rohu,between,11.04
+KX946686.1,Calbasu,KX946687.1,Calbasu,within,0.0
+KX946686.1,Calbasu,KX946689.1,Calbasu,within,0.0
+KX946686.1,Calbasu,KX946691.1,Rohu,between,6.13
+KX946686.1,Calbasu,KX946693.1,Rohu,between,6.13
+KX946687.1,Calbasu,KX946689.1,Calbasu,within,0.0
+KX946687.1,Calbasu,KX946691.1,Rohu,between,6.13
+KX946687.1,Calbasu,KX946693.1,Rohu,between,6.13
+KX946689.1,Calbasu,KX946691.1,Rohu,between,6.13
+KX946689.1,Calbasu,KX946693.1,Rohu,between,6.13
+KX946691.1,Rohu,KX946693.1,Rohu,within,0.0
